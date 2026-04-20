@@ -88,6 +88,9 @@ def fetch_status(app_id: str, dob: str) -> dict:
         "child_name": "N/A",
         "mobile":     "N/A",
         "gam":        "N/A",
+        "lig":        "N/A",  # Gender
+        "area":       "N/A",
+        "pincode":    "N/A",
     }
 
     session = make_session()
@@ -147,6 +150,8 @@ def fetch_status(app_id: str, dob: str) -> dict:
                             middle = val
                         elif "અટક" in label:
                             surname = val
+                        elif "લિગ" in label or "લિગ" in label: # Gender
+                            result["lig"] = val.strip().upper()
                     name = " ".join(p for p in [first, middle, surname] if p)
                     if name:
                         result["child_name"] = name
@@ -176,10 +181,12 @@ def fetch_status(app_id: str, dob: str) -> dict:
                         label = dt.get_text(strip=True)
                         dd    = dt.find_next_sibling("dd")
                         val   = dd.get_text(strip=True) if dd else ""
-                        # "ગામ" = Village
                         if "ગામ" in label and val:
                             result["gam"] = val.strip()
-                            break
+                        elif "વિસ્તાર" in label and val:
+                            result["area"] = val.strip()
+                        elif "પીનકોડ" in label and val:
+                            result["pincode"] = val.strip()
                     break
 
             return result
@@ -232,6 +239,8 @@ def export_data_js(df):
         "submitted":    int((df["Result"] == "SUBMITTED").sum()),
         "pending":      int((df["Result"] == "PENDING").sum()),
         "error":        int((df["Result"] == "ERROR").sum()),
+        "girls":        int((df["Gender"] == "GIRL").sum()),
+        "boys":         int((df["Gender"] == "BOY").sum()),
         "last_updated": datetime.now().strftime("%d-%m-%Y %H:%M:%S"),
     }
     records = []
@@ -242,6 +251,9 @@ def export_data_js(df):
             "Child Name":        str(row.get("Child Name", "N/A")),
             "DOB":               str(row.get("DOB", "")),
             "Mobile":            str(row.get("Mobile", "N/A")),
+            "Gender":            str(row.get("Gender", "N/A")),
+            "Area":              str(row.get("Area", "N/A")),
+            "Pincode":           str(row.get("Pincode", "N/A")),
             "Gam":               str(row.get("Gam", "N/A")),
             "Filled By":         str(row.get("કોને ફોર્મ ભર્યું છે?", "")),
             "Status (Gujarati)": str(row.get("Status (Gujarati)", "")),
@@ -285,7 +297,7 @@ def save_excel(df):
         row[result_col - 1].fill = fill
         row[result_col - 1].font = Font(name="Arial", size=10, bold=True)
         row[result_col - 2].fill = fill
-    col_widths = {1:22, 2:10, 3:28, 4:18, 5:20, 6:20, 7:22, 8:55, 9:16}
+    col_widths = {1:22, 2:10, 3:28, 4:18, 5:20, 6:10, 7:20, 8:12, 9:20, 10:22, 11:55, 12:16}
     for col, w in col_widths.items():
         if col <= ws.max_column:
             ws.column_dimensions[get_column_letter(col)].width = w
@@ -340,6 +352,9 @@ def sync_single(app_id):
         GLOBAL_DF.at[idx, "Status (Gujarati)"] = data["status"]
         GLOBAL_DF.at[idx, "Child Name"]        = data["child_name"]
         GLOBAL_DF.at[idx, "Mobile"]            = data["mobile"]
+        GLOBAL_DF.at[idx, "Gender"]            = data["lig"]
+        GLOBAL_DF.at[idx, "Area"]              = data["area"]
+        GLOBAL_DF.at[idx, "Pincode"]           = data["pincode"]
         GLOBAL_DF.at[idx, "Gam"]               = data["gam"]
         GLOBAL_DF.at[idx, "Result"]            = classify_status(data["status"])
         try:
@@ -369,6 +384,9 @@ def process_record(args):
         "status": data["status"],
         "child":  data["child_name"],
         "mobile": data["mobile"],
+        "elig":   data["lig"],
+        "earea":  data["area"],
+        "epin":   data["pincode"],
         "gam":    data["gam"],
         "cat":    cat,
         "app_id": app_id,
@@ -409,6 +427,9 @@ def main():
                         "Status": str(r.get("Status (Gujarati)", "")),
                         "Child":  str(r.get("Child Name", "N/A")),
                         "Mobile": str(r.get("Mobile", "N/A")),
+                        "Gender": str(r.get("Gender", "N/A")),
+                        "Area":   str(r.get("Area", "N/A")),
+                        "Pincode":str(r.get("Pincode", "N/A")),
                         "Gam":    str(r.get("Gam", "N/A")),
                     }
             log(f"Cache loaded: {len(cache)} previous results", "OK")
@@ -422,6 +443,9 @@ def main():
     GLOBAL_DF["DOB"]               = GLOBAL_DF["બાળક ની જન્મ તારીખ "].apply(format_dob)
     GLOBAL_DF["Child Name"]        = "N/A"
     GLOBAL_DF["Mobile"]            = "N/A"
+    GLOBAL_DF["Gender"]            = "N/A"
+    GLOBAL_DF["Area"]              = "N/A"
+    GLOBAL_DF["Pincode"]           = "N/A"
     GLOBAL_DF["Gam"]               = "N/A"
     GLOBAL_DF["Status (Gujarati)"] = ""
     GLOBAL_DF["Result"]            = "PENDING"
@@ -433,6 +457,9 @@ def main():
             GLOBAL_DF.at[i, "Status (Gujarati)"] = cache[aid]["Status"]
             GLOBAL_DF.at[i, "Child Name"]        = cache[aid]["Child"]
             GLOBAL_DF.at[i, "Mobile"]            = cache[aid]["Mobile"]
+            GLOBAL_DF.at[i, "Gender"]            = cache[aid]["Gender"]
+            GLOBAL_DF.at[i, "Area"]              = cache[aid]["Area"]
+            GLOBAL_DF.at[i, "Pincode"]           = cache[aid]["Pincode"]
             GLOBAL_DF.at[i, "Gam"]               = cache[aid]["Gam"]
 
     total    = len(GLOBAL_DF)
@@ -480,6 +507,9 @@ def main():
                     GLOBAL_DF.at[idx, "Status (Gujarati)"] = res["status"]
                     GLOBAL_DF.at[idx, "Child Name"]        = res["child"]
                     GLOBAL_DF.at[idx, "Mobile"]            = res["mobile"]
+                    GLOBAL_DF.at[idx, "Gender"]            = res["elig"]
+                    GLOBAL_DF.at[idx, "Area"]              = res["earea"]
+                    GLOBAL_DF.at[idx, "Pincode"]           = res["epin"]
                     GLOBAL_DF.at[idx, "Gam"]               = res["gam"]
                     GLOBAL_DF.at[idx, "Result"]            = cat
 
