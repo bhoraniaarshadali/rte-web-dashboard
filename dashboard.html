@@ -1,0 +1,586 @@
+<!-- -- -->
+<!-- !DOCTYPE html> -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTE Live Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background: #f1f5f9;
+            color: #1e293b;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a5f, #2563eb);
+            color: white;
+            padding: 1.2rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        #lastSync {
+            font-size: 0.82rem;
+            opacity: 0.7;
+            margin-top: 3px;
+        }
+
+        .live-dot {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #4ade80;
+            border-radius: 50%;
+            margin-right: 6px;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1
+            }
+
+            50% {
+                opacity: 0.3
+            }
+        }
+
+        .container {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 1.2rem;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 0.8rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .stat {
+            background: white;
+            border-radius: 12px;
+            padding: 1rem 1.3rem;
+            cursor: pointer;
+            border-left: 5px solid #e2e8f0;
+            transition: all 0.2s;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
+        }
+
+        .stat:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat.active {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .stat.s-total {
+            border-left-color: #94a3b8;
+        }
+
+        .stat.s-total.active {
+            background: #f8fafc;
+        }
+
+        .stat.s-approved {
+            border-left-color: #10b981;
+        }
+
+        .stat.s-approved.active {
+            background: #ecfdf5;
+        }
+
+        .stat.s-submitted {
+            border-left-color: #3b82f6;
+        }
+
+        .stat.s-submitted.active {
+            background: #eff6ff;
+        }
+
+        .stat.s-pending {
+            border-left-color: #f59e0b;
+        }
+
+        .stat.s-pending.active {
+            background: #fffbeb;
+        }
+
+        .stat.s-error {
+            border-left-color: #ef4444;
+        }
+
+        .stat.s-error.active {
+            background: #fef2f2;
+        }
+
+        .stat .num {
+            font-size: 1.9rem;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        .stat .lbl {
+            font-size: 0.78rem;
+            color: #64748b;
+            margin-top: 3px;
+        }
+
+        .toolbar {
+            display: flex;
+            gap: 0.8rem;
+            margin-bottom: 0.8rem;
+            align-items: center;
+        }
+
+        .search {
+            flex: 1;
+            padding: 0.75rem 1.1rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            outline: none;
+            background: white;
+        }
+
+        .search:focus {
+            border-color: #2563eb;
+        }
+
+        .btn {
+            padding: 0.75rem 1.3rem;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.88rem;
+            font-weight: 600;
+        }
+
+        .btn-pdf {
+            background: #2563eb;
+            color: white;
+        }
+
+        .table-wrap {
+            background: white;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
+        }
+
+        .table-header {
+            padding: 0.8rem 1.3rem;
+            border-bottom: 1px solid #f1f5f9;
+            color: #64748b;
+            font-size: 0.82rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #f8fafc;
+            padding: 0.85rem 1rem;
+            text-align: left;
+            font-size: 0.72rem;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid #f1f5f9;
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid #f8fafc;
+            font-size: 0.88rem;
+            vertical-align: middle;
+        }
+
+        tr:hover td {
+            background: #fafafa;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            padding: 0.25rem 0.7rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .b-approved {
+            background: #dcfce7;
+            color: #15803d;
+        }
+
+        .b-submitted {
+            background: #dbeafe;
+            color: #1d4ed8;
+        }
+
+        .b-pending {
+            background: #fef3c7;
+            color: #b45309;
+        }
+
+        .b-error {
+            background: #fee2e2;
+            color: #dc2626;
+        }
+
+        .actions {
+            display: flex;
+            gap: 6px;
+        }
+
+        .ic-btn {
+            width: 30px;
+            height: 30px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            transition: 0.15s;
+        }
+
+        .ic-btn:hover {
+            opacity: 0.85;
+            transform: scale(1.05);
+        }
+
+        .ic-sync {
+            background: #3b82f6;
+        }
+
+        .ic-wa {
+            background: #25d366;
+        }
+
+        .ic-btn svg {
+            width: 14px;
+            height: 14px;
+            fill: currentColor;
+        }
+
+        .spinning svg {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .mobile-cell {
+            font-size: 0.82rem;
+            color: #475569;
+            white-space: nowrap;
+        }
+
+        .dob-cell {
+            font-size: 0.82rem;
+            color: #64748b;
+            white-space: nowrap;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 3rem;
+            color: #94a3b8;
+        }
+
+        .no-data h3 {
+            font-size: 1.1rem;
+            margin-top: 0.8rem;
+        }
+
+        @media print {
+
+            header,
+            .toolbar,
+            .stats,
+            .actions,
+            th:last-child,
+            td:last-child {
+                display: none !important;
+            }
+
+            body {
+                background: white;
+            }
+
+            .table-wrap {
+                box-shadow: none;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .stats {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>🏫 RTE Live Dashboard</h1>
+            <div id="lastSync"><span class="live-dot"></span>Loading...</div>
+        </div>
+        <button class="btn btn-pdf" onclick="window.print()">⬇ Print / PDF</button>
+    </header>
+
+    <div class="container">
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat s-total active" onclick="setFilter('ALL',this)">
+                <div class="num" id="sTotal">—</div>
+                <div class="lbl">Total</div>
+            </div>
+            <div class="stat s-approved" onclick="setFilter('APPROVED',this)">
+                <div class="num" id="sApproved">—</div>
+                <div class="lbl">Approved</div>
+            </div>
+            <div class="stat s-submitted" onclick="setFilter('SUBMITTED',this)">
+                <div class="num" id="sSubmitted">—</div>
+                <div class="lbl">Submitted</div>
+            </div>
+            <div class="stat s-pending" onclick="setFilter('PENDING',this)">
+                <div class="num" id="sPending">—</div>
+                <div class="lbl">Pending</div>
+            </div>
+            <div class="stat s-error" onclick="setFilter('ERROR',this)">
+                <div class="num" id="sError">—</div>
+                <div class="lbl">Rejected</div>
+            </div>
+        </div>
+
+        <!-- Search -->
+        <div class="toolbar">
+            <input class="search" id="search" type="text"
+                placeholder="🔍 Search Token, Application ID, Child Name, Mobile..." oninput="render()">
+        </div>
+
+        <!-- Table -->
+        <div class="table-wrap">
+            <div class="table-header" id="tableInfo">Loading data...</div>
+            <div id="tableWrap">
+                <div class="no-data">
+                    <div style="font-size:2.5rem">📊</div>
+                    <h3>Waiting for data...</h3>
+                    <p style="margin-top:0.5rem;font-size:0.85rem">Run <code>python rte_checker.py</code> — dashboard
+                        updates automatically</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        let ALL_DATA = [];
+        let FILTER = 'ALL';
+        let _tableData = [];
+
+        function reloadData() {
+            const s = document.createElement('script');
+            s.src = 'data.js?t=' + Date.now();
+            s.onload = () => {
+                if (typeof RTE_DATA !== 'undefined') {
+                    ALL_DATA = RTE_DATA;
+                    updateSummary(RTE_SUMMARY);
+                    render();
+                }
+            };
+            s.onerror = () => {
+                document.getElementById('lastSync').innerHTML =
+                    '<span class="live-dot" style="background:#ef4444"></span>' +
+                    'data.js not found — run Python script first';
+            };
+            document.head.appendChild(s);
+            setTimeout(() => { try { s.remove(); } catch { } }, 6000);
+        }
+
+        function updateSummary(s) {
+            document.getElementById('sTotal').textContent = s.total;
+            document.getElementById('sApproved').textContent = s.approved;
+            document.getElementById('sSubmitted').textContent = s.submitted;
+            document.getElementById('sPending').textContent = s.pending;
+            document.getElementById('sError').textContent = s.error;
+            document.getElementById('lastSync').innerHTML =
+                `<span class="live-dot"></span>Last sync: ${s.last_updated}`;
+        }
+
+        function setFilter(f, el) {
+            FILTER = f;
+            document.querySelectorAll('.stat').forEach(s => s.classList.remove('active'));
+            el.classList.add('active');
+            render();
+        }
+
+        function render() {
+            const q = document.getElementById('search').value.toLowerCase();
+            _tableData = ALL_DATA.filter(r => {
+                const inFilter = FILTER === 'ALL' || r.Result === FILTER;
+                const inSearch = q === '' ||
+                    String(r['Token No']).toLowerCase().includes(q) ||
+                    String(r['Application Id']).toLowerCase().includes(q) ||
+                    String(r['Child Name']).toLowerCase().includes(q) ||
+                    String(r['Mobile']).toLowerCase().includes(q);
+                return inFilter && inSearch;
+            });
+
+            document.getElementById('tableInfo').textContent =
+                `Showing ${_tableData.length} of ${ALL_DATA.length} records`;
+
+            if (_tableData.length === 0) {
+                document.getElementById('tableWrap').innerHTML = `
+            <div class="no-data">
+                <div style="font-size:2.5rem">🔍</div>
+                <h3>No records found</h3>
+            </div>`;
+                return;
+            }
+
+            const rows = _tableData.map((r, i) => {
+                const cat = (r.Result || 'PENDING').toLowerCase();
+                const isActionable = r.Result === 'PENDING' || r.Result === 'ERROR';
+                const mobile = (r.Mobile && r.Mobile !== 'N/A' && r.Mobile !== 'nan')
+                    ? r.Mobile : '—';
+                const dob = (r.DOB && r.DOB !== 'nan') ? r.DOB : '—';
+
+                return `<tr>
+            <td><b style="color:#64748b">#${r['Token No'] || '—'}</b></td>
+            <td><b style="color:#2563eb;white-space:nowrap">${r['Application Id'] || '—'}</b></td>
+            <td style="font-weight:600;max-width:200px">${r['Child Name'] || '—'}</td>
+            <td class="dob-cell">${dob}</td>
+            <td class="mobile-cell">${mobile}</td>
+            <td style="font-size:0.8rem;color:#475569;max-width:280px;line-height:1.4">${r['Status (Gujarati)'] || '—'}</td>
+            <td><span class="badge b-${cat}">${r.Result || 'PENDING'}</span></td>
+            <td>
+                <div class="actions">
+                    <button class="ic-btn ic-sync" title="Force Sync"
+                        onclick="syncOne('${r['Application Id']}', this)">
+                        <svg viewBox="0 0 24 24"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/></svg>
+                    </button>
+                    ${isActionable && mobile !== '—' ? `
+                    <button class="ic-btn ic-wa" title="Send WhatsApp"
+                        onclick="sendWA(${i})">
+                        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                    </button>` : ''}
+                </div>
+            </td>
+        </tr>`;
+            }).join('');
+
+            document.getElementById('tableWrap').innerHTML = `
+        <div style="overflow-x:auto">
+        <table>
+            <thead><tr>
+                <th style="width:65px">Token</th>
+                <th style="width:210px">Application ID</th>
+                <th style="width:190px">Child Name</th>
+                <th style="width:100px">DOB</th>
+                <th style="width:115px">Mobile</th>
+                <th>Status</th>
+                <th style="width:110px">Result</th>
+                <th style="width:90px">Actions</th>
+            </tr></thead>
+            <tbody>${rows}</tbody>
+        </table>
+        </div>`;
+        }
+
+        async function syncOne(appId, btn) {
+            btn.classList.add('spinning');
+            try {
+                const r = await fetch(
+                    `http://localhost:5001/sync?app_id=${encodeURIComponent(appId)}`
+                );
+                const j = await r.json();
+                if (j.status === 'success') setTimeout(reloadData, 2500);
+            } catch {
+                alert('Python script not running!\nStart: python rte_checker.py');
+            } finally {
+                btn.classList.remove('spinning');
+            }
+        }
+
+        function sendWA(idx) {
+            const r = _tableData[idx];
+            const p = String.fromCodePoint;
+            const mobile = String(r.Mobile || '').replace(/\.0$/, '').replace(/\D/g, '').trim();
+            const dob = r.DOB || '';
+
+            const msg =
+                `${p(0x1F4FF)} *અસ્સલામુઅલેકુમ - નમસ્તે* ${p(0x1F64F)}
+
+*શૈખુલ ઈસ્લામ ટ્રસ્ટ, સુરત RTE માટે અવિરત ખિદમત અદા કરી રહ્યું છે.* ${p(0x1F319)}
+
+તમારા પુત્ર/પુત્રીનું નામ: *${r['Child Name']}*
+જન્મ તારીખ: *${dob}*
+એપ્લિકેશન નંબર: *${r['Application Id']}*
+
+તમારું ફોર્મ રિજેક્ટ થયું છે ${p(0x274C)}
+સ્ટેટસ: *${r['Status (Gujarati)']}*
+
+કૃપા કરીને ઓફિસ પર આવીને તમારું ફોર્મ અપડેટ કરી જાવ. ${p(0x1F4DD)}
+-------------------------------------------------------
+${p(0x23F0)} *ઓફિસ સમય:* સવારે ૧૦ થી રાત્રે ૧૦ વાગ્યા સુધી
+--------------------------------------
+*શૈખુલ ઈસ્લામ ટ્રસ્ટ* ${p(0x2728)}
+${p(0x1F4CD)} *સુરત બ્રાંનચ ૧૦૪*
+${p(0x1F4DE)} 7865009200 | 7865007200 | 7864007200`;
+
+            const url = mobile
+                ? `https://wa.me/91${mobile}?text=${encodeURIComponent(msg)}`
+                : `https://wa.me/?text=${encodeURIComponent(msg)}`;
+            window.open(url, '_blank');
+        }
+
+        // Poll every 3 seconds
+        reloadData();
+        setInterval(reloadData, 3000);
+    </script>
+</body>
+
+</html>
