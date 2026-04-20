@@ -59,7 +59,7 @@ class RteSyncHandler(BaseHTTPRequestHandler):
 
 def fetch_status(app_id, dob):
     """Fetches status from government portal"""
-    url = "https://rte.orpgujarat.com/ApplicationStatus"
+    url = "https://rte.orpgujarat.com/ApplicationFormStatus"
     data = {
         "ApplicationNumber": app_id,
         "BirthDate": dob

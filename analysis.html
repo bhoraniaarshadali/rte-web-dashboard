@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,333 +10,540 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Outfit', sans-serif; }
-        body { background: #0f172a; color: #f8fafc; min-height: 100vh; overflow-x: hidden; }
-        
-        header { 
-            background: rgba(30, 41, 59, 0.7); 
-            backdrop-filter: blur(10px); 
-            padding: 1rem 2rem; 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center; 
-            position: sticky; 
-            top: 0; 
-            z-index: 100;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Outfit', sans-serif;
         }
-        .back-btn { 
-            color: #94a3b8; 
-            text-decoration: none; 
-            display: flex; 
-            align-items: center; 
-            gap: 8px; 
+
+        body {
+            background: radial-gradient(circle at top right, #1e293b, #0f172a);
+            color: #f8fafc;
+            min-height: 100vh;
+            overflow-x: hidden;
+            background-attachment: fixed;
+        }
+
+        header {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .back-btn {
+            color: #94a3b8;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
             font-size: 0.9rem;
+            font-weight: 600;
             transition: 0.2s;
         }
-        .back-btn:hover { color: #3b82f6; }
-        
-        .container { max-width: 1600px; margin: 0 auto; padding: 2rem; }
-        
-        .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-bottom: 2rem; }
-        .card { 
-            background: #1e293b; 
-            border-radius: 16px; 
-            padding: 1.5rem; 
-            border: 1px solid rgba(255,255,255,0.05);
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s ease;
+
+        .back-btn:hover {
+            color: #3b82f6;
+            transform: translateX(-3px);
         }
-        .card:hover { transform: translateY(-5px); border-color: rgba(59, 130, 246, 0.3); }
-        
-        .stat-card { text-align: center; }
-        .stat-val { font-size: 2.5rem; font-weight: 700; background: linear-gradient(to bottom right, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .stat-lbl { color: #64748b; font-size: 0.9rem; margin-top: 5px; text-transform: uppercase; letter-spacing: 1px; }
-        
-        .chart-container { grid-column: span 2; min-height: 400px; display: flex; flex-direction: column; }
-        .chart-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 1.5rem; color: #cbd5e1; display: flex; justify-content: space-between; }
-        
-        .map-section { grid-column: span 4; background: #1e293b; border-radius: 20px; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.05); }
-        #map { height: 500px; border-radius: 12px; width: 100%; border: 1px solid rgba(255,255,255,0.1); }
-        
-        .top-areas { grid-column: span 1; }
-        .area-list { list-style: none; margin-top: 1rem; }
-        .area-item { 
-            display: flex; 
-            justify-content: space-between; 
-            padding: 0.8rem 0; 
-            border-bottom: 1px solid rgba(255,255,255,0.05);
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            background: rgba(30, 41, 59, 0.5);
+            backdrop-filter: blur(12px);
+            border-radius: 20px;
+            padding: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.4);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(59, 130, 246, 0.4);
+            box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5), 0 0 20px rgba(59, 130, 246, 0.1);
+        }
+
+        .stat-card {
+            text-align: center;
+        }
+
+        .stat-val {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(to bottom right, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stat-lbl {
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-top: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .chart-container {
+            grid-column: span 2;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chart-container.wide {
+            grid-column: span 3;
+        }
+
+        .chart-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #cbd5e1;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .map-section {
+            grid-column: span 5;
+            background: rgba(30, 41, 59, 0.5);
+            backdrop-filter: blur(12px);
+            border-radius: 24px;
+            padding: 1.8rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        #map {
+            height: 500px;
+            border-radius: 12px;
+            width: 100%;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .top-areas {
+            grid-column: span 1;
+        }
+
+        .area-list {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .area-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.8rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
             font-size: 0.9rem;
         }
-        .area-item:last-child { border-bottom: none; }
-        .area-count { font-weight: 600; color: #3b82f6; }
 
-        .gender-split { display: flex; gap: 2rem; align-items: center; justify-content: center; height: 100%; }
-        .gender-box { text-align: center; flex: 1; }
-        .g-icon { font-size: 3rem; margin-bottom: 10px; }
-        .g-val { font-size: 2rem; font-weight: 700; }
-        .g-lbl { font-size: 0.8rem; color: #64748b; }
-        
-        .pulse { animation: pulse-blue 2s infinite; }
-        @keyframes pulse-blue { 0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); } 70% { box-shadow: 0 0 0 10px rgba(59, 130, 246, 0); } 100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); } }
+        .area-item:last-child {
+            border-bottom: none;
+        }
 
-        @media (max-width: 1200px) {
-            .grid { grid-template-columns: repeat(2, 1fr); }
-            .chart-container, .map-section { grid-column: span 2; }
+        .area-count {
+            font-weight: 600;
+            color: #3b82f6;
+        }
+
+        .gender-split {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .gender-box {
+            text-align: center;
+            flex: 1;
+        }
+
+        .g-icon {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .g-val {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .g-lbl {
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        .pulse {
+            animation: pulse-blue 2s infinite;
+        }
+
+        @keyframes pulse-blue {
+            0% {
+                box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+            }
+
+            70% {
+                box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+            }
+        }
+
+        .live-dot {
+            width: 8px;
+            height: 8px;
+            background: #4ade80;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .pulse {
+            animation: pulse-green 1.5s infinite;
+        }
+
+        @keyframes pulse-green {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(74, 222, 128, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(74, 222, 128, 0); }
+        }
+
+        @media (max-width: 1400px) {
+            .grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .chart-container,
+            .map-section {
+                grid-column: span 3;
+            }
         }
     </style>
 </head>
+
 <body>
 
-<header>
-    <div style="display:flex; align-items:center; gap:20px">
-        <a href="dashboard.html" class="back-btn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-            Back to Dashboard
-        </a>
-        <h1 style="font-size:1.2rem">Strategic Analysis</h1>
-    </div>
-    <div style="font-size:0.8rem; color:#64748b" id="updateTs">Loading...</div>
-</header>
+    <header>
+        <div style="display:flex; align-items:center; gap:20px">
+            <a href="dashboard.html" class="back-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7" />
+                </svg>
+                Back to Dashboard
+            </a>
+            <h1 style="font-size:1.4rem; font-weight:700; letter-spacing:-0.5px">Strategic Analysis</h1>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px">
+            <div class="live-dot pulse"></div>
+            <div style="font-size:0.85rem; font-weight:500; color:#94a3b8" id="updateTs">Syncing...</div>
+        </div>
+    </header>
 
-<div class="container">
-    <div class="grid">
-        <!-- Stats -->
-        <div class="card stat-card">
-            <div class="stat-val" id="tTotal">—</div>
-            <div class="stat-lbl">Total Applications</div>
-        </div>
-        <div class="card stat-card">
-            <div class="stat-val" id="tApproved" style="background: linear-gradient(to bottom right, #4ade80, #10b981); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">—</div>
-            <div class="stat-lbl">Approved</div>
-        </div>
-        <div class="card stat-card">
-            <div class="stat-val" id="tSubmitted" style="background: linear-gradient(to bottom right, #60a5fa, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">—</div>
-            <div class="stat-lbl">In Review</div>
-        </div>
-        <div class="card stat-card">
-            <div class="stat-val" id="tRejected" style="background: linear-gradient(to bottom right, #f87171, #ef4444); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">—</div>
-            <div class="stat-lbl">Rejected</div>
-        </div>
+    <div class="container">
+        <div class="grid">
+            <!-- Stats -->
+            <div class="card stat-card">
+                <div class="stat-val" id="tTotal">—</div>
+                <div class="stat-lbl">Total Applications</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-val" id="tApproved"
+                    style="background: linear-gradient(to bottom right, #4ade80, #10b981); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                    —</div>
+                <div class="stat-lbl">Approved</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-val" id="tSubmitted"
+                    style="background: linear-gradient(to bottom right, #60a5fa, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                    —</div>
+                <div class="stat-lbl">In Review</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-val" id="tPending"
+                    style="background: linear-gradient(to bottom right, #f59e0b, #d97706); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                    —</div>
+                <div class="stat-lbl">Pending</div>
+            </div>
+            <div class="card stat-card">
+                <div class="stat-val" id="tRejected"
+                    style="background: linear-gradient(to bottom right, #f87171, #ef4444); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                    —</div>
+                <div class="stat-lbl">Rejected</div>
+            </div>
 
-        <!-- Gender Breakdown -->
-        <div class="card chart-container">
-            <div class="chart-title">Gender Distribution <span>Ratio Analysis</span></div>
-            <div class="gender-split">
-                <div class="gender-box">
-                    <div class="g-icon">👦</div>
-                    <div class="g-val" id="vBoys">0</div>
-                    <div class="g-lbl">BOYS</div>
-                </div>
-                <div style="width: 200px;">
-                    <canvas id="genderChart"></canvas>
-                </div>
-                <div class="gender-box">
-                    <div class="g-icon">👧</div>
-                    <div class="g-val" id="vGirls">0</div>
-                    <div class="g-lbl">GIRLS</div>
+            <!-- Gender Breakdown -->
+            <div class="card chart-container">
+                <div class="chart-title">Gender Distribution <span>Ratio Analysis</span></div>
+                <div class="gender-split">
+                    <div class="gender-box">
+                        <div class="g-icon">👦</div>
+                        <div class="g-val" id="vBoys">0</div>
+                        <div class="g-lbl">BOYS</div>
+                    </div>
+                    <div style="width: 200px;">
+                        <canvas id="genderChart"></canvas>
+                    </div>
+                    <div class="gender-box">
+                        <div class="g-icon">👧</div>
+                        <div class="g-val" id="vGirls">0</div>
+                        <div class="g-lbl">GIRLS</div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Status Overview -->
-        <div class="card chart-container">
-            <div class="chart-title">Application Status <span>Global View</span></div>
-            <div style="height: 300px; position: relative;">
-                <canvas id="statusChart"></canvas>
+            <!-- Status Overview -->
+            <div class="card chart-container wide">
+                <div class="chart-title">Application Status <span>Global View</span></div>
+                <div style="height: 300px; position: relative;">
+                    <canvas id="statusChart"></canvas>
+                </div>
             </div>
-        </div>
 
-        <!-- Map Section -->
-        <div class="map-section">
-            <div class="chart-title">Geographical Distribution <span>Area Hotspots</span></div>
-            <div style="display:grid; grid-template-columns: 2fr 1fr; gap: 20px;">
-                <div id="map"></div>
-                <div class="card top-areas">
-                    <div style="font-size:0.9rem; font-weight:600; color:#3b82f6">Top Clusters</div>
-                    <div id="areaList" class="area-list">
-                        <!-- Areas will be injected here -->
+            <!-- Map Section -->
+            <div class="map-section">
+                <div class="chart-title">Geographical Distribution <span>Area Hotspots</span></div>
+                <div style="display:grid; grid-template-columns: 2fr 1fr; gap: 20px;">
+                    <div id="map"></div>
+                    <div class="card" style="padding: 1.5rem; background: rgba(15, 23, 42, 0.3)">
+                        <div style="font-size:0.95rem; font-weight:700; color:#3b82f6; text-transform:uppercase; letter-spacing:1px; margin-bottom:1rem">Top Application Areas</div>
+                        <div id="areaList" class="area-list">
+                            <!-- Areas will be injected here -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<script>
-let MAP;
-let MARKERS = [];
+    <script>
+        let MAP;
+        let MARKERS = [];
 
-function initMap() {
-    // Center of Surat
-    MAP = L.map('map', {
-        zoomControl: false,
-        attributionControl: false
-    }).setView([21.1702, 72.8311], 12);
+        function initMap() {
+            // Center of Surat
+            MAP = L.map('map', {
+                zoomControl: false,
+                attributionControl: false
+            }).setView([21.1702, 72.8311], 12);
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        maxZoom: 19
-    }).addTo(MAP);
-}
-
-// Simple logic to guess Surat coordinates for common area names
-const AREA_COORDS = {
-    'LIMBAYAT': [21.1750, 72.8650],
-    'UDHNA': [21.1415, 72.8422],
-    'VARACHHA': [21.2140, 72.8654],
-    'KATARGAM': [21.2266, 72.8277],
-    'ADHAJAN': [21.1818, 72.7958],
-    'VESU': [21.1396, 72.7761],
-    'RANDER': [21.2125, 72.7917],
-    'NANPURA': [21.1888, 72.8250],
-    'PIPLOD': [21.1578, 72.7689],
-    'DINDOLI': [21.1360, 72.8633],
-    'CHOWK': [21.1960, 72.8220]
-};
-
-function loadData() {
-    const s = document.createElement('script');
-    s.src = 'data.js?t=' + Date.now();
-    s.onload = () => {
-        if (typeof RTE_DATA !== 'undefined') {
-            updateUI(RTE_DATA, RTE_SUMMARY);
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                maxZoom: 19
+            }).addTo(MAP);
         }
-    };
-    document.head.appendChild(s);
-}
 
-function updateUI(data, summary) {
-    document.getElementById('tTotal').textContent = summary.total;
-    document.getElementById('tApproved').textContent = summary.approved;
-    document.getElementById('tSubmitted').textContent = summary.submitted;
-    document.getElementById('tRejected').textContent = summary.error;
-    document.getElementById('updateTs').textContent = 'Last analysis sync: ' + summary.last_updated;
+        // Simple logic to guess Surat coordinates for common area names
+        const AREA_COORDS = {
+            'GOPIPURA': [21.1947, 72.8262],
+            'SAGRAMPURA': [21.1813, 72.8227],
+            'SALABATPURA': [21.1895, 72.8346],
+            'SALABTPURA': [21.1895, 72.8346],
+            'RUSTAMPURA': [21.1876, 72.8309],
+            'NANPURA': [21.1888, 72.8250],
+            'BEGAMPURA': [21.1961, 72.8358],
+            'BEGUMPURA': [21.1961, 72.8358],
+            'UMARWADA': [21.1968, 72.8521],
+            'LIMBAYAT': [21.1750, 72.8650],
+            'RANDER': [21.2125, 72.7917],
+            'BHESTAN': [21.1216, 72.8611],
+            'RUDARPURA': [21.1738, 72.8225],
+            'UDHNA': [21.1415, 72.8422],
+            'VARACHHA': [21.2140, 72.8654],
+            'KATARGAM': [21.2266, 72.8277],
+            'ADHAJAN': [21.1818, 72.7958],
+            'VESU': [21.1396, 72.7761],
+            'PIPLOD': [21.1578, 72.7689],
+            'DINDOLI': [21.1360, 72.8633],
+            'CHOWK': [21.1960, 72.8220],
+            'MAHIDHARPURA': [21.2023, 72.8335],
+            'SAIYEDPURA': [21.2050, 72.8265],
+            'SAIYADPURA': [21.2050, 72.8265],
+            'BHATHENA': [21.1685, 72.8480],
+            'GOPI TALAV': [21.1923, 72.8315],
+            'LAL DARWAJA': [21.2062, 72.8351],
+            'NAVSARI BAZAR': [21.1852, 72.8225],
+            'ZAMPA BAZAR': [21.1970, 72.8320]
+        };
 
-    // Gender Stats
-    let girls = 0;
-    let boys = 0;
-    
-    // Status Stats
-    let statusCounts = { 'APPROVED': 0, 'SUBMITTED': 0, 'PENDING': 0, 'ERROR': 0 };
-    
-    // Area Stats
-    let areaCounts = {};
-
-    data.forEach(r => {
-        // Gender Guess/Check
-        const g = (r.Gender || '').toLowerCase();
-        if (g.includes('કન્યા') || g.includes('girl') || g.includes('female')) girls++;
-        else if (g.includes('કુમાર') || g.includes('boy') || g.includes('male')) boys++;
-
-        // Status
-        statusCounts[r.Result]++;
-
-        // Area
-        const area = (r.Area || 'UNKNOWN').toUpperCase();
-        if (area !== 'N/A' && area !== 'UNKNOWN') {
-            areaCounts[area] = (areaCounts[area] || 0) + 1;
+        function loadData() {
+            const s = document.createElement('script');
+            s.src = 'data.js?t=' + Date.now();
+            s.onload = () => {
+                if (typeof RTE_DATA !== 'undefined') {
+                    updateUI(RTE_DATA, RTE_SUMMARY);
+                }
+            };
+            document.head.appendChild(s);
         }
-    });
 
-    document.getElementById('vGirls').textContent = girls;
-    document.getElementById('vBoys').textContent = boys;
+        function updateUI(data, summary) {
+            document.getElementById('tTotal').textContent = summary.total;
+            document.getElementById('tApproved').textContent = summary.approved;
+            document.getElementById('tSubmitted').textContent = summary.submitted;
+            document.getElementById('tPending').textContent = summary.pending || 0;
+            document.getElementById('tRejected').textContent = summary.error;
+            document.getElementById('updateTs').textContent = 'Last analysis sync: ' + summary.last_updated;
 
-    renderCharts(girls, boys, statusCounts);
-    renderMap(areaCounts);
-    renderAreaList(areaCounts);
-}
+            // Gender Stats
+            let girls = 0;
+            let boys = 0;
 
-function renderCharts(girls, boys, status) {
-    // Gender Chart
-    new Chart(document.getElementById('genderChart'), {
-        type: 'doughnut',
-        data: {
-            labels: ['Boys', 'Girls'],
-            datasets: [{
-                data: [boys, girls],
-                backgroundColor: ['#3b82f6', '#f472b6'],
-                borderWidth: 0,
-                hoverOffset: 10
-            }]
-        },
-        options: {
-            cutout: '70%',
-            plugins: { legend: { display: false } }
+            // Status Stats
+            let statusCounts = { 'APPROVED': 0, 'SUBMITTED': 0, 'PENDING': 0, 'ERROR': 0 };
+
+            // Area Stats
+            let areaCounts = {};
+
+            data.forEach(r => {
+                // Gender Guess/Check
+                const g = (r.Gender || '').toLowerCase();
+                if (g.includes('કન્યા') || g.includes('girl') || g.includes('female') || g.includes('kanya')) girls++;
+                else if (g.includes('કુમાર') || g.includes('boy') || g.includes('male') || g.includes('kumar')) boys++;
+
+                // Status
+                statusCounts[r.Result]++;
+
+                // Area
+                const area = (r.Area || 'UNKNOWN').toUpperCase();
+                if (area !== 'N/A' && area !== 'UNKNOWN') {
+                    areaCounts[area] = (areaCounts[area] || 0) + 1;
+                }
+            });
+
+            document.getElementById('vGirls').textContent = girls;
+            document.getElementById('vBoys').textContent = boys;
+
+            renderCharts(girls, boys, statusCounts);
+            renderMap(areaCounts);
+            renderAreaList(areaCounts);
         }
-    });
 
-    // Status Chart
-    new Chart(document.getElementById('statusChart'), {
-        type: 'bar',
-        data: {
-            labels: ['Approved', 'In Review', 'Pending', 'Rejected'],
-            datasets: [{
-                label: 'Volume',
-                data: [status.APPROVED, status.SUBMITTED, status.PENDING, status.ERROR],
-                backgroundColor: ['#10b981', '#3b82f6', '#f59e0b', '#ef4444'],
-                borderRadius: 8
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: { legend: { display: false } },
-            scales: {
-                y: { beginAtZero: true, grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b' } },
-                x: { grid: { display: false }, ticks: { color: '#64748b' } }
+        function renderCharts(girls, boys, status) {
+            // Gender Chart
+            new Chart(document.getElementById('genderChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['Boys', 'Girls'],
+                    datasets: [{
+                        data: [boys, girls],
+                        backgroundColor: ['#3b82f6', '#f472b6'],
+                        borderWidth: 0,
+                        hoverOffset: 10
+                    }]
+                },
+                options: {
+                    cutout: '70%',
+                    plugins: { legend: { display: false } }
+                }
+            });
+
+            // Status Chart
+            new Chart(document.getElementById('statusChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['Approved', 'In Review', 'Pending', 'Rejected'],
+                    datasets: [{
+                        label: 'Volume',
+                        data: [status.APPROVED, status.SUBMITTED, status.PENDING, status.ERROR],
+                        backgroundColor: ['#10b981', '#3b82f6', '#f59e0b', '#ef4444'],
+                        borderRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        y: { beginAtZero: true, grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#64748b' } },
+                        x: { grid: { display: false }, ticks: { color: '#64748b' } }
+                    }
+                }
+            });
+        }
+
+        function renderAreaList(counts) {
+            const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 12);
+            const list = document.getElementById('areaList');
+            if (sorted.length === 0) {
+                list.innerHTML = '<li class="area-item"><span>No area data found</span></li>';
+                return;
             }
-        }
-    });
-}
-
-function renderAreaList(counts) {
-    const sorted = Object.entries(counts).sort((a,b) => b[1] - a[1]).slice(0, 8);
-    const list = document.getElementById('areaList');
-    list.innerHTML = sorted.map(([area, count]) => `
+            list.innerHTML = sorted.map(([area, count]) => `
         <li class="area-item">
             <span>${area}</span>
             <span class="area-count">${count}</span>
         </li>
     `).join('');
-}
-
-function renderMap(counts) {
-    // Clear existing markers
-    MARKERS.forEach(m => MAP.removeLayer(m));
-    MARKERS = [];
-
-    Object.entries(counts).forEach(([area, count]) => {
-        // Find best coordinate match
-        let bestCoord = null;
-        for (let key in AREA_COORDS) {
-            if (area.includes(key)) {
-                bestCoord = AREA_COORDS[key];
-                break;
-            }
         }
 
-        if (bestCoord) {
-            // Add a circle marker with size relative to count
-            const radius = Math.min(Math.max(count * 2, 10), 50);
-            const marker = L.circleMarker(bestCoord, {
-                radius: radius,
-                fillColor: "#3b82f6",
-                color: "#1e3a8a",
-                weight: 2,
-                opacity: 0.8,
-                fillOpacity: 0.4
-            }).addTo(MAP);
-            
-            marker.bindPopup(`<b>${area}</b><br>${count} Applications`);
-            MARKERS.push(marker);
-        }
-    });
-}
+        function renderMap(counts) {
+            // Clear existing markers
+            MARKERS.forEach(m => MAP.removeLayer(m));
+            MARKERS = [];
 
-window.onload = () => {
-    initMap();
-    loadData();
-}
-</script>
+            // Sort keys by length descending to match more specific areas first
+            const sortedKeys = Object.keys(AREA_COORDS).sort((a, b) => b.length - a.length);
+
+            Object.entries(counts).forEach(([area, count]) => {
+                let bestCoord = null;
+                for (let key of sortedKeys) {
+                    if (area.includes(key)) {
+                        bestCoord = AREA_COORDS[key];
+                        break;
+                    }
+                }
+
+                if (bestCoord) {
+                    const radius = Math.min(Math.max(count * 2, 8), 45);
+                    const marker = L.circleMarker(bestCoord, {
+                        radius: radius,
+                        fillColor: "#3b82f6",
+                        color: "#60a5fa",
+                        weight: 1,
+                        opacity: 0.9,
+                        fillOpacity: 0.5
+                    }).addTo(MAP);
+
+                    marker.bindPopup(`
+                        <div style="font-family:'Outfit'; padding:5px">
+                            <b style="color:#1e293b; font-size:1rem">${area}</b><br>
+                            <span style="color:#64748b; font-size:0.8rem">Applications: </span>
+                            <b style="color:#3b82f6; font-size:0.9rem">${count}</b>
+                        </div>
+                    `);
+                    MARKERS.push(marker);
+                }
+            });
+        }
+
+        window.onload = () => {
+            initMap();
+            loadData();
+            // Real-time updates every 5 seconds
+            setInterval(loadData, 5000);
+        }
+    </script>
 </body>
+
 </html>

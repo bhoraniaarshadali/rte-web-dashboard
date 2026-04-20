@@ -207,13 +207,13 @@ def fetch_status(app_id: str, dob: str) -> dict:
 def classify_status(status: str) -> str:
     s = status.lower()
     # SUBMITTED check first — contains 'manjur' but is NOT yet approved
-    if any(x in s for x in ["બાકી છે", "સમીક્ષા (મંજૂ", "સમીક્ષા (મંજુ",
-                              "bakī che", "samīkṣā"]):
+    if any(x in s for x in ["બાકી છે", "સમીક્ષા (மંજૂ", "સમીક્ષા (મંજુ",
+                              "bakī che", "samīkṣā", "ચકાસણી", "પડતર"]):
         return "SUBMITTED"
-    if any(x in s for x in ["મંજૂર", "મંજુર", "ફાળવ", "approved", "approve"]):
+    if any(x in s for x in ["મંજૂર", "મંજુર", "ફાળવ", "approved", "approve", "confirm"]):
         return "APPROVED"
     if any(x in s for x in ["નામંજૂ", "નામંજુ", "cancel", "કેન્સલ",
-                              "reject", "refused", "રદ"]):
+                              "reject", "refused", "રદ", "અમાન્ય"]):
         return "ERROR"
     if "error:" in s or "not found" in s:
         return "ERROR"
@@ -245,13 +245,18 @@ def export_data_js(df):
     }
     records = []
     for _, row in df.iterrows():
+        gen = str(row.get("Gender", "N/A")).upper()
+        if any(x in gen.lower() for x in ["કન્યા", "girl", "female", "kanya"]): gen_norm = "GIRL"
+        elif any(x in gen.lower() for x in ["કુમાર", "boy", "male", "kumar"]): gen_norm = "BOY"
+        else: gen_norm = "N/A"
+
         records.append({
             "Token No":          str(row.get("Token No", "")),
             "Application Id":    str(row.get("Application Id", "")),
             "Child Name":        str(row.get("Child Name", "N/A")),
             "DOB":               str(row.get("DOB", "")),
             "Mobile":            str(row.get("Mobile", "N/A")),
-            "Gender":            str(row.get("Gender", "N/A")),
+            "Gender":            gen_norm,
             "Area":              str(row.get("Area", "N/A")),
             "Pincode":           str(row.get("Pincode", "N/A")),
             "Gam":               str(row.get("Gam", "N/A")),
