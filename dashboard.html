@@ -1,5 +1,5 @@
 <!-- -- -->
-<!-- !DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -100,40 +100,20 @@
             border-left-color: #94a3b8;
         }
 
-        .stat.s-total.active {
-            background: #f8fafc;
-        }
-
         .stat.s-approved {
             border-left-color: #10b981;
-        }
-
-        .stat.s-approved.active {
-            background: #ecfdf5;
         }
 
         .stat.s-submitted {
             border-left-color: #3b82f6;
         }
 
-        .stat.s-submitted.active {
-            background: #eff6ff;
-        }
-
         .stat.s-pending {
             border-left-color: #f59e0b;
         }
 
-        .stat.s-pending.active {
-            background: #fffbeb;
-        }
-
         .stat.s-error {
             border-left-color: #ef4444;
-        }
-
-        .stat.s-error.active {
-            background: #fef2f2;
         }
 
         .stat .num {
@@ -167,6 +147,16 @@
 
         .search:focus {
             border-color: #2563eb;
+        }
+
+        #areaFilter {
+            padding: 0.75rem 1.1rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            background: white;
+            min-width: 260px;
+            outline: none;
         }
 
         .btn {
@@ -223,10 +213,6 @@
 
         tr:hover td {
             background: #fafafa;
-        }
-
-        tr:last-child td {
-            border-bottom: none;
         }
 
         .badge {
@@ -308,15 +294,10 @@
             }
         }
 
-        .mobile-cell {
-            font-size: 0.82rem;
-            color: #475569;
-            white-space: nowrap;
-        }
-
+        .mobile-cell,
         .dob-cell {
             font-size: 0.82rem;
-            color: #64748b;
+            color: #475569;
             white-space: nowrap;
         }
 
@@ -367,7 +348,8 @@
             <div id="lastSync"><span class="live-dot"></span>Loading...</div>
         </div>
         <div style="display:flex;gap:10px">
-            <button class="btn" style="background:#f59e0b;color:white" onclick="location.href='analysis.html'">📊 Full Analysis</button>
+            <button class="btn" style="background:#f59e0b;color:white" onclick="location.href='analysis.html'">📊 Full
+                Analysis</button>
             <button class="btn btn-pdf" onclick="window.print()">⬇ Print / PDF</button>
         </div>
     </header>
@@ -398,10 +380,15 @@
             </div>
         </div>
 
-        <!-- Search -->
+        <!-- Toolbar with Search + Area Filter -->
         <div class="toolbar">
             <input class="search" id="search" type="text"
                 placeholder="🔍 Search Token, Application ID, Child Name, Mobile..." oninput="render()">
+
+            <!-- NEW AREA / GAM FILTER DROPDOWN -->
+            <select id="areaFilter" onchange="render()">
+                <option value="ALL">🌍 All Areas</option>
+            </select>
         </div>
 
         <!-- Table -->
@@ -411,8 +398,7 @@
                 <div class="no-data">
                     <div style="font-size:2.5rem">📊</div>
                     <h3>Waiting for data...</h3>
-                    <p style="margin-top:0.5rem;font-size:0.85rem">Run <code>python rte_checker.py</code> — dashboard
-                        updates automatically</p>
+                    <p style="margin-top:0.5rem;font-size:0.85rem">Run <code>python rte_checker.py</code></p>
                 </div>
             </div>
         </div>
@@ -422,6 +408,7 @@
     <script>
         let ALL_DATA = [];
         let FILTER = 'ALL';
+        let CURRENT_AREA = 'ALL';
         let _tableData = [];
 
         function reloadData() {
@@ -429,8 +416,14 @@
             s.src = 'data.js?t=' + Date.now();
             s.onload = () => {
                 if (typeof RTE_DATA !== 'undefined') {
-                    ALL_DATA = RTE_DATA;
-                    updateSummary(RTE_SUMMARY);
+                    // Filter out "Status not found"
+                    ALL_DATA = RTE_DATA.filter(r => {
+                        const status = String(r['Status (Gujarati)'] || '').trim();
+                        return status !== "Status not found";
+                    });
+
+                    updateSummaryFromFilteredData();
+                    populateAreaDropdown();
                     render();
                 }
             };
@@ -443,14 +436,53 @@
             setTimeout(() => { try { s.remove(); } catch { } }, 6000);
         }
 
-        function updateSummary(s) {
-            document.getElementById('sTotal').textContent = s.total;
-            document.getElementById('sApproved').textContent = s.approved;
-            document.getElementById('sSubmitted').textContent = s.submitted;
-            document.getElementById('sPending').textContent = s.pending;
-            document.getElementById('sError').textContent = s.error;
-            document.getElementById('lastSync').innerHTML =
-                `<span class="live-dot"></span>Last sync: ${s.last_updated}`;
+        function populateAreaDropdown() {
+            const select = document.getElementById('areaFilter');
+            const currentValue = select.value;
+
+            // Get unique Gam values
+            const gamSet = new Set();
+            ALL_DATA.forEach(r => {
+                const gam = String(r.Gam || '').trim();
+                if (gam && gam !== 'N/A' && gam !== 'nan' && gam !== 'NONE') {
+                    gamSet.add(gam);
+                }
+            });
+
+            // Clear and rebuild dropdown
+            select.innerHTML = `<option value="ALL">🌍 All Areas (${ALL_DATA.length})</option>`;
+
+            const sortedGams = Array.from(gamSet).sort();
+            sortedGams.forEach(gam => {
+                const option = document.createElement('option');
+                option.value = gam;
+                option.textContent = gam;
+                select.appendChild(option);
+            });
+
+            // Restore previous selection if possible
+            if (currentValue && Array.from(select.options).some(opt => opt.value === currentValue)) {
+                select.value = currentValue;
+            }
+        }
+
+        function updateSummaryFromFilteredData() {
+            const total = ALL_DATA.length;
+            const approved = ALL_DATA.filter(r => r.Result === 'APPROVED').length;
+            const submitted = ALL_DATA.filter(r => r.Result === 'SUBMITTED').length;
+            const pending = ALL_DATA.filter(r => r.Result === 'PENDING').length;
+            const error = ALL_DATA.filter(r => r.Result === 'ERROR').length;
+
+            document.getElementById('sTotal').textContent = total;
+            document.getElementById('sApproved').textContent = approved;
+            document.getElementById('sSubmitted').textContent = submitted;
+            document.getElementById('sPending').textContent = pending;
+            document.getElementById('sError').textContent = error;
+
+            if (typeof RTE_SUMMARY !== 'undefined') {
+                document.getElementById('lastSync').innerHTML =
+                    `<span class="live-dot"></span>Last sync: ${RTE_SUMMARY.last_updated}`;
+            }
         }
 
         function setFilter(f, el) {
@@ -462,14 +494,21 @@
 
         function render() {
             const q = document.getElementById('search').value.toLowerCase();
+            CURRENT_AREA = document.getElementById('areaFilter').value;
+
             _tableData = ALL_DATA.filter(r => {
-                const inFilter = FILTER === 'ALL' || r.Result === FILTER;
+                const inStatusFilter = FILTER === 'ALL' || r.Result === FILTER;
+
+                const inAreaFilter = CURRENT_AREA === 'ALL' ||
+                    String(r.Gam || '').trim() === CURRENT_AREA;
+
                 const inSearch = q === '' ||
                     String(r['Token No']).toLowerCase().includes(q) ||
                     String(r['Application Id']).toLowerCase().includes(q) ||
                     String(r['Child Name']).toLowerCase().includes(q) ||
                     String(r['Mobile']).toLowerCase().includes(q);
-                return inFilter && inSearch;
+
+                return inStatusFilter && inAreaFilter && inSearch;
             });
 
             document.getElementById('tableInfo').textContent =
@@ -484,11 +523,10 @@
                 return;
             }
 
-            const rows = _tableData.map((r, i) => {
+            const rows = _tableData.map((r) => {
                 const cat = (r.Result || 'PENDING').toLowerCase();
                 const isActionable = r.Result === 'PENDING' || r.Result === 'ERROR';
-                const mobile = (r.Mobile && r.Mobile !== 'N/A' && r.Mobile !== 'nan')
-                    ? r.Mobile : '—';
+                const mobile = (r.Mobile && r.Mobile !== 'N/A' && r.Mobile !== 'nan') ? r.Mobile : '—';
                 const dob = (r.DOB && r.DOB !== 'nan') ? r.DOB : '—';
 
                 return `<tr>
@@ -501,13 +539,11 @@
             <td><span class="badge b-${cat}">${r.Result || 'PENDING'}</span></td>
             <td>
                 <div class="actions">
-                    <button class="ic-btn ic-sync" title="Force Sync"
-                        onclick="syncOne('${r['Application Id']}', this)">
+                    <button class="ic-btn ic-sync" title="Force Sync" onclick="syncOne('${r['Application Id']}', this)">
                         <svg viewBox="0 0 24 24"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/></svg>
                     </button>
                     ${isActionable && mobile !== '—' ? `
-                    <button class="ic-btn ic-wa" title="Send WhatsApp"
-                        onclick="sendWA(${i})">
+                    <button class="ic-btn ic-wa" title="Send WhatsApp" onclick="sendWAByAppId('${r['Application Id']}')">
                         <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
                     </button>` : ''}
                 </div>
@@ -536,9 +572,7 @@
         async function syncOne(appId, btn) {
             btn.classList.add('spinning');
             try {
-                const r = await fetch(
-                    `http://localhost:5001/sync?app_id=${encodeURIComponent(appId)}`
-                );
+                const r = await fetch(`http://localhost:5001/sync?app_id=${encodeURIComponent(appId)}`);
                 const j = await r.json();
                 if (j.status === 'success') setTimeout(reloadData, 2500);
             } catch {
@@ -548,39 +582,42 @@
             }
         }
 
-        function sendWA(idx) {
-            const r = _tableData[idx];
-            const p = String.fromCodePoint;
+        function sendWAByAppId(appId) {
+            const r = ALL_DATA.find(record => String(record['Application Id']) === String(appId));
+            if (!r) return alert("Record not found!");
+
             const mobile = String(r.Mobile || '').replace(/\.0$/, '').replace(/\D/g, '').trim();
             const dob = r.DOB || '';
+            const result = r.Result || 'PENDING';
 
-            const msg =
-                `${p(0x1F4FF)} *અસ્સલામુઅલેકુમ - નમસ્તે* ${p(0x1F64F)}
+            let statusMsg = result === 'ERROR'
+                ? `તમારું ફોર્મ રિજેક્ટ થયું છે ❌\nસ્ટેટસ: *${r['Status (Gujarati)']}*`
+                : result === 'PENDING'
+                    ? `તમારું ફોર્મ હજુ સમીક્ષા હેઠળ છે ⏳\nકૃપા કરીને થોડા દિવસ રાહ જુઓ.`
+                    : `તમારું ફોર્મ સ્ટેટસ: *${r['Status (Gujarati)']}*`;
 
-*શૈખુલ ઈસ્લામ ટ્રસ્ટ, સુરત RTE માટે અવિરત ખિદમત અદા કરી રહ્યું છે.* ${p(0x1F319)}
+            const msg = `${String.fromCodePoint(0x1F4FF)} *અસ્સલામુઅલેકુમ - નમસ્તે* ${String.fromCodePoint(0x1F64F)}
+
+*શૈખુલ ઈસ્લામ ટ્રસ્ટ, સુરત RTE માટે અવિરત ખિદમત અદા કરી રહ્યું છે.*
 
 તમારા પુત્ર/પુત્રીનું નામ: *${r['Child Name']}*
 જન્મ તારીખ: *${dob}*
 એપ્લિકેશન નંબર: *${r['Application Id']}*
 
-તમારું ફોર્મ રિજેક્ટ થયું છે ${p(0x274C)}
-સ્ટેટસ: *${r['Status (Gujarati)']}*
+${statusMsg}
 
-કૃપા કરીને ઓફિસ પર આવીને તમારું ફોર્મ અપડેટ કરી જાવ. ${p(0x1F4DD)}
+કૃપા કરીને ઓફિસ પર આવીને તમારું ફોર્મ અપડેટ કરી જાવ.
 -------------------------------------------------------
-${p(0x23F0)} *ઓફિસ સમય:* સવારે ૧૦ થી રાત્રે ૧૦ વાગ્યા સુધી
---------------------------------------
-*શૈખુલ ઈસ્લામ ટ્રસ્ટ* ${p(0x2728)}
-${p(0x1F4CD)} *સુરત બ્રાંનચ ૧૦૪*
-${p(0x1F4DE)} 7865009200 | 7865007200 | 7864007200`;
+${String.fromCodePoint(0x23F0)} *ઓફિસ સમય:* સવારે ૧૦ થી રાત્રે ૧૦ વાગ્યા સુધી
+*શૈખુલ ઈસ્લામ ટ્રસ્ટ* ${String.fromCodePoint(0x2728)}
+${String.fromCodePoint(0x1F4CD)} *સુરત બ્રાંનચ ૧૦૪*
+${String.fromCodePoint(0x1F4DE)} 7865009200 | 7865007200 | 7864007200`;
 
-            const url = mobile
-                ? `https://wa.me/91${mobile}?text=${encodeURIComponent(msg)}`
-                : `https://wa.me/?text=${encodeURIComponent(msg)}`;
+            const url = mobile ? `https://wa.me/91${mobile}?text=${encodeURIComponent(msg)}` : `https://wa.me/?text=${encodeURIComponent(msg)}`;
             window.open(url, '_blank');
         }
 
-        // Poll every 3 seconds
+        // Auto refresh
         reloadData();
         setInterval(reloadData, 3000);
     </script>
