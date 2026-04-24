@@ -4,7 +4,7 @@ const RTE_SUMMARY = {
   "submitted": 0,
   "pending": 7,
   "error": 113,
-  "last_updated": "25-04-2026 02:29:47"
+  "last_updated": "25-04-2026 03:01:57"
 };
 const RTE_DATA = [
   {
@@ -12,10 +12,10 @@ const RTE_DATA = [
     "Application Id": "GJ/2026-27/SRC/2254098",
     "Child Name": "ALIZABANU ALTAFHUSEN DILLIWALA",
     "DOB": "03-09-2019",
-    "Mobile": "9054003184.0",
+    "Mobile": "9054003184",
     "Gender": "GIRL",
     "Area": "SALABATPURA",
-    "Pincode": "395003.0",
+    "Pincode": "395003",
     "Gam": "SALABATPURA",
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.",
