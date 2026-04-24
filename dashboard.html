@@ -332,10 +332,13 @@
             }
         }
 
-        @media (max-width: 900px) {
-            .stats {
-                grid-template-columns: repeat(3, 1fr);
-            }
+        @media (max-width: 600px) {
+            .stats { grid-template-columns: repeat(2, 1fr) !important; }
+            .toolbar { flex-direction: column !important; }
+            header { flex-direction: column !important; gap: 10px; text-align: center; }
+            #areaFilter { min-width: 100% !important; }
+            .table-wrap { overflow-x: auto !important; }
+            table { min-width: 800px !important; }
         }
     </style>
 </head>

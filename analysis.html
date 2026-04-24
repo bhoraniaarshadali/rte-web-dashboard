@@ -245,15 +245,11 @@
             }
         }
 
-        @media (max-width: 1400px) {
-            .grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-
-            .chart-container,
-            .map-section {
-                grid-column: span 3;
-            }
+        @media (max-width: 900px) {
+            .grid { grid-template-columns: 1fr !important; }
+            .chart-container, .map-section { grid-column: span 1 !important; }
+            .gender-split { flex-direction: column !important; gap: 20px; }
+            header { flex-direction: column !important; gap: 10px; text-align: center; }
         }
     </style>
 </head>
