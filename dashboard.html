@@ -169,19 +169,45 @@
 
         @media (max-width: 600px) {
             .stats {
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(6, 1fr);
             }
-            .stats .stat:nth-child(n+4) {
-                grid-column: span 1;
+            .stat.s-total, .stat.s-approved, .stat.s-submitted {
+                grid-column: span 2;
             }
-            .stats {
-                grid-template-columns: repeat(3, 1fr);
-            }
-            /* Make last two stats fill 50% each */
             .stat.s-pending, .stat.s-error {
-                grid-column: span 1.5;
+                grid-column: span 3;
             }
+            .stat .num { font-size: 1.2rem; }
+            .stat .lbl { font-size: 0.6rem; }
         }
+
+        /* --- TABLE FIXES --- */
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        table {
+            min-width: 850px; /* Prevents squashing on small screens */
+        }
+
+        th, td {
+            text-align: left;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .actions {
+            display: flex;
+            gap: 8px;
+            min-width: 80px;
+        }
+
+        .ic-btn {
+            width: 34px !important;
+            height: 34px !important;
+            flex-shrink: 0;
+        }
+
 
 
     </style>
