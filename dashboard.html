@@ -16,145 +16,166 @@
         }
 
         body {
-            background: #f8fafc;
-            color: #0f172a;
+            background: #f1f5f9;
+            color: #1e293b;
             min-height: 100vh;
-            -webkit-tap-highlight-color: transparent;
         }
 
         header {
-            background: #1e3a8a;
+            background: linear-gradient(135deg, #1e3a5f, #2563eb);
             color: white;
-            padding: 12px 16px;
+            padding: 1.2rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
         header h1 {
-            font-size: 1.15rem;
+            font-size: 1.5rem;
             font-weight: 700;
         }
 
         #lastSync {
-            font-size: 0.75rem;
-            opacity: 0.8;
-            margin-top: 2px;
+            font-size: 0.82rem;
+            opacity: 0.7;
+            margin-top: 3px;
         }
 
         .container {
-            max-width: 1400px;
+            max-width: 1500px;
             margin: 0 auto;
-            padding: 12px;
+            padding: 1.2rem;
         }
 
         .stats {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
-            gap: 10px;
-            margin-bottom: 16px;
+            gap: 0.8rem;
+            margin-bottom: 1.2rem;
         }
 
         .stat {
             background: white;
-            border-radius: 14px;
-            padding: 12px;
-            text-align: center;
-            border: 1px solid rgba(0, 0, 0, 0.04);
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+            border-radius: 12px;
+            padding: 1rem 1.3rem;
+            cursor: pointer;
+            border-left: 5px solid #e2e8f0;
             transition: all 0.2s;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
         }
 
         .stat.active {
-            border-color: #3b82f6;
-            background: #eff6ff;
-            transform: scale(1.02);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
         }
 
+        .stat.s-total { border-left-color: #94a3b8; }
+        .stat.s-approved { border-left-color: #10b981; }
+        .stat.s-submitted { border-left-color: #3b82f6; }
+        .stat.s-pending { border-left-color: #f59e0b; }
+        .stat.s-error { border-left-color: #ef4444; }
+
         .stat .num {
-            font-size: 1.5rem;
-            font-weight: 800;
-            display: block;
+            font-size: 1.9rem;
+            font-weight: 700;
+            line-height: 1;
         }
 
         .stat .lbl {
-            font-size: 0.7rem;
+            font-size: 0.78rem;
             color: #64748b;
-            text-transform: uppercase;
-            font-weight: 600;
-            margin-top: 4px;
+            margin-top: 3px;
         }
-
-        .stat.s-approved .num { color: #10b981; }
-        .stat.s-submitted .num { color: #3b82f6; }
-        .stat.s-pending .num { color: #f59e0b; }
-        .stat.s-error .num { color: #ef4444; }
 
         .toolbar {
             display: flex;
-            flex-direction: column;
-            gap: 10px;
-            margin-bottom: 16px;
+            gap: 0.8rem;
+            margin-bottom: 0.8rem;
+            align-items: center;
         }
 
         .search {
-            width: 100%;
-            padding: 12px 16px;
+            flex: 1;
+            padding: 0.75rem 1.1rem;
             border: 1px solid #e2e8f0;
-            border-radius: 14px;
-            font-size: 0.9rem;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            outline: none;
             background: white;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
         }
 
         #areaFilter {
-            width: 100%;
-            padding: 12px 16px;
+            padding: 0.75rem 1.1rem;
             border: 1px solid #e2e8f0;
-            border-radius: 14px;
-            font-size: 0.9rem;
+            border-radius: 10px;
+            font-size: 0.95rem;
             background: white;
+            min-width: 260px;
+            outline: none;
         }
 
         .btn {
-            padding: 10px 14px;
-            border-radius: 12px;
-            font-size: 0.8rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            padding: 0.75rem 1.3rem;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.88rem;
+            font-weight: 600;
+        }
+
+        .btn-pdf {
+            background: #2563eb;
+            color: white;
         }
 
         .table-wrap {
             background: white;
-            border-radius: 16px;
-            overflow: hidden;
-            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            overflow-x: auto;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
         }
 
-        .table-header {
-            background: #f8fafc;
-            padding: 10px 16px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: #64748b;
-            border-bottom: 1px solid #e2e8f0;
-        }
-
-        td {
-            padding: 12px;
-            font-size: 0.85rem;
+        table {
+            width: 100%;
+            min-width: 850px;
+            border-collapse: collapse;
         }
 
         th {
-            font-size: 0.7rem;
-            padding: 10px 12px;
             background: #f8fafc;
+            padding: 0.85rem 1rem;
+            text-align: left;
+            font-size: 0.72rem;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid #f1f5f9;
         }
+
+        td {
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid #f8fafc;
+            font-size: 0.88rem;
+        }
+
+        .actions {
+            display: flex;
+            gap: 8px;
+            min-width: 80px;
+        }
+
+        .ic-btn {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
 
         @media (min-width: 600px) {
             .toolbar {
