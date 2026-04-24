@@ -41,6 +41,28 @@
             margin-top: 3px;
         }
 
+        .live-dot {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #4ade80;
+            border-radius: 50%;
+            margin-right: 6px;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1
+            }
+
+            50% {
+                opacity: 0.3
+            }
+        }
+
         .container {
             max-width: 1500px;
             margin: 0 auto;
@@ -64,16 +86,35 @@
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
         }
 
+        .stat:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
         .stat.active {
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
             transform: translateY(-2px);
         }
 
-        .stat.s-total { border-left-color: #94a3b8; }
-        .stat.s-approved { border-left-color: #10b981; }
-        .stat.s-submitted { border-left-color: #3b82f6; }
-        .stat.s-pending { border-left-color: #f59e0b; }
-        .stat.s-error { border-left-color: #ef4444; }
+        .stat.s-total {
+            border-left-color: #94a3b8;
+        }
+
+        .stat.s-approved {
+            border-left-color: #10b981;
+        }
+
+        .stat.s-submitted {
+            border-left-color: #3b82f6;
+        }
+
+        .stat.s-pending {
+            border-left-color: #f59e0b;
+        }
+
+        .stat.s-error {
+            border-left-color: #ef4444;
+        }
 
         .stat .num {
             font-size: 1.9rem;
@@ -104,6 +145,10 @@
             background: white;
         }
 
+        .search:focus {
+            border-color: #2563eb;
+        }
+
         #areaFilter {
             padding: 0.75rem 1.1rem;
             border: 1px solid #e2e8f0;
@@ -131,13 +176,19 @@
         .table-wrap {
             background: white;
             border-radius: 14px;
-            overflow-x: auto;
+            overflow: hidden;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
+        }
+
+        .table-header {
+            padding: 0.8rem 1.3rem;
+            border-bottom: 1px solid #f1f5f9;
+            color: #64748b;
+            font-size: 0.82rem;
         }
 
         table {
             width: 100%;
-            min-width: 850px;
             border-collapse: collapse;
         }
 
@@ -150,18 +201,73 @@
             text-transform: uppercase;
             letter-spacing: 0.05em;
             border-bottom: 1px solid #f1f5f9;
+            white-space: nowrap;
         }
 
         td {
             padding: 0.85rem 1rem;
             border-bottom: 1px solid #f8fafc;
             font-size: 0.88rem;
+            vertical-align: middle;
+        }
+
+        tr:hover td {
+            background: #fafafa;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            padding: 0.25rem 0.7rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .b-approved {
+            background: #dcfce7;
+            color: #15803d;
+        }
+
+        .b-submitted {
+            background: #dbeafe;
+            color: #1d4ed8;
+        }
+
+        .b-pending {
+            background: #fef3c7;
+            color: #b45309;
+        }
+
+        .b-error {
+            background: #fee2e2;
+            color: #dc2626;
         }
 
         .actions {
             display: flex;
-            gap: 8px;
-            min-width: 80px;
+            gap: 6px;
+        }
+
+        .ic-btn {
+            width: 30px;
+            height: 30px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            transition: 0.15s;
+        }
+
+        .ic-btn:hover {
+            opacity: 0.85;
+            transform: scale(1.05);
         }
 
         .ic-sync {
@@ -170,11 +276,6 @@
 
         .ic-wa {
             background: #25d366;
-        }
-
-        .ic-btn:hover {
-            opacity: 0.85;
-            transform: scale(1.05);
         }
 
         .ic-btn svg {
@@ -188,65 +289,54 @@
         }
 
         @keyframes spin {
-            to { transform: rotate(360deg); }
+            to {
+                transform: rotate(360deg);
+            }
         }
 
-
-
-        @media (min-width: 600px) {
-            .toolbar {
-                flex-direction: row;
-            }
-            header {
-                padding: 1.2rem 2rem;
-            }
-            header h1 { font-size: 1.5rem; }
-            .container { padding: 1.5rem; }
+        .mobile-cell,
+        .dob-cell {
+            font-size: 0.82rem;
+            color: #475569;
+            white-space: nowrap;
         }
 
-        @media (max-width: 600px) {
+        .no-data {
+            text-align: center;
+            padding: 3rem;
+            color: #94a3b8;
+        }
+
+        .no-data h3 {
+            font-size: 1.1rem;
+            margin-top: 0.8rem;
+        }
+
+        @media print {
+
+            header,
+            .toolbar,
+            .stats,
+            .actions,
+            th:last-child,
+            td:last-child {
+                display: none !important;
+            }
+
+            body {
+                background: white;
+            }
+
+            .table-wrap {
+                box-shadow: none;
+            }
+        }
+
+        @media (max-width: 900px) {
             .stats {
-                grid-template-columns: repeat(6, 1fr);
+                grid-template-columns: repeat(3, 1fr);
             }
-            .stat.s-total, .stat.s-approved, .stat.s-submitted {
-                grid-column: span 2;
-            }
-            .stat.s-pending, .stat.s-error {
-                grid-column: span 3;
-            }
-            .stat .num { font-size: 1.2rem; }
-            .stat .lbl { font-size: 0.6rem; }
         }
-
-        /* --- TABLE FIXES --- */
-        .table-wrap {
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-        }
-
-        table {
-            min-width: 850px; /* Prevents squashing on small screens */
-        }
-
-        th, td {
-            text-align: left;
-            border-bottom: 1px solid #f1f5f9;
-        }
-
-        .actions {
-            display: flex;
-            gap: 8px;
-            min-width: 80px;
-        }
-
-        .ic-btn {
-            width: 34px !important;
-            height: 34px !important;
-            flex-shrink: 0;
-        }
-
-
-
     </style>
 </head>
 
