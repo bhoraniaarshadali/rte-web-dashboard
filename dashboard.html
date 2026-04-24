@@ -511,16 +511,16 @@
             bottom: 24px;
             left: 20px;
             right: 20px;
-            height: 64px;
-            background: rgba(255, 255, 255, 0.9);
+            height: 60px;
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(20px);
-            border-radius: 32px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            border-radius: 30px;
+            display: flex;
+            justify-content: space-around;
             align-items: center;
-            padding: 0 8px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-            z-index: 1000;
+            padding: 0 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
             border: 1px solid rgba(255, 255, 255, 0.5);
         }
 
@@ -529,25 +529,25 @@
             border: none;
             color: #64748b;
             font-weight: 700;
-            font-size: 0.85rem;
-            height: 48px;
-            border-radius: 24px;
+            font-size: 0.8rem;
+            height: 44px;
+            padding: 0 15px;
+            border-radius: 22px;
             transition: all 0.2s;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
+            flex: 1;
+            margin: 0 4px;
+            white-space: nowrap;
         }
 
         .mobile-nav button.active {
             background: #2563eb;
             color: white;
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
         }
 
-        .mobile-nav button.warning {
-            color: #f59e0b;
-        }
 
 
         .mobile-only {
