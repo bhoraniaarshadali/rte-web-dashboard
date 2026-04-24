@@ -545,6 +545,11 @@ def main():
     print(f"  🔄 Sync server is still running on port {SYNC_PORT}")
     print("  Press Ctrl+C to stop.\n")
 
+    # Check if running in GitHub Actions to exit after one run
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        log("Running in GitHub Actions - Skipping infinite loop.", "INFO")
+        return
+
     try:
         while True:
             time.sleep(1)
