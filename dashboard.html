@@ -164,17 +164,33 @@
             min-width: 80px;
         }
 
-        .ic-btn {
-            width: 32px;
-            height: 32px;
-            border-radius: 8px;
-            border: none;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
+        .ic-sync {
+            background: #3b82f6;
         }
+
+        .ic-wa {
+            background: #25d366;
+        }
+
+        .ic-btn:hover {
+            opacity: 0.85;
+            transform: scale(1.05);
+        }
+
+        .ic-btn svg {
+            width: 14px;
+            height: 14px;
+            fill: currentColor;
+        }
+
+        .spinning svg {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
 
 
         @media (min-width: 600px) {
