@@ -1,8 +1,6 @@
-__pycache__/
-*.xlsx
-data.js
-*.json
-scratch/
-sample.csv
-cols.txt
-debug_cols.json
+# __pycache__/
+# scratch/
+# sample.csv
+# cols.txt
+# debug_cols.json
+
