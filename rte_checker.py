@@ -30,7 +30,12 @@ MAX_WORKERS  = 5
 DELAY_SEC    = 0.5
 MAX_RETRIES  = 3
 BASE_URL     = "https://rte.orpgujarat.com/ApplicationFormStatus"
-USER_AGENT   = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+]
+USER_AGENT = USER_AGENTS[0]
 # ───────────────────────────────────────────────────────────────
 
 if hasattr(sys.stdout, 'reconfigure'):
@@ -57,8 +62,17 @@ def make_session():
     return s
 
 def get_csrf_token(session):
-    resp = session.get(BASE_URL, timeout=15)
-    resp.raise_for_status()
+    try:
+        resp = session.get(BASE_URL, timeout=15)
+        if resp.status_code != 200:
+            log(f"Portal returned status {resp.status_code}. Might be blocked.", "ERROR")
+            if os.environ.get("GITHUB_ACTIONS") == "true":
+                print(f"::error::Government portal returned {resp.status_code}. GitHub might be blocked.")
+        resp.raise_for_status()
+    except Exception as e:
+        log(f"Failed to reach portal: {e}", "ERROR")
+        raise
+    
     match = re.search(r'name="__RequestVerificationToken".*?value="([^"]+)"', resp.text, re.DOTALL)
     if not match:
         raise ValueError("CSRF token not found")
