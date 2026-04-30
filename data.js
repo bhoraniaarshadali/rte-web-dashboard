@@ -4,7 +4,7 @@ const RTE_SUMMARY = {
   "submitted": 0,
   "pending": 6,
   "error": 113,
-  "last_updated": "30-04-2026 12:39:46"
+  "last_updated": "30-04-2026 07:20:28"
 };
 const RTE_DATA = [
   {
@@ -3204,10 +3204,10 @@ const RTE_DATA = [
     "Application Id": " GJ/2026-27/SRC/2184491",
     "Child Name": "ALINAFATEMA RASHIDAHMED MESANIYA",
     "DOB": "18-10-2019",
-    "Mobile": "9879748692",
+    "Mobile": "9879748692.0",
     "Gender": "GIRL",
     "Area": "SALABATPURA",
-    "Pincode": "395003",
+    "Pincode": "395003.0",
     "Gam": "SALABATPURA",
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.",
