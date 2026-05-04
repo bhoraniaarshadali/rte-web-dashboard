@@ -30,7 +30,13 @@ MAX_WORKERS  = 5
 DELAY_SEC    = 0.5
 MAX_RETRIES  = 3
 BASE_URL     = "https://rte.orpgujarat.com/ApplicationFormStatus"
-USER_AGENT   = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+ADMIT_CARD_URL = "https://rte.orpgujarat.com/ApplicationFormStatus/AdmitCard"
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+]
+USER_AGENT = USER_AGENTS[0]
 # ───────────────────────────────────────────────────────────────
 
 if hasattr(sys.stdout, 'reconfigure'):
@@ -57,12 +63,75 @@ def make_session():
     return s
 
 def get_csrf_token(session):
-    resp = session.get(BASE_URL, timeout=15)
-    resp.raise_for_status()
+    try:
+        resp = session.get(BASE_URL, timeout=15)
+        if resp.status_code != 200:
+            log(f"Portal returned status {resp.status_code}. Might be blocked.", "ERROR")
+            if os.environ.get("GITHUB_ACTIONS") == "true":
+                print(f"::error::Government portal returned {resp.status_code}. GitHub might be blocked.")
+        resp.raise_for_status()
+    except Exception as e:
+        log(f"Failed to reach portal: {e}", "ERROR")
+        raise
+    
     match = re.search(r'name="__RequestVerificationToken".*?value="([^"]+)"', resp.text, re.DOTALL)
     if not match:
         raise ValueError("CSRF token not found")
     return match.group(1)
+
+def fetch_admit_card_status(app_id: str, dob: str) -> str:
+    """
+    Check if admit card is available for this application.
+    Returns: 'AVAILABLE' or 'NOT_AVAILABLE' or 'ERROR'
+    Portal returns a PDF binary directly when available,
+    or returns an HTML page with Gujarati error when not.
+    """
+    session = make_session()
+    try:
+        resp_get = session.get(ADMIT_CARD_URL, timeout=15)
+        resp_get.raise_for_status()
+        match = re.search(
+            r'name="__RequestVerificationToken".*?value="([^"]+)"',
+            resp_get.text, re.DOTALL
+        )
+        if not match:
+            return "ERROR"
+        token = match.group(1)
+
+        resp_post = session.post(
+            ADMIT_CARD_URL,
+            data={
+                "__RequestVerificationToken": token,
+                "ApplicationNumber": app_id.strip(),
+                "DateOfBirth":       dob.strip(),
+            },
+            headers={
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Origin":       "https://rte.orpgujarat.com",
+                "Referer":      ADMIT_CARD_URL,
+            },
+            timeout=25,
+            allow_redirects=True,
+        )
+        # Portal returns PDF directly when admit card is available
+        content_type = resp_post.headers.get("Content-Type", "").lower()
+        if "application/pdf" in content_type:
+            return "AVAILABLE"
+        # Also check binary content starts with PDF magic bytes
+        if resp_post.content[:4] == b'%PDF':
+            return "AVAILABLE"
+        # URL redirect to ViewAdmitCard
+        if "ViewAdmitCard" in resp_post.url:
+            return "AVAILABLE"
+        # Check HTML response for ViewAdmitCard link
+        if "ViewAdmitCard" in resp_post.text:
+            return "AVAILABLE"
+        # HTML page = not available (error/info message shown)
+        return "NOT_AVAILABLE"
+    except Exception as e:
+        log(f"[ADMIT] Error checking {app_id}: {e}", "WARN")
+        return "ERROR"
+
 
 def fetch_status(app_id: str, dob: str) -> dict:
     result = {
@@ -175,6 +244,77 @@ def fetch_status(app_id: str, dob: str) -> dict:
 
     return result
 
+
+def fetch_admit_card(app_id: str, dob: str):
+    """
+    Fetch admit card from government portal.
+    Returns (bytes, content_type) tuple.
+    If PDF: returns raw PDF bytes.
+    If HTML: returns HTML string bytes with base tag injected.
+    """
+    session = make_session()
+    try:
+        resp_get = session.get(ADMIT_CARD_URL, timeout=15)
+        resp_get.raise_for_status()
+        match = re.search(
+            r'name="__RequestVerificationToken".*?value="([^"]+)"',
+            resp_get.text, re.DOTALL
+        )
+        if not match:
+            err = "<h3 style='color:red;padding:2rem'>Error: Could not get verification token.</h3>"
+            return err.encode('utf-8'), 'text/html; charset=utf-8'
+
+        token = match.group(1)
+        resp_post = session.post(
+            ADMIT_CARD_URL,
+            data={
+                "__RequestVerificationToken": token,
+                "ApplicationNumber": app_id.strip(),
+                "DateOfBirth":       dob.strip(),
+            },
+            headers={
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Origin":       "https://rte.orpgujarat.com",
+                "Referer":      ADMIT_CARD_URL,
+            },
+            timeout=25,
+            allow_redirects=True,
+        )
+
+        # If server returns PDF directly
+        ct = resp_post.headers.get("Content-Type", "")
+        if "application/pdf" in ct or resp_post.content[:4] == b'%PDF':
+            return resp_post.content, 'application/pdf'
+
+        # HTML response — inject base tag and print button
+        html = resp_post.text
+        html = html.replace('<head>', '<head><base href="https://rte.orpgujarat.com/">')
+        print_btn = '''
+        <div style="position:fixed;top:10px;right:10px;z-index:9999;display:flex;gap:8px">
+            <button onclick="window.print()"
+                style="background:#2563eb;color:white;border:none;padding:10px 20px;
+                       border-radius:8px;cursor:pointer;font-size:14px;font-weight:600;
+                       box-shadow:0 4px 12px rgba(0,0,0,0.2)">
+                🖨️ Print / Download PDF
+            </button>
+            <button onclick="window.close()"
+                style="background:#64748b;color:white;border:none;padding:10px 20px;
+                       border-radius:8px;cursor:pointer;font-size:14px;font-weight:600">
+                ✕ Close
+            </button>
+        </div>
+        <style>@media print { button { display: none !important; } body { margin:0; } }</style>
+        '''
+        html = html.replace('<body>', f'<body>{print_btn}')
+        return html.encode('utf-8', errors='replace'), 'text/html; charset=utf-8'
+
+    except requests.exceptions.ConnectionError:
+        err = "<h3 style='color:red;padding:2rem'>Connection error. Check internet.</h3>"
+        return err.encode('utf-8'), 'text/html; charset=utf-8'
+    except Exception as e:
+        err = f"<h3 style='color:red;padding:2rem'>Error: {str(e)}</h3>"
+        return err.encode('utf-8'), 'text/html; charset=utf-8'
+
 def classify_status(status: str) -> str:
     """Improved classification with better Gujarati support"""
     s = status.lower()
@@ -217,19 +357,27 @@ def export_data_js(df):
         else:
             gen_norm = "N/A"
 
+        def clean_num(val):
+            """Strip .0 float suffix from numbers stored as float in Excel"""
+            s = str(val).strip()
+            if s.endswith('.0'):
+                s = s[:-2]
+            return s if s not in ('', 'nan', 'None') else 'N/A'
+
         records.append({
-            "Token No":          str(row.get("Token No", "")),
+            "Token No":          clean_num(row.get("Token No", "")),
             "Application Id":    str(row.get("Application Id", "")),
             "Child Name":        str(row.get("Child Name", "N/A")),
             "DOB":               str(row.get("DOB", "")),
-            "Mobile":            str(row.get("Mobile", "N/A")),
+            "Mobile":            clean_num(row.get("Mobile", "N/A")),
             "Gender":            gen_norm,
             "Area":              str(row.get("Area", "N/A")),
-            "Pincode":           str(row.get("Pincode", "N/A")),
+            "Pincode":           clean_num(row.get("Pincode", "N/A")),
             "Gam":               str(row.get("Gam", "N/A")),
             "Filled By":         str(row.get("કોને ફોર્મ ભર્યું છે?", "")),
             "Status (Gujarati)": str(row.get("Status (Gujarati)", "")),
             "Result":            str(row.get("Result", "PENDING")),
+            "Admit_Card":        str(row.get("Admit_Card", "UNKNOWN")),
         })
     js = (
         f"const RTE_SUMMARY = {json.dumps(summary, ensure_ascii=False, indent=2)};\n"
@@ -307,6 +455,37 @@ class SyncHandler(BaseHTTPRequestHandler):
                 else:
                     self.wfile.write(json.dumps({"status": "success" if result else "failed"}).encode())
                 return
+
+        if parsed.path == '/admitcard':
+            app_id = params.get('app_id', [None])[0]
+            dob    = params.get('dob',    [None])[0]
+            
+            if app_id and GLOBAL_DF is not None:
+                # Find DOB from dataframe if not provided
+                if not dob or dob == 'None':
+                    idx_list = GLOBAL_DF.index[
+                        GLOBAL_DF['Application Id'].astype(str).str.strip() == app_id.strip()
+                    ].tolist()
+                    if idx_list:
+                        dob = str(GLOBAL_DF.at[idx_list[0], "DOB"]).strip()
+                
+                log(f"[ADMIT CARD] Fetching for: {app_id} DOB: {dob}", "FETCH")
+                content_bytes, content_type = fetch_admit_card(app_id, dob)
+
+                self.send_response(200)
+                self.send_header('Content-Type', content_type)
+                self.send_header('Content-Length', str(len(content_bytes)))
+                self.send_header('Access-Control-Allow-Origin', '*')
+                if 'pdf' in content_type:
+                    self.send_header('Content-Disposition', f'inline; filename="AdmitCard_{app_id}.pdf"')
+                self.end_headers()
+                self.wfile.write(content_bytes)
+                return
+            
+            self.send_response(400)
+            self.end_headers()
+            return
+
         self.send_response(404)
         self.end_headers()
 
@@ -346,6 +525,7 @@ def sync_single(app_id, return_html=False):
             return f"Error fetching portal: {str(e)}"
 
     data = fetch_status(app_id, dob)
+    admit = fetch_admit_card_status(app_id, dob)
     with WRITE_LOCK:
         GLOBAL_DF.at[idx, "Status (Gujarati)"] = data["status"]
         GLOBAL_DF.at[idx, "Child Name"]        = data["child_name"]
@@ -353,14 +533,15 @@ def sync_single(app_id, return_html=False):
         GLOBAL_DF.at[idx, "Gender"]            = data["lig"]
         GLOBAL_DF.at[idx, "Area"]              = data["area"]
         GLOBAL_DF.at[idx, "Pincode"]           = data["pincode"]
-        GLOBAL_DF.at[idx, "Gam"]               = data["gam"]
+        GLOBAL_DF.at[idx, "Gam"]              = data["gam"]
         GLOBAL_DF.at[idx, "Result"]            = classify_status(data["status"])
+        GLOBAL_DF.at[idx, "Admit_Card"]        = admit
         try:
             save_excel(GLOBAL_DF)
             export_data_js(GLOBAL_DF)
         except:
             pass
-    log(f"Remote sync: {app_id} → {data['child_name']} | {data['mobile']}", "OK")
+    log(f"Remote sync: {app_id} → {data['child_name']} | {data['mobile']} | Admit:{admit}", "OK")
     return True
 
 def start_server():
@@ -373,19 +554,22 @@ def process_record(args):
     idx, app_id, dob, num, total = args
     data = fetch_status(app_id, dob)
     cat = classify_status(data["status"])
+    # Check admit card status for all (not just approved)
+    admit_status = fetch_admit_card_status(app_id, dob)
     return {
-        "idx":    idx,
-        "status": data["status"],
-        "child":  data["child_name"],
-        "mobile": data["mobile"],
-        "elig":   data["lig"],
-        "earea":  data["area"],
-        "epin":   data["pincode"],
-        "gam":    data["gam"],
-        "cat":    cat,
-        "app_id": app_id,
-        "num":    num,
-        "total":  total,
+        "idx":         idx,
+        "status":      data["status"],
+        "child":       data["child_name"],
+        "mobile":      data["mobile"],
+        "elig":        data["lig"],
+        "earea":       data["area"],
+        "epin":        data["pincode"],
+        "gam":         data["gam"],
+        "cat":         cat,
+        "admit_card":  admit_status,
+        "app_id":      app_id,
+        "num":         num,
+        "total":       total,
     }
 
 # ── Main ───────────────────────────────────────────────────────
@@ -414,14 +598,15 @@ def main():
                 aid = str(r.get("Application Id", "")).strip()
                 if aid:
                     cache[aid] = {
-                        "Result": str(r.get("Result", "PENDING")),
-                        "Status": str(r.get("Status (Gujarati)", "")),
-                        "Child":  str(r.get("Child Name", "N/A")),
-                        "Mobile": str(r.get("Mobile", "N/A")),
-                        "Gender": str(r.get("Gender", "N/A")),
-                        "Area":   str(r.get("Area", "N/A")),
-                        "Pincode":str(r.get("Pincode", "N/A")),
-                        "Gam":    str(r.get("Gam", "N/A")),
+                        "Result":     str(r.get("Result", "PENDING")),
+                        "Status":     str(r.get("Status (Gujarati)", "")),
+                        "Child":      str(r.get("Child Name", "N/A")),
+                        "Mobile":     str(r.get("Mobile", "N/A")),
+                        "Gender":     str(r.get("Gender", "N/A")),
+                        "Area":       str(r.get("Area", "N/A")),
+                        "Pincode":    str(r.get("Pincode", "N/A")),
+                        "Gam":        str(r.get("Gam", "N/A")),
+                        "Admit_Card": str(r.get("Admit_Card", "UNKNOWN")),
                     }
             log(f"Cache loaded: {len(cache)} records", "OK")
         except Exception as e:
@@ -438,6 +623,7 @@ def main():
     GLOBAL_DF["Gam"]               = "N/A"
     GLOBAL_DF["Status (Gujarati)"] = ""
     GLOBAL_DF["Result"]            = "PENDING"
+    GLOBAL_DF["Admit_Card"]        = "UNKNOWN"
 
     # Apply cache
     for i, row in GLOBAL_DF.iterrows():
@@ -451,6 +637,7 @@ def main():
             GLOBAL_DF.at[i, "Area"]              = cache[aid]["Area"]
             GLOBAL_DF.at[i, "Pincode"]           = cache[aid]["Pincode"]
             GLOBAL_DF.at[i, "Gam"]               = cache[aid]["Gam"]
+            GLOBAL_DF.at[i, "Admit_Card"]        = cache[aid]["Admit_Card"]
 
     total = len(GLOBAL_DF)
     approved = int((GLOBAL_DF["Result"] == "APPROVED").sum())
@@ -498,6 +685,7 @@ def main():
                     GLOBAL_DF.at[idx, "Pincode"]           = res["epin"]
                     GLOBAL_DF.at[idx, "Gam"]               = res["gam"]
                     GLOBAL_DF.at[idx, "Result"]            = cat
+                    GLOBAL_DF.at[idx, "Admit_Card"]        = res["admit_card"]
 
                 checked += 1
                 completed_count += 1
