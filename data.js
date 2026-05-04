@@ -2,9 +2,9 @@ const RTE_SUMMARY = {
   "total": 718,
   "approved": 598,
   "submitted": 0,
-  "pending": 0,
-  "error": 120,
-  "last_updated": "04-05-2026 08:18:07"
+  "pending": 4,
+  "error": 116,
+  "last_updated": "04-05-2026 13:27:39"
 };
 const RTE_DATA = [
   {
@@ -88,7 +88,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S  R PATHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -102,7 +102,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -144,7 +144,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -158,7 +158,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "QURESHI",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -284,21 +284,21 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
     "Token No": "33",
     "Application Id": " GJ/2026-27/SRC/2230445",
-    "Child Name": "N/A",
+    "Child Name": "MAHERA SALIM SHAIKH",
     "DOB": "27-05-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9033552557",
+    "Gender": "GIRL",
+    "Area": "SAGRAMPURA",
+    "Pincode": "395002",
+    "Gam": "SAGRAMPURA",
     "Filled By": "IMRAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -332,15 +332,15 @@ const RTE_DATA = [
   {
     "Token No": "43",
     "Application Id": "GJ/2026-27/SRC/2288692",
-    "Child Name": "N/A",
+    "Child Name": "NOMAN MOHSIN PINJARI",
     "DOB": "15-07-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9879049881",
+    "Gender": "BOY",
+    "Area": "LIMBAYAT",
+    "Pincode": "394210",
+    "Gam": "LIMBAYAT",
     "Filled By": "nan",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -578,7 +578,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "Amaan",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -886,7 +886,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN ",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -900,7 +900,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MUKHTAR - 9825686968",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -1306,7 +1306,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "M G LAKDAWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -1320,7 +1320,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATHA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -1376,7 +1376,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -1516,7 +1516,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -1628,21 +1628,21 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "QURESHI",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
     "Token No": "156",
     "Application Id": "GJ/2026-27/SRC/2182603",
-    "Child Name": "N/A",
+    "Child Name": "MOHAMMAD ZUBER MOHAMAD IFTIKHAR SHAIKH",
     "DOB": "10-02-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9898957851",
+    "Gender": "BOY",
+    "Area": "NANPURA",
+    "Pincode": "395001",
+    "Gam": "NANPURA",
     "Filled By": "Amaan",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -1900,15 +1900,15 @@ const RTE_DATA = [
   {
     "Token No": "180",
     "Application Id": " GJ/2026-27/SRC/2273377",
-    "Child Name": "N/A",
+    "Child Name": "ALIAN MO.ARIF ANSARI",
     "DOB": "11-03-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "8488990883",
+    "Gender": "GIRL",
+    "Area": "SAIYEDPURA",
+    "Pincode": "395003",
+    "Gam": "SAGRAMPURA",
     "Filled By": "MOHSIN KHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -1942,15 +1942,15 @@ const RTE_DATA = [
   {
     "Token No": "186",
     "Application Id": "GJ/2026-27/SRC/2183175",
-    "Child Name": "N/A",
+    "Child Name": "MOHAMMAD AYAN MOHAMMED FUZEL MALEK",
     "DOB": "18-11-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9879814246",
+    "Gender": "BOY",
+    "Area": "TURKIWAD MUGLISARA",
+    "Pincode": "395003",
+    "Gam": "NANAVAT",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -1964,7 +1964,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATHAAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -2040,15 +2040,15 @@ const RTE_DATA = [
   {
     "Token No": "193",
     "Application Id": "GJ/2026-27/SRC/2183429",
-    "Child Name": "N/A",
+    "Child Name": "ASHMIRA MOHMAD TAUSIF MANSURI",
     "DOB": "30-11-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "6354501628",
+    "Gender": "GIRL",
+    "Area": "VARYAVI BAZAR",
+    "Pincode": "395003",
+    "Gam": "SAIYADPURA",
     "Filled By": "QURESHI",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -2138,15 +2138,15 @@ const RTE_DATA = [
   {
     "Token No": "202",
     "Application Id": "GJ/2026-27/SRC/2210585",
-    "Child Name": "N/A",
+    "Child Name": "UMMEHAANI ASHFAQUE SHAH",
     "DOB": "20-04-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "8160140266",
+    "Gender": "GIRL",
+    "Area": "DUMBHAL",
+    "Pincode": "395002",
+    "Gam": "DUMBHAL",
     "Filled By": "IMRAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -2202,7 +2202,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -2216,7 +2216,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -2370,7 +2370,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATHAAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -2384,7 +2384,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "IMRAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -2454,21 +2454,21 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
     "Token No": "231",
     "Application Id": "GJ/2026-27/SRC/2232738",
-    "Child Name": "N/A",
+    "Child Name": "MOHAMMAD HAMZA MOHAMMAD JUNED MASTER",
     "DOB": "08-07-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9638193923",
+    "Gender": "BOY",
+    "Area": "MOMNAVAD",
+    "Pincode": "395001",
+    "Gam": "GOPIPURA",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -2502,15 +2502,15 @@ const RTE_DATA = [
   {
     "Token No": "235",
     "Application Id": "GJ/2026-27/SRC/2184214",
-    "Child Name": "N/A",
+    "Child Name": "AFIYA ASIFMIYA KHARADI",
     "DOB": "31-08-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9925523296",
+    "Gender": "GIRL",
+    "Area": "GOPIPURA",
+    "Pincode": "395001",
+    "Gam": "GOPIPURA",
     "Filled By": "ADV S R PATHAAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -2692,7 +2692,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -2712,15 +2712,15 @@ const RTE_DATA = [
   {
     "Token No": "254",
     "Application Id": "GJ/2026-27/SRC/2238669",
-    "Child Name": "N/A",
+    "Child Name": "AAYAT IMRAN SHAH",
     "DOB": "19-08-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9879068344",
+    "Gender": "GIRL",
+    "Area": "NANPURA",
+    "Pincode": "395001",
+    "Gam": "NANPURA",
     "Filled By": "MOHSIN KHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -2874,7 +2874,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "nan",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -2958,7 +2958,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KAHN ",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -2972,7 +2972,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "IMRAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -3084,7 +3084,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -3308,7 +3308,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -3350,7 +3350,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MADNI",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -3412,15 +3412,15 @@ const RTE_DATA = [
   {
     "Token No": "312",
     "Application Id": "GJ/2026-27/SRC/2207547",
-    "Child Name": "N/A",
+    "Child Name": "MOHAMMED GULAHMED PANWALA",
     "DOB": "13-08-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "7405251413",
+    "Gender": "BOY",
+    "Area": "JILANI TOWER ADAJAN PATIYA RANDER ROAD",
+    "Pincode": "395009",
+    "Gam": "ADAJAN",
     "Filled By": "QURESHI",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -3448,7 +3448,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -3510,29 +3510,29 @@ const RTE_DATA = [
   {
     "Token No": "322",
     "Application Id": "GJ/2026-27/SRC/2207154",
-    "Child Name": "N/A",
+    "Child Name": "NABILA BANU AHMED NOOR SHAIKH",
     "DOB": "23-06-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "8141079302",
+    "Gender": "GIRL",
+    "Area": "GOPIPURA",
+    "Pincode": "395001",
+    "Gam": "GOPIPURA",
     "Filled By": "SHAIKH NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
     "Token No": "322",
     "Application Id": "GJ/2026-27/SRC/2207953",
-    "Child Name": "N/A",
+    "Child Name": "NABILABANU AHMEDNOOR SHAIKH",
     "DOB": "23-06-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "8141079302",
+    "Gender": "GIRL",
+    "Area": "GOPIPURA",
+    "Pincode": "395001",
+    "Gam": "GOPIPURA",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -3622,15 +3622,15 @@ const RTE_DATA = [
   {
     "Token No": "333",
     "Application Id": "GJ/2026-27/SRC/2233145",
-    "Child Name": "N/A",
+    "Child Name": "MOHAMMAD ARSH MO. RIYAZ MALEK",
     "DOB": "04-10-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9727048923",
+    "Gender": "BOY",
+    "Area": "SACHIN",
+    "Pincode": "394230",
+    "Gam": "SURAT CITY",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -3742,7 +3742,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "Amaan",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -3798,7 +3798,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -4022,7 +4022,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "IMRAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -4092,7 +4092,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -4162,7 +4162,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "M G LAKDAWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -4210,29 +4210,29 @@ const RTE_DATA = [
   {
     "Token No": "390",
     "Application Id": "GJ/2026-27/SRC/2233117",
-    "Child Name": "N/A",
+    "Child Name": "BADRUDOJA MOHAMMAD SARTAJ RAEEN",
     "DOB": "16-07-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9265929679",
+    "Gender": "BOY",
+    "Area": "BAVASIDI TEKRA",
+    "Pincode": "395001",
+    "Gam": "GOPIPURA",
     "Filled By": "M G LAKDAWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
     "Token No": "390",
     "Application Id": "GJ/2026-27/SRC/2233117",
-    "Child Name": "N/A",
+    "Child Name": "BADRUDOJA MOHAMMAD SARTAJ RAEEN",
     "DOB": "16-07-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9265929679",
+    "Gender": "BOY",
+    "Area": "BAVASIDI TEKRA",
+    "Pincode": "395001",
+    "Gam": "GOPIPURA",
     "Filled By": "M G LAKDAWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -4350,15 +4350,15 @@ const RTE_DATA = [
   {
     "Token No": "398",
     "Application Id": "GJ/2026-27/SRC/2252911",
-    "Child Name": "N/A",
+    "Child Name": "MOHAMMAD ZUBAIR ABDUL HAMID SHAH",
     "DOB": "23-11-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9510956369",
+    "Gender": "BOY",
+    "Area": "KADARSHAH NI NAAL",
+    "Pincode": "395001",
+    "Gam": "NANPURA",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -4414,21 +4414,21 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "Amaan",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
     "Token No": "400",
     "Application Id": "GJ/2026-27/SRC/2233206",
-    "Child Name": "N/A",
+    "Child Name": "AAHIL ALMAS BHARUCHA",
     "DOB": "14-02-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "7405183050",
+    "Gender": "BOY",
+    "Area": "SODAGERWAD",
+    "Pincode": "395003",
+    "Gam": "SODAGARWAD",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -4442,7 +4442,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -4526,7 +4526,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -4708,7 +4708,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -4750,7 +4750,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATAHN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -4820,7 +4820,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -4868,15 +4868,15 @@ const RTE_DATA = [
   {
     "Token No": "443",
     "Application Id": "GJ/2026-27/SRC/2267669",
-    "Child Name": "N/A",
+    "Child Name": "MOHAMMAD NOMAN NAVIDANJUM RANGREJ",
     "DOB": "14-12-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9081019408",
+    "Gender": "BOY",
+    "Area": "GOPIPURA",
+    "Pincode": "395001",
+    "Gam": "GOPIPURA",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -4924,15 +4924,15 @@ const RTE_DATA = [
   {
     "Token No": "447",
     "Application Id": "GJ/2026-27/SRC/2272553",
-    "Child Name": "N/A",
+    "Child Name": "ZAINAB IKBALKHAN PATHAN",
     "DOB": "19-08-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "7016137650",
+    "Gender": "GIRL",
+    "Area": "KATARGAM",
+    "Pincode": "395004",
+    "Gam": "KATARGAM",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -4946,7 +4946,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "Amaan",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -5148,15 +5148,15 @@ const RTE_DATA = [
   {
     "Token No": "467",
     "Application Id": "GJ/2026-27/SRC/2274125",
-    "Child Name": "N/A",
+    "Child Name": "ZEENAT MOHAMMAD ALTAF DOBA",
     "DOB": "30-09-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "6359658865",
+    "Gender": "GIRL",
+    "Area": "BEGAMPURA",
+    "Pincode": "395003",
+    "Gam": "BEGAMPURA",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -5268,7 +5268,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -5282,7 +5282,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "AMAAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -5296,7 +5296,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -5310,7 +5310,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -5534,7 +5534,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -5576,7 +5576,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN ",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -5590,21 +5590,21 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "M G LAKDAWAL",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
     "Token No": "508",
     "Application Id": "GJ/2026-27/SRC/2201709",
-    "Child Name": "N/A",
+    "Child Name": "SHAIKH MAHIRA MOHAMMAD ZUBER ILYAS SHAIKH SHAIKH",
     "DOB": "27-03-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9624460325",
+    "Gender": "GIRL",
+    "Area": "UNN",
+    "Pincode": "394210",
+    "Gam": "Unn",
     "Filled By": "MUKHTAR",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -5624,15 +5624,15 @@ const RTE_DATA = [
   {
     "Token No": "511",
     "Application Id": "GJ/2026-27/SRC/2205740",
-    "Child Name": "N/A",
+    "Child Name": "SHAAD ALI FAIZAL JARIWALA",
     "DOB": "09-05-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9979765038",
+    "Gender": "BOY",
+    "Area": "GOPIPURA",
+    "Pincode": "395001",
+    "Gam": "GOPIPURA",
     "Filled By": "IMRAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -5646,7 +5646,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN ",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -5660,7 +5660,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -5674,7 +5674,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -5688,7 +5688,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "PARVEZ",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -5856,7 +5856,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -6052,7 +6052,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -6066,7 +6066,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "mosin",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -6080,7 +6080,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "mosin",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -6178,7 +6178,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MUSTAK",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -6268,15 +6268,15 @@ const RTE_DATA = [
   {
     "Token No": "570",
     "Application Id": "GJ/2026-27/SRC/2273224",
-    "Child Name": "N/A",
+    "Child Name": "MOHAMMAD HAARIS MOHAMMAD HAARIS SHAIKH",
     "DOB": "17-01-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "7802820848",
+    "Gender": "BOY",
+    "Area": "NEAR HAJURI CHAMBERS",
+    "Pincode": "395003",
+    "Gam": "BEGAMPURA",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -6380,15 +6380,15 @@ const RTE_DATA = [
   {
     "Token No": "583",
     "Application Id": "GJ/2026-27/SRC/2310596",
-    "Child Name": "N/A",
+    "Child Name": "MOHAMMAD RUHAN ABDUL RASHID MESANIYA",
     "DOB": "29-06-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9586110486",
+    "Gender": "BOY",
+    "Area": "Bela Industrial Estate",
+    "Pincode": "395003",
+    "Gam": "SALABATPURA",
     "Filled By": "ARSHAD ALI",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -6436,15 +6436,15 @@ const RTE_DATA = [
   {
     "Token No": "588",
     "Application Id": "GJ/2026-27/SRC/2197750",
-    "Child Name": "N/A",
+    "Child Name": "UMAIR AYAZUDDIN SHAIKH",
     "DOB": "24-06-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9998709823",
+    "Gender": "BOY",
+    "Area": "KOSAD",
+    "Pincode": "394107",
+    "Gam": "KOSAD",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -6500,7 +6500,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ARSHAD ALI",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -6534,29 +6534,29 @@ const RTE_DATA = [
   {
     "Token No": "598",
     "Application Id": "GJ/2026-27/SRC/2310589",
-    "Child Name": "N/A",
+    "Child Name": "NIMRA MOHSIN PATHAN",
     "DOB": "06-07-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "8140864087",
+    "Gender": "GIRL",
+    "Area": "KADAR SHAH NI NAL",
+    "Pincode": "395001",
+    "Gam": "NANPURA",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
     "Token No": "600",
     "Application Id": "GJ/2026-27/SRC/2314741",
-    "Child Name": "N/A",
+    "Child Name": "FAIZAN HUSAIN SHAIKH",
     "DOB": "14-09-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "8000435667",
+    "Gender": "BOY",
+    "Area": "RUSTAMPURA",
+    "Pincode": "395002",
+    "Gam": "SAGRAMPURA",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -6702,15 +6702,15 @@ const RTE_DATA = [
   {
     "Token No": "614",
     "Application Id": "GJ/2026-27/SRC/2274171",
-    "Child Name": "N/A",
+    "Child Name": "AJIJA ZAHIR SHAIKH",
     "DOB": "19-09-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9825185512",
+    "Gender": "GIRL",
+    "Area": "CHIMANI TEKARO JUNA DEPO",
+    "Pincode": "395002",
+    "Gam": "UMARWADA",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -6730,29 +6730,29 @@ const RTE_DATA = [
   {
     "Token No": "618",
     "Application Id": "GJ/2026-27/SRC/2274342",
-    "Child Name": "N/A",
+    "Child Name": "ARISH AZAHARUDDIN MUJAWAR",
     "DOB": "12-03-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9909812786",
+    "Gender": "BOY",
+    "Area": "NEAR TANTWAD MASJID",
+    "Pincode": "395001",
+    "Gam": "GOPIPURA",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
     "Token No": "618",
     "Application Id": "GJ/2026-27/SRC/2274342",
-    "Child Name": "N/A",
+    "Child Name": "ARISH AZAHARUDDIN MUJAWAR",
     "DOB": "12-03-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9909812786",
+    "Gender": "BOY",
+    "Area": "NEAR TANTWAD MASJID",
+    "Pincode": "395001",
+    "Gam": "GOPIPURA",
     "Filled By": "M G LAKDAWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -6808,7 +6808,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -6870,15 +6870,15 @@ const RTE_DATA = [
   {
     "Token No": "630",
     "Application Id": "GJ/2026-27/SRC/2293508",
-    "Child Name": "N/A",
+    "Child Name": "VIANSH DIVYESHKUMAR SONDARVA",
     "DOB": "24-08-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9825120985",
+    "Gender": "BOY",
+    "Area": "ZAMPA BAZAR",
+    "Pincode": "395003",
+    "Gam": "BEGAMPURA",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -7060,7 +7060,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHAMAD JAVID KUMBHAR",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -7234,15 +7234,15 @@ const RTE_DATA = [
   {
     "Token No": "572",
     "Application Id": "GJ/2026-27/SRC/2324374",
-    "Child Name": "N/A",
+    "Child Name": "NOUMAN SAIYED ALI SAIYED",
     "DOB": "16-03-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9327540050",
+    "Gender": "BOY",
+    "Area": "SAIYEDPURA",
+    "Pincode": "392003",
+    "Gam": "SAIYADPURA",
     "Filled By": "M G LAKDAWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -7368,7 +7368,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -7416,15 +7416,15 @@ const RTE_DATA = [
   {
     "Token No": "68",
     "Application Id": "GJ/2026-27/SRC/2332226",
-    "Child Name": "N/A",
+    "Child Name": "NOMAN MOHSIN PINJARI",
     "DOB": "15-07-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9879049881",
+    "Gender": "BOY",
+    "Area": "LIMBAYAT",
+    "Pincode": "394210",
+    "Gam": "LIMBAYAT",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -7472,16 +7472,16 @@ const RTE_DATA = [
   {
     "Token No": "651",
     "Application Id": " GJ/2026-27/SRC/2333664",
-    "Child Name": "N/A",
+    "Child Name": "RABIYA JAFARKHAN PATHAN",
     "DOB": "16-10-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9979551351",
+    "Gender": "GIRL",
+    "Area": "UMARWADA",
+    "Pincode": "395002",
+    "Gam": "UMARWADA",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
-    "Result": "ERROR"
+    "Status (Gujarati)": "anganwadi na 2 yers complete nathi",
+    "Result": "PENDING"
   },
   {
     "Token No": "514",
@@ -7592,7 +7592,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MADNI",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -7732,7 +7732,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ARSHAD ALI",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -7780,15 +7780,15 @@ const RTE_DATA = [
   {
     "Token No": "661",
     "Application Id": " GJ/2026-27/SRC/2338788",
-    "Child Name": "N/A",
+    "Child Name": "AHMED YAKUB MOTIWALA",
     "DOB": "03-04-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "7203078688",
+    "Gender": "BOY",
+    "Area": "ADAJAN",
+    "Pincode": "395009",
+    "Gam": "ADAJAN",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -7878,15 +7878,15 @@ const RTE_DATA = [
   {
     "Token No": "665",
     "Application Id": "GJ/2026-27/SRC/2339062",
-    "Child Name": "N/A",
+    "Child Name": "AAYAT MOHAMMAD ASHRAF KHARADI",
     "DOB": "21-06-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "8849059910",
+    "Gender": "GIRL",
+    "Area": "OPP. ALVI ROW HOUSE",
+    "Pincode": "395009",
+    "Gam": "RANDER",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -7920,15 +7920,15 @@ const RTE_DATA = [
   {
     "Token No": "52",
     "Application Id": " GJ/2026-27/SRC/2339193",
-    "Child Name": "N/A",
+    "Child Name": "AISHA IMRAN MANSUR",
     "DOB": "02-03-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "7016269517",
+    "Gender": "GIRL",
+    "Area": "RANDER",
+    "Pincode": "395005",
+    "Gam": "RANDER",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -8214,16 +8214,16 @@ const RTE_DATA = [
   {
     "Token No": "293",
     "Application Id": "GJ/2026-27/SRC/2373599",
-    "Child Name": "N/A",
+    "Child Name": "ASHHAR MOHAMMED NASIM ANSARI",
     "DOB": "16-02-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "8264969600",
+    "Gender": "BOY",
+    "Area": "UNN",
+    "Pincode": "394210",
+    "Gam": "Unn",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
-    "Result": "ERROR"
+    "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
+    "Result": "PENDING"
   },
   {
     "Token No": "674",
@@ -8508,16 +8508,16 @@ const RTE_DATA = [
   {
     "Token No": "652",
     "Application Id": "GJ/2026-27/SRC/2376580",
-    "Child Name": "N/A",
+    "Child Name": "HASNAIN ISTIYAK SHEKH",
     "DOB": "30-06-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9586438778",
+    "Gender": "BOY",
+    "Area": "SHERALIBAVA NI DARGAH NO VISHTAR",
+    "Pincode": "395002",
+    "Gam": "SAGRAMPURA",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
-    "Result": "ERROR"
+    "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
+    "Result": "PENDING"
   },
   {
     "Token No": "652",
@@ -8586,7 +8586,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -9034,7 +9034,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -9124,15 +9124,15 @@ const RTE_DATA = [
   {
     "Token No": "695",
     "Application Id": "GJ/2026-27/SRC/2403676",
-    "Child Name": "N/A",
+    "Child Name": "RIDAZAHRA MOHAMMAD YUSUF PATHAN",
     "DOB": "20-05-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9712007037",
+    "Gender": "GIRL",
+    "Area": "UMARWADA",
+    "Pincode": "395002",
+    "Gam": "UMARWADA",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -9208,15 +9208,15 @@ const RTE_DATA = [
   {
     "Token No": "697",
     "Application Id": "GJ/2026-27/SRC/2406089",
-    "Child Name": "N/A",
+    "Child Name": "NOOR FATEMA MO TOFIK MANSURI",
     "DOB": "25-11-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "8460333425",
+    "Gender": "GIRL",
+    "Area": "MURAGVAN TEKRA",
+    "Pincode": "395003",
+    "Gam": "BEGAMPURA",
     "Filled By": "SAMIR MOMIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -9468,7 +9468,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATHAN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -9580,7 +9580,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -9594,7 +9594,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -9650,21 +9650,21 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
     "Token No": "712",
     "Application Id": "GJ/2026-27/SRC/2430231",
-    "Child Name": "N/A",
+    "Child Name": "AEMAN KAMIL SHEKH",
     "DOB": "17-02-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "7777993155",
+    "Gender": "GIRL",
+    "Area": "SAHARA DAEWAJA",
+    "Pincode": "395010",
+    "Gam": "UMARWADA",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -9712,16 +9712,16 @@ const RTE_DATA = [
   {
     "Token No": "504",
     "Application Id": "GJ/2026-27/SRC/2431906",
-    "Child Name": "N/A",
+    "Child Name": "ARAV SURESH RATHOD",
     "DOB": "21-05-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9825274436",
+    "Gender": "BOY",
+    "Area": "MALBARI SAHEB NO TEKRO",
+    "Pincode": "395002",
+    "Gam": "SAGRAMPURA",
     "Filled By": "ARSHAD ALI",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
-    "Result": "ERROR"
+    "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
+    "Result": "PENDING"
   },
   {
     "Token No": "673",
@@ -9902,7 +9902,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -9930,7 +9930,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MADNI",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
