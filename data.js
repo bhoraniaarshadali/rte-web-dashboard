@@ -1,10 +1,10 @@
 const RTE_SUMMARY = {
   "total": 719,
-  "approved": 600,
+  "approved": 597,
   "submitted": 0,
   "pending": 6,
-  "error": 113,
-  "last_updated": "04-05-2026 22:12:36"
+  "error": 116,
+  "last_updated": "05-05-2026 21:47:31"
 };
 const RTE_DATA = [
   {
@@ -440,7 +440,7 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "ERROR"
   },
   {
     "Token No": "50",
@@ -455,7 +455,7 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "ERROR"
   },
   {
     "Token No": "51",
@@ -470,7 +470,7 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "ERROR"
   },
   {
     "Token No": "53",
@@ -2665,17 +2665,17 @@ const RTE_DATA = [
   {
     "Token No": "234",
     "Application Id": "GJ/2026-27/SRC/2184526",
-    "Child Name": "FARIHA MO SARFARAZ MANSURI",
+    "Child Name": "N/A",
     "DOB": "03-03-2020",
-    "Mobile": "7778885253",
-    "Gender": "GIRL",
-    "Area": "NEAR PUMPING",
-    "Pincode": "395003",
-    "Gam": "SAIYADPURA",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "SAMIR MOMIN",
-    "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
-    "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Status (Gujarati)": "Status not found",
+    "Result": "ERROR",
+    "Admit_Card": "NOT_AVAILABLE"
   },
   {
     "Token No": "235",
@@ -2740,17 +2740,17 @@ const RTE_DATA = [
   {
     "Token No": "241",
     "Application Id": "GJ/2026-27/SRC/2266846",
-    "Child Name": "FUAAD MOHMED FAIEM HAFEZJI",
+    "Child Name": "N/A",
     "DOB": "20-12-2019",
-    "Mobile": "9727255629",
-    "Gender": "BOY",
-    "Area": "SAGRAMPURA",
-    "Pincode": "395002",
-    "Gam": "SAGRAMPURA",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "MOHSIN KHAN",
-    "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
-    "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Status (Gujarati)": "Status not found",
+    "Result": "ERROR",
+    "Admit_Card": "NOT_AVAILABLE"
   },
   {
     "Token No": "241",
@@ -3196,7 +3196,7 @@ const RTE_DATA = [
     "Gender": "GIRL",
     "Area": "UMARWADA",
     "Pincode": "395002",
-    "Gam": "nan",
+    "Gam": "N/A",
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
@@ -7115,7 +7115,7 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "ERROR"
   },
   {
     "Token No": "608",
@@ -9286,7 +9286,7 @@ const RTE_DATA = [
     "Gender": "GIRL",
     "Area": "LIMBAYAT",
     "Pincode": "394210",
-    "Gam": "nan",
+    "Gam": "N/A",
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
@@ -9565,17 +9565,17 @@ const RTE_DATA = [
   {
     "Token No": "688",
     "Application Id": "GJ/2026-27/SRC/2397960",
-    "Child Name": "UMMUL KHAIR MOHAMED IRSHAD MAULVI",
+    "Child Name": "N/A",
     "DOB": "10-02-2020",
-    "Mobile": "8460924912",
-    "Gender": "GIRL",
-    "Area": "SAGRAMPURA",
-    "Pincode": "395002",
-    "Gam": "SAGRAMPURA",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
-    "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Status (Gujarati)": "Status not found",
+    "Result": "ERROR",
+    "Admit_Card": "NOT_AVAILABLE"
   },
   {
     "Token No": "687",

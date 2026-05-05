@@ -643,6 +643,34 @@
                 <div class="stat-lbl">Rejected</div>
             </div>
 
+            <!-- New Admission Analysis Card -->
+            <div class="card chart-container AdmissionAnalysisCard" style="grid-column: 1 / -1; min-height: 180px;">
+                <div class="chart-title">Admission Outcome Analysis <span>Approved Applications Only</span></div>
+                <div class="admission-stats" style="display: flex; flex-direction: column; gap: 1.5rem; justify-content: center; height: 100%;">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-end;">
+                        <div>
+                            <div id="vConfirmed" style="font-size: 2.5rem; font-weight: 700; color: var(--green); line-height: 1;">0</div>
+                            <div style="font-size: 0.75rem; color: var(--muted-2); margin-top: 4px; letter-spacing: 0.05em;">ADMISSION CONFIRMED</div>
+                            <div style="font-size: 0.7rem; color: var(--green); opacity: 0.8; margin-top: 2px;">પ્રવેશ મળેલ છે</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div id="vRemaining" style="font-size: 2.5rem; font-weight: 700; color: var(--yellow); line-height: 1;">0</div>
+                            <div style="font-size: 0.75rem; color: var(--muted-2); margin-top: 4px; letter-spacing: 0.05em;">WAITING/NOT ALLOTTED</div>
+                            <div style="font-size: 0.7rem; color: var(--yellow); opacity: 0.8; margin-top: 2px;">પ્રવેશ શક્ય બનેલ નથી</div>
+                        </div>
+                    </div>
+                    
+                    <div class="progress-container" style="background: rgba(255,255,255,0.05); height: 12px; border-radius: 6px; overflow: hidden; display: flex;">
+                        <div id="pConfirmed" style="height: 100%; background: var(--green); transition: width 1s ease-out;"></div>
+                        <div id="pRemaining" style="height: 100%; background: var(--yellow); opacity: 0.6; transition: width 1s ease-out;"></div>
+                    </div>
+
+                    <div style="font-size: 0.85rem; color: var(--muted); text-align: center; font-style: italic;">
+                        <span id="pPercentage">0%</span> of approved applications have secured admission
+                    </div>
+                </div>
+            </div>
+
             <div class="card chart-container">
                 <div class="chart-title">Gender Distribution <span>Ratio Analysis</span></div>
                 <div class="gender-split">
@@ -753,6 +781,25 @@
             document.getElementById('tPending').textContent = pending;
             document.getElementById('tRejected').textContent = error;
             document.getElementById('updateTs').textContent = 'Last sync: ' + (originalSummary.last_updated || 'Just now');
+
+            // Admission Analysis for Approved (Accurate Check)
+            const approvedData = data.filter(r => r.Result === 'APPROVED');
+            
+            // Logic: "પ્રવેશ મળેલ છે" in status OR Admit_Card is AVAILABLE
+            const confirmedData = approvedData.filter(r => {
+                const statusText = String(r['Status (Gujarati)'] || '');
+                return statusText.includes('પ્રવેશ મળેલ છે') || r.Admit_Card === 'AVAILABLE';
+            });
+
+            const confirmed = confirmedData.length;
+            const remaining = approvedData.length - confirmed;
+            const confirmedPct = approvedData.length > 0 ? Math.round((confirmed / approvedData.length) * 100) : 0;
+
+            document.getElementById('vConfirmed').textContent = confirmed;
+            document.getElementById('vRemaining').textContent = remaining;
+            document.getElementById('pConfirmed').style.width = confirmedPct + '%';
+            document.getElementById('pRemaining').style.width = (100 - confirmedPct) + '%';
+            document.getElementById('pPercentage').textContent = confirmedPct + '%';
 
             const genderData = data.filter(r => r.Result !== 'ERROR');
 

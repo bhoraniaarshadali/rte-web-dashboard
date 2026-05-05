@@ -196,6 +196,10 @@
         .stat.s-approved {
             border-left-color: #10b981;
         }
+ 
+        .stat.s-confirmed {
+            border-left-color: #059669; /* Darker green */
+        }
 
         .stat.s-submitted {
             border-left-color: #3b82f6;
@@ -645,7 +649,7 @@
             }
 
             .stats {
-                grid-template-columns: repeat(5, minmax(0, 1fr));
+                grid-template-columns: repeat(3, minmax(0, 1fr));
             }
 
             .record-cards {
@@ -685,6 +689,10 @@
             .container {
                 max-width: 1500px;
                 padding: 1.2rem;
+            }
+
+            .stats {
+                grid-template-columns: repeat(6, minmax(0, 1fr));
             }
 
             .btn {
@@ -766,6 +774,10 @@
             <div class="stat s-approved" onclick="setFilter('APPROVED',this)">
                 <div class="num" id="sApproved">—</div>
                 <div class="lbl">Approved</div>
+            </div>
+            <div class="stat s-confirmed" onclick="setFilter('CONFIRMED',this)">
+                <div class="num" id="sConfirmed">—</div>
+                <div class="lbl">Admission Confirmed</div>
             </div>
             <div class="stat s-submitted" onclick="setFilter('SUBMITTED',this)">
                 <div class="num" id="sSubmitted">—</div>
@@ -890,12 +902,17 @@
         function updateSummaryFromFilteredData() {
             const total = ALL_DATA.length;
             const approved = ALL_DATA.filter(r => r.Result === 'APPROVED').length;
+            const confirmed = ALL_DATA.filter(r => {
+                const statusText = String(r['Status (Gujarati)'] || '');
+                return statusText.includes('પ્રવેશ મળેલ છે') || r.Admit_Card === 'AVAILABLE';
+            }).length;
             const submitted = ALL_DATA.filter(r => r.Result === 'SUBMITTED').length;
             const pending = ALL_DATA.filter(r => r.Result === 'PENDING').length;
             const error = ALL_DATA.filter(r => r.Result === 'ERROR').length;
 
             document.getElementById('sTotal').textContent = total;
             document.getElementById('sApproved').textContent = approved;
+            document.getElementById('sConfirmed').textContent = confirmed;
             document.getElementById('sSubmitted').textContent = submitted;
             document.getElementById('sPending').textContent = pending;
             document.getElementById('sError').textContent = error;
@@ -918,7 +935,15 @@
             CURRENT_AREA = document.getElementById('areaFilter').value;
 
             _tableData = ALL_DATA.filter(r => {
-                const inStatusFilter = FILTER === 'ALL' || r.Result === FILTER;
+                let inStatusFilter = false;
+                if (FILTER === 'ALL') {
+                    inStatusFilter = true;
+                } else if (FILTER === 'CONFIRMED') {
+                    const statusText = String(r['Status (Gujarati)'] || '');
+                    inStatusFilter = statusText.includes('પ્રવેશ મળેલ છે') || r.Admit_Card === 'AVAILABLE';
+                } else {
+                    inStatusFilter = r.Result === FILTER;
+                }
 
                 const inAreaFilter = CURRENT_AREA === 'ALL' ||
                     String(r.Gam || '').trim() === CURRENT_AREA;
