@@ -1,10 +1,10 @@
 const RTE_SUMMARY = {
-  "total": 718,
-  "approved": 599,
+  "total": 719,
+  "approved": 600,
   "submitted": 0,
   "pending": 6,
   "error": 113,
-  "last_updated": "04-05-2026 19:10:42"
+  "last_updated": "05-05-2026 01:28:55"
 };
 const RTE_DATA = [
   {
@@ -10057,6 +10057,20 @@ const RTE_DATA = [
     "Gam": "SAGRAMPURA",
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.",
+    "Result": "APPROVED"
+  },
+  {
+    "Token No": "25",
+    "Application Id": "GJ/2026-27/SRC/2176392",
+    "Child Name": "AAFIYA FATEMA GULAM KASIM BHORANIYA",
+    "DOB": "19-10-2019",
+    "Mobile": "8980858586",
+    "Gender": "GIRL",
+    "Area": "SALABATPURA",
+    "Pincode": "395003",
+    "Gam": "SALABATPURA",
+    "Filled By": "@",
+    "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED"
   }
 ];
