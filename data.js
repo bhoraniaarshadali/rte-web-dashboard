@@ -4,7 +4,7 @@ const RTE_SUMMARY = {
   "submitted": 0,
   "pending": 6,
   "error": 113,
-  "last_updated": "07-05-2026 08:12:16"
+  "last_updated": "07-05-2026 13:24:40"
 };
 const RTE_DATA = [
   {
@@ -80,15 +80,15 @@ const RTE_DATA = [
   {
     "Token No": "10",
     "Application Id": "GJ/2026-27/SRC/2229780",
-    "Child Name": "N/A",
+    "Child Name": "MOHAMMAD SHEHZAD SAJIDBHAI SHEKH",
     "DOB": "31-03-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "6353938435",
+    "Gender": "BOY",
+    "Area": "SALABATPURA",
+    "Pincode": "395002",
+    "Gam": "SALABATPURA",
     "Filled By": "ADV S  R PATHAN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
