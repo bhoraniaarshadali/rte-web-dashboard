@@ -196,9 +196,10 @@
         .stat.s-approved {
             border-left-color: #10b981;
         }
- 
+
         .stat.s-confirmed {
-            border-left-color: #059669; /* Darker green */
+            border-left-color: #059669;
+            /* Darker green */
         }
 
         .stat.s-submitted {
@@ -1017,6 +1018,7 @@
                     <td style="font-weight:600;max-width:200px">${r['Child Name'] || '—'}</td>
                     <td class="dob-cell">${dob}</td>
                     <td class="mobile-cell">${mobile}</td>
+                    <td style="max-width:250px;font-size:0.82rem;color:#1e3a5f;font-weight:600">${r.School || '—'}</td>
                     <td style="max-width:280px;line-height:1.45">${formatStatus(r['Status (Gujarati)'])}</td>
                     <td><span class="badge b-${cat}">${r.Result || 'PENDING'}</span></td>
                     <td class="admit-col">${admitBadge}</td>
@@ -1041,6 +1043,7 @@
                             <th style="width:190px">Child Name</th>
                             <th style="width:100px">DOB</th>
                             <th style="width:115px">Mobile</th>
+                            <th style="width:200px">Allotted School</th>
                             <th>Status</th>
                             <th style="width:110px">Result</th>
                             <th style="width:130px">Admit Card</th>
@@ -1082,6 +1085,10 @@
                             <div class="meta-row">
                                 <span class="meta-label">Area</span>
                                 <span class="meta-value">${r.Gam || '—'}</span>
+                            </div>
+                            <div class="meta-row">
+                                <span class="meta-label">School</span>
+                                <span class="meta-value" style="color:var(--blue);font-weight:700">${r.School || '—'}</span>
                             </div>
                         </div>
 

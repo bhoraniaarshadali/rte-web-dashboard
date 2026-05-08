@@ -20,6 +20,8 @@ from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import urllib.parse
+import io
+from pypdf import PdfReader
 
 # ── CONFIG ─────────────────────────────────────────────────────
 GSHEET_URL   = "https://docs.google.com/spreadsheets/d/1baLAUi9REHf_1dMj-RjtNy7Bc88L8vqbbrxzemK6cpA/export?format=xlsx"
@@ -79,12 +81,35 @@ def get_csrf_token(session):
         raise ValueError("CSRF token not found")
     return match.group(1)
 
-def fetch_admit_card_status(app_id: str, dob: str) -> str:
+def extract_school_from_pdf(pdf_bytes) -> str:
+    """Extract school name from PDF binary content"""
+    try:
+        reader = PdfReader(io.BytesIO(pdf_bytes))
+        text = ""
+        for page in reader.pages:
+            text += page.extract_text() + "\n"
+        
+        # Look for "SCHOOL NAME:" pattern
+        # The text usually looks like "NODDYS ENGLISH PRI. SCHOOLSCHOOL NAME:"
+        match = re.search(r'(.*?)\s*SCHOOL NAME:', text, re.IGNORECASE)
+        if match:
+            return match.group(1).strip()
+        
+        # Fallback patterns if needed
+        lines = text.split('\n')
+        for line in lines:
+            if "SCHOOL NAME:" in line:
+                return line.replace("SCHOOL NAME:", "").strip()
+                
+        return "N/A"
+    except Exception as e:
+        log(f"PDF Parse Error: {e}", "WARN")
+        return "N/A"
+
+def fetch_admit_card_status(app_id: str, dob: str) -> tuple:
     """
-    Check if admit card is available for this application.
-    Returns: 'AVAILABLE' or 'NOT_AVAILABLE' or 'ERROR'
-    Portal returns a PDF binary directly when available,
-    or returns an HTML page with Gujarati error when not.
+    Check if admit card is available and extract school name.
+    Returns: (status, school_name)
     """
     session = make_session()
     try:
@@ -115,22 +140,26 @@ def fetch_admit_card_status(app_id: str, dob: str) -> str:
         )
         # Portal returns PDF directly when admit card is available
         content_type = resp_post.headers.get("Content-Type", "").lower()
-        if "application/pdf" in content_type:
-            return "AVAILABLE"
-        # Also check binary content starts with PDF magic bytes
-        if resp_post.content[:4] == b'%PDF':
-            return "AVAILABLE"
+        if "application/pdf" in content_type or resp_post.content[:4] == b'%PDF':
+            school = extract_school_from_pdf(resp_post.content)
+            return "AVAILABLE", school
+            
         # URL redirect to ViewAdmitCard
         if "ViewAdmitCard" in resp_post.url:
-            return "AVAILABLE"
+            # We might need to fetch the actual PDF to get the school name
+            # but usually the POST returns it. If it redirects, we'd need another GET.
+            # For now, let's assume if it redirects, it's available.
+            return "AVAILABLE", "N/A"
+            
         # Check HTML response for ViewAdmitCard link
         if "ViewAdmitCard" in resp_post.text:
-            return "AVAILABLE"
+            return "AVAILABLE", "N/A"
+            
         # HTML page = not available (error/info message shown)
-        return "NOT_AVAILABLE"
+        return "NOT_AVAILABLE", "N/A"
     except Exception as e:
         log(f"[ADMIT] Error checking {app_id}: {e}", "WARN")
-        return "ERROR"
+        return "ERROR", "N/A"
 
 
 def fetch_status(app_id: str, dob: str) -> dict:
@@ -378,6 +407,7 @@ def export_data_js(df):
             "Status (Gujarati)": str(row.get("Status (Gujarati)", "")),
             "Result":            str(row.get("Result", "PENDING")),
             "Admit_Card":        str(row.get("Admit_Card", "UNKNOWN")),
+            "School":            str(row.get("Allotted School", "N/A")) if pd.notna(row.get("Allotted School")) else "N/A",
         })
     js = (
         f"const RTE_SUMMARY = {json.dumps(summary, ensure_ascii=False, indent=2)};\n"
@@ -410,17 +440,17 @@ def save_excel(df):
     result_col = ws.max_column
 
     for row in ws.iter_rows(min_row=2, max_row=ws.max_row):
-        cat = row[result_col - 1].value or ""
+        cat = row[result_col - 3].value or "" # Result is 3rd to last now
         fill = fills.get(cat, PatternFill())
         for cell in row:
             cell.border = border
             cell.alignment = Alignment(vertical="center", wrap_text=True)
             cell.font = Font(name="Arial", size=10)
-        row[result_col - 1].fill = fill
-        row[result_col - 1].font = Font(name="Arial", size=10, bold=True)
-        row[result_col - 2].fill = fill
+        row[result_col - 3].fill = fill
+        row[result_col - 3].font = Font(name="Arial", size=10, bold=True)
+        row[result_col - 4].fill = fill
 
-    col_widths = {1:22, 2:10, 3:28, 4:18, 5:20, 6:10, 7:20, 8:12, 9:20, 10:22, 11:55, 12:16}
+    col_widths = {1:18, 2:10, 3:28, 4:18, 5:20, 6:10, 7:20, 8:12, 9:20, 10:22, 11:45, 12:16, 13:16, 14:35}
     for col, w in col_widths.items():
         if col <= ws.max_column:
             ws.column_dimensions[get_column_letter(col)].width = w
@@ -525,7 +555,7 @@ def sync_single(app_id, return_html=False):
             return f"Error fetching portal: {str(e)}"
 
     data = fetch_status(app_id, dob)
-    admit = fetch_admit_card_status(app_id, dob)
+    admit, school = fetch_admit_card_status(app_id, dob)
     with WRITE_LOCK:
         GLOBAL_DF.at[idx, "Status (Gujarati)"] = data["status"]
         GLOBAL_DF.at[idx, "Child Name"]        = data["child_name"]
@@ -536,6 +566,7 @@ def sync_single(app_id, return_html=False):
         GLOBAL_DF.at[idx, "Gam"]              = data["gam"]
         GLOBAL_DF.at[idx, "Result"]            = classify_status(data["status"])
         GLOBAL_DF.at[idx, "Admit_Card"]        = admit
+        GLOBAL_DF.at[idx, "Allotted School"]   = school
         try:
             save_excel(GLOBAL_DF)
             export_data_js(GLOBAL_DF)
@@ -555,7 +586,7 @@ def process_record(args):
     data = fetch_status(app_id, dob)
     cat = classify_status(data["status"])
     # Check admit card status for all (not just approved)
-    admit_status = fetch_admit_card_status(app_id, dob)
+    admit_status, school_name = fetch_admit_card_status(app_id, dob)
     return {
         "idx":         idx,
         "status":      data["status"],
@@ -567,6 +598,7 @@ def process_record(args):
         "gam":         data["gam"],
         "cat":         cat,
         "admit_card":  admit_status,
+        "school":      school_name,
         "app_id":      app_id,
         "num":         num,
         "total":       total,
@@ -607,6 +639,7 @@ def main():
                         "Pincode":    str(r.get("Pincode", "N/A")),
                         "Gam":        str(r.get("Gam", "N/A")),
                         "Admit_Card": str(r.get("Admit_Card", "UNKNOWN")),
+                        "School":     str(r.get("Allotted School", "N/A")),
                     }
             log(f"Cache loaded: {len(cache)} records", "OK")
         except Exception as e:
@@ -624,6 +657,7 @@ def main():
     GLOBAL_DF["Status (Gujarati)"] = ""
     GLOBAL_DF["Result"]            = "PENDING"
     GLOBAL_DF["Admit_Card"]        = "UNKNOWN"
+    GLOBAL_DF["Allotted School"]   = "N/A"
 
     # Apply cache
     for i, row in GLOBAL_DF.iterrows():
@@ -638,6 +672,7 @@ def main():
             GLOBAL_DF.at[i, "Pincode"]           = cache[aid]["Pincode"]
             GLOBAL_DF.at[i, "Gam"]               = cache[aid]["Gam"]
             GLOBAL_DF.at[i, "Admit_Card"]        = cache[aid]["Admit_Card"]
+            GLOBAL_DF.at[i, "Allotted School"]   = cache[aid]["School"]
 
     total = len(GLOBAL_DF)
     approved = int((GLOBAL_DF["Result"] == "APPROVED").sum())
@@ -686,6 +721,7 @@ def main():
                     GLOBAL_DF.at[idx, "Gam"]               = res["gam"]
                     GLOBAL_DF.at[idx, "Result"]            = cat
                     GLOBAL_DF.at[idx, "Admit_Card"]        = res["admit_card"]
+                    GLOBAL_DF.at[idx, "Allotted School"]   = res["school"]
 
                 checked += 1
                 completed_count += 1

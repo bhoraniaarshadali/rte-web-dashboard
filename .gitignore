@@ -1,6 +1,13 @@
-# __pycache__/
-# scratch/
-# sample.csv
-# cols.txt
-# debug_cols.json
-
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+scratch/
+admit_card_*.html
+cols*.txt
+*_debug.*
+*.log
+*.exe
+*.zip
+RTE_Dashboard_Package/

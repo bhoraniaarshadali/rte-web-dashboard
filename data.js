@@ -4,7 +4,7 @@ const RTE_SUMMARY = {
   "submitted": 0,
   "pending": 6,
   "error": 113,
-  "last_updated": "05-05-2026 16:38:33"
+  "last_updated": "08-05-2026 18:50:50"
 };
 const RTE_DATA = [
   {
@@ -20,7 +20,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "4",
@@ -35,7 +36,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "7",
@@ -50,7 +52,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "8",
@@ -65,7 +68,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "9",
@@ -80,7 +84,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "10",
@@ -95,7 +100,8 @@ const RTE_DATA = [
     "Filled By": "ADV S  R PATHAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "15",
@@ -110,7 +116,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "16",
@@ -125,7 +132,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "17",
@@ -140,7 +148,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "18",
@@ -155,7 +164,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "19",
@@ -170,7 +180,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
     "Result": "PENDING",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "19",
@@ -185,7 +196,8 @@ const RTE_DATA = [
     "Filled By": "SAMIR MOMIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NEW MODEL ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "20",
@@ -200,7 +212,8 @@ const RTE_DATA = [
     "Filled By": "Irshad",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "20",
@@ -215,7 +228,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "24",
@@ -230,7 +244,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MUHAMMED AHMED (M A) MEER SCHOOL"
   },
   {
     "Token No": "26",
@@ -245,7 +260,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "27",
@@ -260,7 +276,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "28",
@@ -275,7 +292,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "29",
@@ -290,7 +308,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "32",
@@ -305,7 +324,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "33",
@@ -320,7 +340,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "37",
@@ -335,7 +356,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "42",
@@ -350,7 +372,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "43",
@@ -365,7 +388,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "44",
@@ -380,7 +404,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S S JARDOS ENGLISH SCHOOL (MORNING)"
   },
   {
     "Token No": "45",
@@ -395,7 +420,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MUHAMMED AHMED (M A) MEER SCHOOL"
   },
   {
     "Token No": "46",
@@ -410,7 +436,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "ROSE SCHOOL"
   },
   {
     "Token No": "47",
@@ -425,7 +452,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "48",
@@ -440,7 +468,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "ERROR"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "50",
@@ -455,7 +484,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "ERROR"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "51",
@@ -470,7 +500,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "ERROR"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "53",
@@ -485,7 +516,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SMT. USHA & UMAKANT D. CONTRACTOR SHAISHAV KUNJ (ENG MED)"
   },
   {
     "Token No": "54",
@@ -500,7 +532,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "55",
@@ -515,7 +548,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "56",
@@ -530,7 +564,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "57",
@@ -545,7 +580,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "C S VIDYA BHARTI PRI SCH - ENG MED"
   },
   {
     "Token No": "58",
@@ -560,7 +596,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "60",
@@ -575,7 +612,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "61",
@@ -590,7 +628,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "C S VIDYA BHARTI PRI SCH - ENG MED"
   },
   {
     "Token No": "62",
@@ -605,7 +644,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "63",
@@ -620,7 +660,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "65",
@@ -635,7 +676,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "65",
@@ -650,7 +692,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "66",
@@ -665,7 +708,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "67",
@@ -680,7 +724,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "68",
@@ -695,7 +740,8 @@ const RTE_DATA = [
     "Filled By": "HASMI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "68",
@@ -710,7 +756,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "69",
@@ -725,7 +772,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MUHAMMED AHMED (M A) MEER SCHOOL"
   },
   {
     "Token No": "70",
@@ -740,7 +788,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "70",
@@ -755,7 +804,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "73",
@@ -770,7 +820,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "74",
@@ -785,7 +836,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "76",
@@ -800,7 +852,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "77",
@@ -815,7 +868,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SARDAR VALLABHBHAI PATEL ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "78",
@@ -830,7 +884,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "79",
@@ -845,7 +900,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "80",
@@ -860,7 +916,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "83",
@@ -875,7 +932,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "84",
@@ -890,7 +948,8 @@ const RTE_DATA = [
     "Filled By": "HASMI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "86",
@@ -905,7 +964,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "P R CONTRACTOR PRIMARY SCHOOL"
   },
   {
     "Token No": "87",
@@ -920,7 +980,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHREE GURUKRUPA ENGLISH SCHOOL PRI."
   },
   {
     "Token No": "88",
@@ -935,7 +996,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "KIDS PLANET ENGLISH SCHOOL"
   },
   {
     "Token No": "89",
@@ -950,7 +1012,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN ",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "90",
@@ -965,7 +1028,8 @@ const RTE_DATA = [
     "Filled By": "MUKHTAR - 9825686968",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "91",
@@ -980,7 +1044,8 @@ const RTE_DATA = [
     "Filled By": "mukhtar",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "92",
@@ -995,7 +1060,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "94",
@@ -1010,7 +1076,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "94",
@@ -1025,7 +1092,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "95",
@@ -1040,7 +1108,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "96",
@@ -1055,7 +1124,8 @@ const RTE_DATA = [
     "Filled By": "HASMI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "K S JOSHI PRIMARY GIRL'S SCHOOL"
   },
   {
     "Token No": "97",
@@ -1070,7 +1140,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S.D.M.E.S BOYS ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "99",
@@ -1085,7 +1156,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "101",
@@ -1100,7 +1172,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "ROSE SCHOOL"
   },
   {
     "Token No": "104",
@@ -1115,7 +1188,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "105",
@@ -1130,7 +1204,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMILABEN V THACKERSEY PRIMARY GIRLS SCHOOL GUJARATI MEDIUM"
   },
   {
     "Token No": "107",
@@ -1145,7 +1220,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "108",
@@ -1160,7 +1236,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "109",
@@ -1175,7 +1252,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "ABDUL RAHEMAN ENGLISH SCHOOL"
   },
   {
     "Token No": "110",
@@ -1190,7 +1268,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHREE GURUKRUPA ENGLISH SCHOOL PRI."
   },
   {
     "Token No": "112",
@@ -1205,7 +1284,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S S JARDOS ENGLISH SCHOOL (NOON)"
   },
   {
     "Token No": "115",
@@ -1220,7 +1300,8 @@ const RTE_DATA = [
     "Filled By": "TANIR BANARSI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "116",
@@ -1235,7 +1316,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "118",
@@ -1250,7 +1332,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "119",
@@ -1265,7 +1348,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "120",
@@ -1280,7 +1364,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "K S JOSHI PRIMARY GIRL'S SCHOOL"
   },
   {
     "Token No": "122",
@@ -1295,7 +1380,8 @@ const RTE_DATA = [
     "Filled By": "HASMI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "123",
@@ -1310,7 +1396,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "124",
@@ -1325,7 +1412,8 @@ const RTE_DATA = [
     "Filled By": "ISTIYAQ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "125",
@@ -1340,7 +1428,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "126",
@@ -1355,7 +1444,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "127",
@@ -1370,7 +1460,8 @@ const RTE_DATA = [
     "Filled By": "127",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "M M PIPERDIWALA ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "128",
@@ -1385,7 +1476,8 @@ const RTE_DATA = [
     "Filled By": "HASMI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "130",
@@ -1400,7 +1492,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "131",
@@ -1415,7 +1508,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHA",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "132",
@@ -1430,7 +1524,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "133",
@@ -1445,7 +1540,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "134",
@@ -1460,7 +1556,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "135",
@@ -1475,7 +1572,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "136",
@@ -1490,7 +1588,8 @@ const RTE_DATA = [
     "Filled By": "adv s r pathan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "137",
@@ -1505,7 +1604,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "139",
@@ -1520,7 +1620,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "141",
@@ -1535,7 +1636,8 @@ const RTE_DATA = [
     "Filled By": "Irshad",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "141",
@@ -1550,7 +1652,8 @@ const RTE_DATA = [
     "Filled By": "Irshad",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "142",
@@ -1565,7 +1668,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "143",
@@ -1580,7 +1684,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "K S JOSHI PRIMARY GIRL'S SCHOOL"
   },
   {
     "Token No": "145",
@@ -1595,7 +1700,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "P R CONTRACTOR PRIMARY SCHOOL"
   },
   {
     "Token No": "146",
@@ -1610,7 +1716,8 @@ const RTE_DATA = [
     "Filled By": "Irshad ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "147",
@@ -1625,7 +1732,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "148",
@@ -1640,7 +1748,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "149",
@@ -1655,7 +1764,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S P B PRIMARY ENGLISH MEDIUM SCHOOL"
   },
   {
     "Token No": "150",
@@ -1670,7 +1780,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "151",
@@ -1685,7 +1796,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "151",
@@ -1700,7 +1812,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "152",
@@ -1715,7 +1828,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "153",
@@ -1730,7 +1844,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "156",
@@ -1745,7 +1860,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "156",
@@ -1760,7 +1876,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "157",
@@ -1775,7 +1892,8 @@ const RTE_DATA = [
     "Filled By": "HASMI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "160",
@@ -1790,7 +1908,8 @@ const RTE_DATA = [
     "Filled By": "QUREHSI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "160",
@@ -1805,7 +1924,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "161",
@@ -1820,7 +1940,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "162",
@@ -1835,7 +1956,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "163",
@@ -1850,7 +1972,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "164",
@@ -1865,7 +1988,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "166",
@@ -1880,7 +2004,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "167",
@@ -1895,7 +2020,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "T AND T V SARVAJANIK PRI SCH - ENG MED"
   },
   {
     "Token No": "169",
@@ -1910,7 +2036,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DIVINE CHILD HIGH SCHOOL GHOD DOD"
   },
   {
     "Token No": "170",
@@ -1925,7 +2052,8 @@ const RTE_DATA = [
     "Filled By": "QUREHSI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "171",
@@ -1940,7 +2068,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "172",
@@ -1955,7 +2084,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAO SAHEB J C MUNSHI SARVAJANIK PRIMARY SCHOOL"
   },
   {
     "Token No": "173",
@@ -1970,7 +2100,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "174",
@@ -1985,7 +2116,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "175",
@@ -2000,7 +2132,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "176",
@@ -2015,7 +2148,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "178",
@@ -2030,7 +2164,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "180",
@@ -2045,7 +2180,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "181",
@@ -2060,7 +2196,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "184",
@@ -2075,7 +2212,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "186",
@@ -2090,7 +2228,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "187",
@@ -2105,7 +2244,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAAN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "188",
@@ -2120,7 +2260,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "189",
@@ -2135,7 +2276,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "190",
@@ -2150,7 +2292,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "191",
@@ -2165,7 +2308,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "192",
@@ -2180,7 +2324,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "193",
@@ -2195,7 +2340,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "196",
@@ -2210,7 +2356,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "197",
@@ -2225,7 +2372,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "198",
@@ -2240,7 +2388,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHRI PANKAJBHAI KAPADIA PRE-PRI & PRIMARY ENG. MED. GIRLS' SCHOOL"
   },
   {
     "Token No": "199",
@@ -2255,7 +2404,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "200",
@@ -2270,7 +2420,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "201",
@@ -2285,7 +2436,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "202",
@@ -2300,7 +2452,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "204",
@@ -2315,7 +2468,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "C S VIDYA BHARTI PRI SCH - ENG MED"
   },
   {
     "Token No": "205",
@@ -2330,7 +2484,8 @@ const RTE_DATA = [
     "Filled By": "Irshad ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "208",
@@ -2345,7 +2500,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "ABDUL RAHEMAN SCHOOL - UNN"
   },
   {
     "Token No": "210",
@@ -2360,7 +2516,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "210",
@@ -2375,7 +2532,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "211",
@@ -2390,7 +2548,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "213",
@@ -2405,7 +2564,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SIYS BOYS PRIMARY SCHOOL ENGLISH MEDIUM"
   },
   {
     "Token No": "214",
@@ -2420,7 +2580,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "215",
@@ -2435,7 +2596,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MADNI ISLAMIK ENG MED SCHOOL"
   },
   {
     "Token No": "216",
@@ -2450,7 +2612,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "217",
@@ -2465,7 +2628,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "219",
@@ -2480,7 +2644,8 @@ const RTE_DATA = [
     "Filled By": "Irshad ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "220",
@@ -2495,7 +2660,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "PUBLIC SCHOOL KHAROD"
   },
   {
     "Token No": "221",
@@ -2510,7 +2676,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "L P SAVANI SCHOOL - ENG MED - PALANPOR"
   },
   {
     "Token No": "223",
@@ -2525,7 +2692,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "226",
@@ -2540,7 +2708,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "227",
@@ -2555,7 +2724,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "228",
@@ -2570,7 +2740,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "229",
@@ -2585,7 +2756,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "229",
@@ -2600,7 +2772,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "230",
@@ -2615,7 +2788,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "231",
@@ -2630,7 +2804,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "231",
@@ -2645,7 +2820,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "233",
@@ -2660,7 +2836,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "234",
@@ -2675,7 +2852,8 @@ const RTE_DATA = [
     "Filled By": "SAMIR MOMIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "235",
@@ -2690,7 +2868,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "237",
@@ -2705,7 +2884,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "238",
@@ -2720,7 +2900,8 @@ const RTE_DATA = [
     "Filled By": "SAMIR MOMIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "240",
@@ -2735,7 +2916,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "J H B SARDAR PRIMARY ENGLISH SCHOOL"
   },
   {
     "Token No": "241",
@@ -2750,7 +2932,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "241",
@@ -2765,7 +2948,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "242",
@@ -2780,7 +2964,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MADNI ISLAMIK ENG MED SCHOOL"
   },
   {
     "Token No": "243",
@@ -2795,7 +2980,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DIAMOND JUBILEE PRIMARY GUJARATI GIRLS SCHOOL"
   },
   {
     "Token No": "244",
@@ -2810,7 +2996,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "245",
@@ -2825,7 +3012,8 @@ const RTE_DATA = [
     "Filled By": "SAMIR MOMIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "247",
@@ -2840,7 +3028,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "249",
@@ -2855,7 +3044,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "249",
@@ -2870,7 +3060,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "251",
@@ -2885,7 +3076,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "253",
@@ -2900,7 +3092,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "254",
@@ -2915,7 +3108,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "254",
@@ -2930,7 +3124,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "257",
@@ -2945,7 +3140,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NEW MODEL ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "258",
@@ -2960,7 +3156,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "259",
@@ -2975,7 +3172,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "260",
@@ -2990,7 +3188,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "262",
@@ -3005,7 +3204,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "263",
@@ -3020,7 +3220,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "264",
@@ -3035,7 +3236,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "265",
@@ -3050,7 +3252,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "266",
@@ -3065,7 +3268,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "266",
@@ -3080,7 +3284,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "267",
@@ -3095,7 +3300,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "268",
@@ -3110,7 +3316,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NOON PRIMARY ENGLISH MEDIUM SCHOOL"
   },
   {
     "Token No": "269",
@@ -3125,7 +3332,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "K S JOSHI PRIMARY GIRL'S SCHOOL"
   },
   {
     "Token No": "270",
@@ -3140,7 +3348,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "CRESENT BOYS PRIMARY SCHOOL GUJARATI MEDIUM"
   },
   {
     "Token No": "271",
@@ -3155,7 +3364,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "272",
@@ -3170,7 +3380,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KAHN ",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "273",
@@ -3185,7 +3396,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "273",
@@ -3200,7 +3412,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "276",
@@ -3215,7 +3428,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "278",
@@ -3230,7 +3444,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "280",
@@ -3245,7 +3460,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "281",
@@ -3260,7 +3476,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "282",
@@ -3275,7 +3492,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "283",
@@ -3290,7 +3508,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "M M PIPERDIWALA ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "284",
@@ -3305,7 +3524,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "285",
@@ -3320,7 +3540,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAO SAHEB J C MUNSHI SARVAJANIK PRIMARY SCHOOL"
   },
   {
     "Token No": "286",
@@ -3335,7 +3556,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "287",
@@ -3350,7 +3572,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "288",
@@ -3365,7 +3588,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "UME GUJARATI SCHOOL"
   },
   {
     "Token No": "290",
@@ -3380,7 +3604,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "290",
@@ -3395,7 +3620,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "291",
@@ -3410,7 +3636,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "292",
@@ -3425,7 +3652,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "294",
@@ -3440,7 +3668,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "295",
@@ -3455,7 +3684,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "297",
@@ -3470,7 +3700,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN  SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S S JARDOS ENGLISH SCHOOL (MORNING)"
   },
   {
     "Token No": "298",
@@ -3485,7 +3716,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "299",
@@ -3500,7 +3732,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "299",
@@ -3515,7 +3748,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "301",
@@ -3530,7 +3764,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "304",
@@ -3545,7 +3780,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "305",
@@ -3560,7 +3796,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "306",
@@ -3575,7 +3812,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "307",
@@ -3590,7 +3828,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "308",
@@ -3605,7 +3844,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "309",
@@ -3620,7 +3860,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "310",
@@ -3635,7 +3876,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "311",
@@ -3650,7 +3892,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "312",
@@ -3665,7 +3908,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "312",
@@ -3680,7 +3924,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "315",
@@ -3695,7 +3940,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "317",
@@ -3710,7 +3956,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "318",
@@ -3725,7 +3972,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "320",
@@ -3740,7 +3988,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "CRESENT BOYS PRIMARY SCHOOL GUJARATI MEDIUM"
   },
   {
     "Token No": "321",
@@ -3755,7 +4004,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "ANAND ENGLISH ACADEMY"
   },
   {
     "Token No": "322",
@@ -3770,7 +4020,8 @@ const RTE_DATA = [
     "Filled By": "SHAIKH NIZAMUDDIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "322",
@@ -3785,7 +4036,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "323",
@@ -3800,7 +4052,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "324",
@@ -3815,7 +4068,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHREE GURUKRUPA VIDHYA SANKUL PRI.(CBSE)"
   },
   {
     "Token No": "325",
@@ -3830,7 +4084,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "328",
@@ -3845,7 +4100,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "329",
@@ -3860,7 +4116,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "332",
@@ -3875,7 +4132,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "333",
@@ -3890,7 +4148,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "333",
@@ -3905,7 +4164,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "337",
@@ -3920,7 +4180,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "338",
@@ -3935,7 +4196,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "IQRAA GUJARATI HIGH SCHOOL"
   },
   {
     "Token No": "340",
@@ -3950,7 +4212,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "HALLOW WINGS PUBLIC SCHOOL"
   },
   {
     "Token No": "341",
@@ -3965,7 +4228,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "342",
@@ -3980,7 +4244,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "343",
@@ -3995,7 +4260,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "346",
@@ -4010,7 +4276,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "347",
@@ -4025,7 +4292,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "PRABHAT TARA PUBLIC ENGLISH SCHOOL"
   },
   {
     "Token No": "348",
@@ -4040,7 +4308,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "M M PIPERDIWALA ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "349",
@@ -4055,7 +4324,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "350",
@@ -4070,7 +4340,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "351",
@@ -4085,7 +4356,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SUN SHINE SCHOOL SHIVAM EDUCATION TRUST"
   },
   {
     "Token No": "353",
@@ -4100,7 +4372,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "354",
@@ -4115,7 +4388,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "356",
@@ -4130,7 +4404,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "356",
@@ -4145,7 +4420,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "357",
@@ -4160,7 +4436,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "358",
@@ -4175,7 +4452,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "359",
@@ -4190,7 +4468,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHREE GURUKRUPA VIDHYA SANKUL PRI.(CBSE)"
   },
   {
     "Token No": "361",
@@ -4205,7 +4484,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "362",
@@ -4220,7 +4500,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "363",
@@ -4235,7 +4516,8 @@ const RTE_DATA = [
     "Filled By": "SAMIR MOMIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "364",
@@ -4250,7 +4532,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "366",
@@ -4265,7 +4548,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAO SAHEB J C MUNSHI SARVAJANIK PRIMARY SCHOOL"
   },
   {
     "Token No": "367",
@@ -4280,7 +4564,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "368",
@@ -4295,7 +4580,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "369",
@@ -4310,7 +4596,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "370",
@@ -4325,7 +4612,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S.D.M.E.S BOYS ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "370",
@@ -4340,7 +4628,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S.D.M.E.S BOYS ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "372",
@@ -4355,7 +4644,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "373",
@@ -4370,7 +4660,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "376",
@@ -4385,7 +4676,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "377",
@@ -4400,7 +4692,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "378",
@@ -4415,7 +4708,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SAGAR ENGLISH SCHOOL"
   },
   {
     "Token No": "381",
@@ -4430,7 +4724,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "382",
@@ -4445,7 +4740,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "384",
@@ -4460,7 +4756,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "386",
@@ -4475,7 +4772,8 @@ const RTE_DATA = [
     "Filled By": "SAMIR MOMIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "T AND T V SARVAJANIK PRI SCH - ENG MED"
   },
   {
     "Token No": "387",
@@ -4490,7 +4788,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "387",
@@ -4505,7 +4804,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "390",
@@ -4520,7 +4820,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "390",
@@ -4535,7 +4836,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "391",
@@ -4550,7 +4852,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "393",
@@ -4565,7 +4868,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "394",
@@ -4580,7 +4884,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "396",
@@ -4595,7 +4900,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "396",
@@ -4610,7 +4916,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "K S JOSHI PRIMARY GIRL'S SCHOOL"
   },
   {
     "Token No": "397",
@@ -4625,7 +4932,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "L P SAVANI INTERNATIONAL SCHOOL GSEB"
   },
   {
     "Token No": "397",
@@ -4640,7 +4948,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "397",
@@ -4655,7 +4964,8 @@ const RTE_DATA = [
     "Filled By": "IRSHAD",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "398",
@@ -4670,7 +4980,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "398",
@@ -4685,7 +4996,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "399",
@@ -4700,7 +5012,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHRI PANKAJBHAI KAPADIA PRE-PRI & PRIMARY ENG. MED. GIRLS' SCHOOL"
   },
   {
     "Token No": "400",
@@ -4715,7 +5028,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHASN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "400",
@@ -4730,7 +5044,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "400",
@@ -4745,7 +5060,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "400",
@@ -4760,7 +5076,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "401",
@@ -4775,7 +5092,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "404",
@@ -4790,7 +5108,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MADNI ISLAMIK ENG MED SCHOOL"
   },
   {
     "Token No": "405",
@@ -4805,7 +5124,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "407",
@@ -4820,7 +5140,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "408",
@@ -4835,7 +5156,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "408",
@@ -4850,7 +5172,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "410",
@@ -4865,7 +5188,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "410",
@@ -4880,7 +5204,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "411",
@@ -4895,7 +5220,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "412",
@@ -4910,7 +5236,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "414",
@@ -4925,7 +5252,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "KIDS PLANET ENGLISH SCHOOL"
   },
   {
     "Token No": "417",
@@ -4940,7 +5268,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S S JARDOS ENGLISH SCHOOL (MORNING)"
   },
   {
     "Token No": "418",
@@ -4955,7 +5284,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "K S JOSHI PRIMARY GIRL'S SCHOOL"
   },
   {
     "Token No": "420",
@@ -4970,7 +5300,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SIYS BOYS PRIMARY SCHOOL ENGLISH MEDIUM"
   },
   {
     "Token No": "421",
@@ -4985,7 +5316,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SIYS BOYS PRIMARY SCHOOL ENGLISH MEDIUM"
   },
   {
     "Token No": "423",
@@ -5000,7 +5332,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "Dr.R.K.BHATT AND B.J.DESAI ENG MED"
   },
   {
     "Token No": "424",
@@ -5015,7 +5348,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "426",
@@ -5030,7 +5364,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "427",
@@ -5045,7 +5380,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "429",
@@ -5060,7 +5396,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "430",
@@ -5075,7 +5412,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S S JARDOS ENGLISH SCHOOL (NOON)"
   },
   {
     "Token No": "431",
@@ -5090,7 +5428,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATAHN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "433",
@@ -5105,7 +5444,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "434",
@@ -5120,7 +5460,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "435",
@@ -5135,7 +5476,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "436",
@@ -5150,7 +5492,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "439",
@@ -5165,7 +5508,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "440",
@@ -5180,7 +5524,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "441",
@@ -5195,7 +5540,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "M M PIPERDIWALA ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "442",
@@ -5210,7 +5556,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "443",
@@ -5225,7 +5572,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "443",
@@ -5240,7 +5588,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "445",
@@ -5255,7 +5604,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "446",
@@ -5270,7 +5620,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "447",
@@ -5285,7 +5636,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "448",
@@ -5300,7 +5652,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "449",
@@ -5315,7 +5668,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "451",
@@ -5330,7 +5684,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "452",
@@ -5345,7 +5700,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "453",
@@ -5360,7 +5716,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "454",
@@ -5375,7 +5732,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "456",
@@ -5390,7 +5748,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MADRESSA-E-AHMEDIA PRIMARY SCHOOL"
   },
   {
     "Token No": "457",
@@ -5405,7 +5764,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "ROSE SCHOOL"
   },
   {
     "Token No": "459",
@@ -5420,7 +5780,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "460",
@@ -5435,7 +5796,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "461",
@@ -5450,7 +5812,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S.D.M.E.S BOYS ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "462",
@@ -5465,7 +5828,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "465",
@@ -5480,7 +5844,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "465",
@@ -5495,7 +5860,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "466",
@@ -5510,7 +5876,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "467",
@@ -5525,7 +5892,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "468",
@@ -5540,7 +5908,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "470",
@@ -5555,7 +5924,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "471",
@@ -5570,7 +5940,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "471",
@@ -5585,7 +5956,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "472",
@@ -5600,7 +5972,8 @@ const RTE_DATA = [
     "Filled By": "QURESHI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "475",
@@ -5615,7 +5988,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "476",
@@ -5630,7 +6004,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "478",
@@ -5645,7 +6020,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "479",
@@ -5660,7 +6036,8 @@ const RTE_DATA = [
     "Filled By": "AMAAN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "480",
@@ -5675,7 +6052,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "480",
@@ -5690,7 +6068,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "481",
@@ -5705,7 +6084,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "PRERNA GUJRATI VIDYALAY SCHOOL"
   },
   {
     "Token No": "484",
@@ -5720,7 +6100,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "486",
@@ -5735,7 +6116,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "487",
@@ -5750,7 +6132,8 @@ const RTE_DATA = [
     "Filled By": "Irshad",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "J H B SARDAR PRIMARY ENGLISH SCHOOL"
   },
   {
     "Token No": "490",
@@ -5765,7 +6148,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "491",
@@ -5780,7 +6164,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S P B PRIMARY ENGLISH MEDIUM SCHOOL"
   },
   {
     "Token No": "492",
@@ -5795,7 +6180,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "494",
@@ -5810,7 +6196,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DIVINE CHILD HIGH SCHOOL GHOD DOD"
   },
   {
     "Token No": "495",
@@ -5825,7 +6212,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "496",
@@ -5840,7 +6228,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "L P SAVANI INTERNATIONAL SCHOOL GSEB"
   },
   {
     "Token No": "497",
@@ -5855,7 +6244,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "498",
@@ -5870,7 +6260,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "500",
@@ -5885,7 +6276,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S. V. PUBLIC SCHOOL"
   },
   {
     "Token No": "501",
@@ -5900,7 +6292,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S S JARDOS ENGLISH SCHOOL (NOON)"
   },
   {
     "Token No": "502",
@@ -5915,7 +6308,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "503",
@@ -5930,7 +6324,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "506",
@@ -5945,7 +6340,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "506",
@@ -5960,7 +6356,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "K S JOSHI PRIMARY GIRL'S SCHOOL"
   },
   {
     "Token No": "508",
@@ -5975,7 +6372,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN ",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "508",
@@ -5990,7 +6388,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWAL",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "508",
@@ -6005,7 +6404,8 @@ const RTE_DATA = [
     "Filled By": "MUKHTAR",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "509",
@@ -6020,7 +6420,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MUHAMMED AHMED (M A) MEER SCHOOL"
   },
   {
     "Token No": "511",
@@ -6035,7 +6436,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "512",
@@ -6050,7 +6452,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN ",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "512",
@@ -6065,7 +6468,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "512",
@@ -6080,7 +6484,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "513",
@@ -6095,7 +6500,8 @@ const RTE_DATA = [
     "Filled By": "PARVEZ",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "513",
@@ -6110,7 +6516,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "515",
@@ -6125,7 +6532,8 @@ const RTE_DATA = [
     "Filled By": "MOSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "516",
@@ -6140,7 +6548,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "517",
@@ -6155,7 +6564,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAO SAHEB J C MUNSHI SARVAJANIK PRIMARY SCHOOL"
   },
   {
     "Token No": "519",
@@ -6170,7 +6580,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "520",
@@ -6185,7 +6596,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "AL-MU'MINAH SCHOOL"
   },
   {
     "Token No": "521",
@@ -6200,7 +6612,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "522",
@@ -6215,7 +6628,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "522",
@@ -6230,7 +6644,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "523",
@@ -6245,7 +6660,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "523",
@@ -6260,7 +6676,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "524",
@@ -6275,7 +6692,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "525",
@@ -6290,7 +6708,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "L P SAVANI INTERNATIONAL SCHOOL CBSE"
   },
   {
     "Token No": "527",
@@ -6305,7 +6724,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "528",
@@ -6320,7 +6740,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "529",
@@ -6335,7 +6756,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "532",
@@ -6350,7 +6772,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "533",
@@ -6365,7 +6788,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "534",
@@ -6380,7 +6804,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "540",
@@ -6395,7 +6820,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "541",
@@ -6410,7 +6836,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "542",
@@ -6425,7 +6852,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "544",
@@ -6440,7 +6868,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "545",
@@ -6455,7 +6884,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "547",
@@ -6470,7 +6900,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "ROSE SCHOOL"
   },
   {
     "Token No": "549",
@@ -6485,7 +6916,8 @@ const RTE_DATA = [
     "Filled By": "MOSIN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "549",
@@ -6500,7 +6932,8 @@ const RTE_DATA = [
     "Filled By": "mosin",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "549",
@@ -6515,7 +6948,8 @@ const RTE_DATA = [
     "Filled By": "mosin",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "550",
@@ -6530,7 +6964,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "553",
@@ -6545,7 +6980,8 @@ const RTE_DATA = [
     "Filled By": "HASMI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "554",
@@ -6560,7 +6996,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "555",
@@ -6575,7 +7012,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "557",
@@ -6590,7 +7028,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "559",
@@ -6605,7 +7044,8 @@ const RTE_DATA = [
     "Filled By": "MUSTAK",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "560",
@@ -6620,7 +7060,8 @@ const RTE_DATA = [
     "Filled By": "MUSTAK",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "561",
@@ -6635,7 +7076,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "562",
@@ -6650,7 +7092,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "562",
@@ -6665,7 +7108,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "563",
@@ -6680,7 +7124,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "568",
@@ -6695,7 +7140,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "569",
@@ -6710,7 +7156,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "570",
@@ -6725,7 +7172,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "571",
@@ -6740,7 +7188,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SRI VEDA INNOVATIVE SCHOOL - ENG MED"
   },
   {
     "Token No": "571",
@@ -6755,7 +7204,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SRI VEDA INNOVATIVE SCHOOL - ENG MED"
   },
   {
     "Token No": "576",
@@ -6770,7 +7220,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "578",
@@ -6785,7 +7236,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "580",
@@ -6800,7 +7252,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "582",
@@ -6815,7 +7268,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "582",
@@ -6830,7 +7284,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "583",
@@ -6845,7 +7300,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "584",
@@ -6860,7 +7316,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "585",
@@ -6875,7 +7332,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "587",
@@ -6890,7 +7348,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "588",
@@ -6905,7 +7364,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "588",
@@ -6920,7 +7380,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "589",
@@ -6935,7 +7396,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "591",
@@ -6950,7 +7412,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "591",
@@ -6965,7 +7428,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "594",
@@ -6980,7 +7444,8 @@ const RTE_DATA = [
     "Filled By": "m g lakdawala",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "596",
@@ -6995,7 +7460,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "598",
@@ -7010,7 +7476,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "600",
@@ -7025,7 +7492,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "601",
@@ -7040,7 +7508,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S P B PRIMARY ENGLISH MEDIUM SCHOOL"
   },
   {
     "Token No": "602",
@@ -7055,7 +7524,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "603",
@@ -7070,7 +7540,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "605",
@@ -7085,7 +7556,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SANSKAR BHARTI VIDHYALAY - GUJ MED"
   },
   {
     "Token No": "606",
@@ -7100,7 +7572,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "607",
@@ -7115,7 +7588,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "ERROR"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "608",
@@ -7130,7 +7604,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH SCHOOLFOR BOYS"
   },
   {
     "Token No": "611",
@@ -7145,7 +7620,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAO SAHEB J C MUNSHI SARVAJANIK PRIMARY SCHOOL"
   },
   {
     "Token No": "612",
@@ -7160,7 +7636,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "613",
@@ -7175,7 +7652,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "614",
@@ -7190,7 +7668,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "615",
@@ -7205,7 +7684,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "CITIZEN'S HIGH SCHOOL - ENG MED"
   },
   {
     "Token No": "618",
@@ -7220,7 +7700,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "618",
@@ -7235,7 +7716,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "619",
@@ -7250,7 +7732,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "620",
@@ -7265,7 +7748,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "621",
@@ -7280,7 +7764,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "L P SAVANI INTERNATIONAL SCHOOL CBSE"
   },
   {
     "Token No": "622",
@@ -7295,7 +7780,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "624",
@@ -7310,7 +7796,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "625",
@@ -7325,7 +7812,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAO SAHEB J C MUNSHI SARVAJANIK PRIMARY SCHOOL"
   },
   {
     "Token No": "626",
@@ -7340,7 +7828,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "627",
@@ -7355,7 +7844,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "630",
@@ -7370,7 +7860,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "630",
@@ -7385,7 +7876,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHREE SWAMINARAYAN ACADEMY NEW RANDER ROAD"
   },
   {
     "Token No": "634",
@@ -7400,7 +7892,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "635",
@@ -7415,7 +7908,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "637",
@@ -7430,7 +7924,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "638",
@@ -7445,7 +7940,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "GLORY PUBLIC SCHOOL"
   },
   {
     "Token No": "639",
@@ -7460,7 +7956,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "640",
@@ -7475,7 +7972,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "642",
@@ -7490,7 +7988,8 @@ const RTE_DATA = [
     "Filled By": "Mohsin khan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "L P SAVANI INTERNATIONAL SCHOOL CBSE"
   },
   {
     "Token No": "643",
@@ -7505,7 +8004,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHRI PANKAJBHAI KAPADIA PRE-PRI & PRIMARY ENG. MED. GIRLS' SCHOOL"
   },
   {
     "Token No": "644",
@@ -7520,7 +8020,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S S JARDOS ENGLISH SCHOOL (NOON)"
   },
   {
     "Token No": "645",
@@ -7535,7 +8036,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "646",
@@ -7550,7 +8052,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "00",
@@ -7565,7 +8068,8 @@ const RTE_DATA = [
     "Filled By": "MOHAMAD JAVID KUMBHAR",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "04",
@@ -7580,7 +8084,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "05",
@@ -7595,7 +8100,8 @@ const RTE_DATA = [
     "Filled By": "MUKHTAR LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "GANGADHARA HIGH SCHOOL 1 TO 4 PRIMARY SCHOOL"
   },
   {
     "Token No": "130 UPDATED",
@@ -7610,7 +8116,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "14 (2)",
@@ -7625,7 +8132,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DIVINE CHILD HIGH SCHOOL GHOD DOD"
   },
   {
     "Token No": "322 updated",
@@ -7640,7 +8148,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MADNI ISLAMIK ENG MED SCHOOL"
   },
   {
     "Token No": "616 (1)",
@@ -7655,7 +8164,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "616 (2)",
@@ -7670,7 +8180,8 @@ const RTE_DATA = [
     "Filled By": "IMRAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "NEW TOKAN",
@@ -7685,7 +8196,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "L P SAVANI INTERNATIONAL SCHOOL CBSE"
   },
   {
     "Token No": "NEW TOKAN -1",
@@ -7700,7 +8212,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "M M PIPERDIWALA ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "NEW TOKAN -3",
@@ -7715,7 +8228,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "NEW TOKAN-3",
@@ -7730,7 +8244,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "647",
@@ -7745,7 +8260,8 @@ const RTE_DATA = [
     "Filled By": "MOSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "BHAGYODAY VIDHYALAYA"
   },
   {
     "Token No": "572",
@@ -7760,7 +8276,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "548",
@@ -7775,7 +8292,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "J H B SARDAR PRIMARY ENGLISH SCHOOL"
   },
   {
     "Token No": "552",
@@ -7790,7 +8308,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "648",
@@ -7805,7 +8324,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "NEW FIROZ PAN",
@@ -7820,7 +8340,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "C S VIDYA BHARTI PRI SCH - ENG MED"
   },
   {
     "Token No": "489",
@@ -7835,7 +8356,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "154",
@@ -7850,7 +8372,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "565",
@@ -7865,7 +8388,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "649",
@@ -7880,7 +8404,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "ROSE BUDS SCHOOL - GUJ MED"
   },
   {
     "Token No": "600",
@@ -7895,7 +8420,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "650",
@@ -7910,7 +8436,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "553",
@@ -7925,7 +8452,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "350",
@@ -7940,7 +8468,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "68",
@@ -7955,7 +8484,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "480",
@@ -7970,7 +8500,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "207",
@@ -7985,7 +8516,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - GUJ MED"
   },
   {
     "Token No": "39",
@@ -8000,7 +8532,8 @@ const RTE_DATA = [
     "Filled By": "UMA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DIVINE CHILD HIGH SCHOOL GHOD DOD"
   },
   {
     "Token No": "651",
@@ -8015,7 +8548,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "anganwadi na 2 yers complete nathi",
     "Result": "PENDING",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "514",
@@ -8030,7 +8564,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "622",
@@ -8045,7 +8580,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "591",
@@ -8060,7 +8596,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "654",
@@ -8075,7 +8612,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "23",
@@ -8090,7 +8628,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "331",
@@ -8105,7 +8644,8 @@ const RTE_DATA = [
     "Filled By": "UMA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "82",
@@ -8120,7 +8660,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "657",
@@ -8135,7 +8676,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "656",
@@ -8150,7 +8692,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "655",
@@ -8165,7 +8708,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "658",
@@ -8180,7 +8724,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "159",
@@ -8195,7 +8740,8 @@ const RTE_DATA = [
     "Filled By": "ISTIYAK",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SMT. USHA & UMAKANT D. CONTRACTOR SHAISHAV KUNJ (ENG MED)"
   },
   {
     "Token No": "227",
@@ -8210,7 +8756,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MOUNT ZION MISSION HIGH SCHOOL"
   },
   {
     "Token No": "389",
@@ -8225,7 +8772,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MOUNT ZION MISSION HIGH SCHOOL"
   },
   {
     "Token No": "406",
@@ -8240,7 +8788,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "400",
@@ -8255,7 +8804,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "570",
@@ -8270,7 +8820,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "614 - correction",
@@ -8285,7 +8836,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "413",
@@ -8300,7 +8852,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "375",
@@ -8315,7 +8868,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "AL-MU'MINAH SCHOOL"
   },
   {
     "Token No": "660",
@@ -8330,7 +8884,8 @@ const RTE_DATA = [
     "Filled By": "SAMIR MOMIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SEVENTH DAY ADVENTIST ENG SCHOOL"
   },
   {
     "Token No": "661",
@@ -8345,7 +8900,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "524",
@@ -8360,7 +8916,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "660",
@@ -8375,7 +8932,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SEVENTH DAY ADVENTIST ENG SCHOOL"
   },
   {
     "Token No": "664",
@@ -8390,7 +8948,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "622",
@@ -8405,7 +8964,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "113",
@@ -8420,7 +8980,8 @@ const RTE_DATA = [
     "Filled By": "IRSHAD",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHREE RATNASAGARJI JAIN VIDYASHALA - ENG PRI"
   },
   {
     "Token No": "667",
@@ -8435,7 +8996,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "665",
@@ -8450,7 +9012,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "666",
@@ -8465,7 +9028,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "114",
@@ -8480,7 +9044,8 @@ const RTE_DATA = [
     "Filled By": "IRSHAD",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHREE RATNASAGARJI JAIN VIDYASHALA - ENG PRI"
   },
   {
     "Token No": "52",
@@ -8495,7 +9060,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "138",
@@ -8510,7 +9076,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "M M PIPERDIWALA ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "168",
@@ -8525,7 +9092,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MADRESSA-E-AHMEDIA PRIMARY SCHOOL"
   },
   {
     "Token No": "422",
@@ -8540,7 +9108,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "637",
@@ -8555,7 +9124,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "638",
@@ -8570,7 +9140,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "667",
@@ -8585,7 +9156,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "668",
@@ -8600,7 +9172,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "671",
@@ -8615,7 +9188,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "1",
@@ -8630,7 +9204,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "659",
@@ -8645,7 +9220,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "670",
@@ -8660,7 +9236,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "583",
@@ -8675,7 +9252,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "380",
@@ -8690,7 +9268,8 @@ const RTE_DATA = [
     "Filled By": "IRSHAD",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "653",
@@ -8705,7 +9284,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "177",
@@ -8720,7 +9300,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "336",
@@ -8735,7 +9316,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "209",
@@ -8750,7 +9332,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "458",
@@ -8765,7 +9348,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "J H B SARDAR PRIMARY ENGLISH SCHOOL"
   },
   {
     "Token No": "13",
@@ -8780,7 +9364,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S.D.M.E.S BOYS ENGLISH MEDIUM PRIMARY SCHOOL"
   },
   {
     "Token No": "33",
@@ -8795,7 +9380,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "293",
@@ -8810,7 +9396,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
     "Result": "PENDING",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "674",
@@ -8825,7 +9412,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "THE SCHOOL OF ACHIEVER'S"
   },
   {
     "Token No": "392",
@@ -8840,7 +9428,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MADNI ISLAMIK ENG MED SCHOOL"
   },
   {
     "Token No": "2",
@@ -8855,7 +9444,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "194",
@@ -8870,7 +9460,8 @@ const RTE_DATA = [
     "Filled By": "ISTIYAK ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DIVINE CHILD HIGH SCHOOL GHOD DOD"
   },
   {
     "Token No": "34",
@@ -8885,7 +9476,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "AL-MU'MINAH SCHOOL"
   },
   {
     "Token No": "572",
@@ -8900,7 +9492,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "444",
@@ -8915,7 +9508,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "AL-MU'MINAH SCHOOL"
   },
   {
     "Token No": "537",
@@ -8930,7 +9524,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "277",
@@ -8945,7 +9540,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "344",
@@ -8960,7 +9556,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "207",
@@ -8975,7 +9572,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "38",
@@ -8990,7 +9588,8 @@ const RTE_DATA = [
     "Filled By": "ISTIYAK",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "J H B SARDAR PRIMARY ENGLISH SCHOOL"
   },
   {
     "Token No": "352",
@@ -9005,7 +9604,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "385",
@@ -9020,7 +9620,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "385",
@@ -9035,7 +9636,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "15",
@@ -9050,7 +9652,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "409",
@@ -9065,7 +9668,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "439",
@@ -9080,7 +9684,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "464",
@@ -9095,7 +9700,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "675",
@@ -9110,7 +9716,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "652",
@@ -9125,7 +9732,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
     "Result": "PENDING",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "652",
@@ -9140,7 +9748,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MARIYA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "179",
@@ -9155,7 +9764,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "73",
@@ -9170,7 +9780,8 @@ const RTE_DATA = [
     "Filled By": "MOSIN JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "300",
@@ -9185,7 +9796,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "678",
@@ -9200,7 +9812,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
     "Result": "PENDING",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "165",
@@ -9215,7 +9828,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "J H B SARDAR PRIMARY ENGLISH SCHOOL"
   },
   {
     "Token No": "679",
@@ -9230,7 +9844,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "390",
@@ -9245,7 +9860,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "293",
@@ -9260,7 +9876,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SCHOLAR ENGLISH SCHOOL - BHESTAN"
   },
   {
     "Token No": "676",
@@ -9275,7 +9892,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "484",
@@ -9290,7 +9908,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SUNGRACE ENG SCHOOL"
   },
   {
     "Token No": "680",
@@ -9305,7 +9924,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "165",
@@ -9320,7 +9940,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "J H B SARDAR PRIMARY ENGLISH SCHOOL"
   },
   {
     "Token No": "677",
@@ -9335,7 +9956,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "52",
@@ -9350,7 +9972,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "511",
@@ -9365,7 +9988,8 @@ const RTE_DATA = [
     "Filled By": "ISTIYAK",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "681",
@@ -9380,7 +10004,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "681",
@@ -9395,7 +10020,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "681",
@@ -9410,7 +10036,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "682",
@@ -9425,7 +10052,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "632",
@@ -9440,7 +10068,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "683",
@@ -9455,7 +10084,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "538",
@@ -9470,7 +10100,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "L P SAVANI INTERNATIONAL SCHOOL CBSE"
   },
   {
     "Token No": "684",
@@ -9485,7 +10116,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "686",
@@ -9500,7 +10132,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "334",
@@ -9515,7 +10148,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "672",
@@ -9530,7 +10164,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "623",
@@ -9545,7 +10180,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHREE MAHIDHARPURA URBAN SCHOOL"
   },
   {
     "Token No": "689",
@@ -9560,7 +10196,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "MADNI ISLAMIK ENG MED SCHOOL"
   },
   {
     "Token No": "688",
@@ -9575,7 +10212,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "687",
@@ -9590,7 +10228,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "447",
@@ -9605,7 +10244,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "467",
@@ -9620,7 +10260,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "690",
@@ -9635,7 +10276,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "131",
@@ -9650,7 +10292,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "384",
@@ -9665,7 +10308,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "691",
@@ -9680,7 +10324,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "688",
@@ -9695,7 +10340,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "692",
@@ -9710,7 +10356,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "279",
@@ -9725,7 +10372,8 @@ const RTE_DATA = [
     "Filled By": "UMA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "693",
@@ -9740,7 +10388,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "694",
@@ -9755,7 +10404,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "523",
@@ -9770,7 +10420,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "695",
@@ -9785,7 +10436,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "695",
@@ -9800,7 +10452,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "20",
@@ -9815,7 +10468,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "L P SAVANI INTERNATIONAL SCHOOL CBSE"
   },
   {
     "Token No": "696",
@@ -9830,7 +10484,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "20",
@@ -9845,7 +10500,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "698",
@@ -9860,7 +10516,8 @@ const RTE_DATA = [
     "Filled By": "Mohsin jariwala",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "697",
@@ -9875,7 +10532,8 @@ const RTE_DATA = [
     "Filled By": "SAMIR MOMIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "261",
@@ -9890,7 +10548,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "64",
@@ -9905,7 +10564,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "701",
@@ -9920,7 +10580,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "688",
@@ -9935,7 +10596,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "RAMLAL BAGADIA - PRI SCH - ENG MED"
   },
   {
     "Token No": "1",
@@ -9950,7 +10612,8 @@ const RTE_DATA = [
     "Filled By": "Barkat",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "43",
@@ -9965,7 +10628,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SEVENTH DAY ADVENTIST ENG SCHOOL"
   },
   {
     "Token No": "702",
@@ -9980,7 +10644,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "GOOD SHEPHERD MISSION SCHOOL"
   },
   {
     "Token No": "36",
@@ -9995,7 +10660,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "36",
@@ -10010,7 +10676,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SHREE MINAKSHIBEN DESAI PRIMARY SCHOOL"
   },
   {
     "Token No": "610",
@@ -10025,7 +10692,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DR PREMLILABEN V THACKERSEY PRIMARY GIRLSSCHOOL ENGLISH"
   },
   {
     "Token No": "701",
@@ -10040,7 +10708,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "CRESENT BOYS PRIMARY SCHOOL GUJARATI MEDIUM"
   },
   {
     "Token No": "685",
@@ -10055,7 +10724,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "S.E.M. SCHOOL CBSE"
   },
   {
     "Token No": "296",
@@ -10070,7 +10740,8 @@ const RTE_DATA = [
     "Filled By": "M G LAKDAWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DIVINE CHILD HIGH SCHOOL GHOD DOD"
   },
   {
     "Token No": "697",
@@ -10085,7 +10756,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "BAI PIROJBAI MANEKJI PATEL  GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "703",
@@ -10100,7 +10772,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "704",
@@ -10115,7 +10788,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "705",
@@ -10130,7 +10804,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "703",
@@ -10145,7 +10820,8 @@ const RTE_DATA = [
     "Filled By": "ADV S R PATHAN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "1",
@@ -10160,7 +10836,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "706",
@@ -10175,7 +10852,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "708",
@@ -10190,7 +10868,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "431",
@@ -10205,7 +10884,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NODDYS ENGLISH PRI. SCHOOL"
   },
   {
     "Token No": "707",
@@ -10220,7 +10900,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "708",
@@ -10235,7 +10916,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ SHAIKH",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "709",
@@ -10250,7 +10932,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "319",
@@ -10265,7 +10948,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "710",
@@ -10280,7 +10964,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "712",
@@ -10295,7 +10980,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DIVINE CHILD HIGH SCHOOL GHOD DOD"
   },
   {
     "Token No": "662",
@@ -10310,7 +10996,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "52",
@@ -10325,7 +11012,8 @@ const RTE_DATA = [
     "Filled By": "RIZWAN SHAIKH",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "535",
@@ -10340,7 +11028,8 @@ const RTE_DATA = [
     "Filled By": "SOAIB JARIWALA",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "712",
@@ -10355,7 +11044,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "713",
@@ -10370,7 +11060,8 @@ const RTE_DATA = [
     "Filled By": "NIZAMUDDIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA PRIMARY GUJARATI SCHOOL"
   },
   {
     "Token No": "19",
@@ -10385,7 +11076,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "NEW MODEL ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "427",
@@ -10400,7 +11092,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "504",
@@ -10415,7 +11108,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
     "Result": "PENDING",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "673",
@@ -10430,7 +11124,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "673",
@@ -10445,7 +11140,8 @@ const RTE_DATA = [
     "Filled By": "ARSHAD ALI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB BABUBHAI SOPARIWALA GIRLS PRIMARY SCHOOL"
   },
   {
     "Token No": "210",
@@ -10460,7 +11156,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "DIVINE CHILD HIGH SCHOOL GHOD DOD"
   },
   {
     "Token No": "714",
@@ -10475,7 +11172,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "JANAB QUTBUDDIN MUALLIM BOYS PRI SCH"
   },
   {
     "Token No": "40",
@@ -10490,7 +11188,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "715",
@@ -10505,7 +11204,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "ZAID",
@@ -10520,7 +11220,8 @@ const RTE_DATA = [
     "Filled By": "MOHAMMAD ZAID ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "719",
@@ -10535,7 +11236,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "720",
@@ -10550,7 +11252,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "721",
@@ -10565,7 +11268,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "SYMGA ENGLISH PRIMARY SCHOOL"
   },
   {
     "Token No": "723",
@@ -10580,7 +11284,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "662",
@@ -10595,7 +11300,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "724",
@@ -10610,7 +11316,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "725",
@@ -10625,7 +11332,8 @@ const RTE_DATA = [
     "Filled By": "HASNAIN",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "725",
@@ -10640,7 +11348,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "727",
@@ -10655,7 +11364,8 @@ const RTE_DATA = [
     "Filled By": "MADNI",
     "Status (Gujarati)": "Status not found",
     "Result": "ERROR",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "N/A"
   },
   {
     "Token No": "727",
@@ -10670,7 +11380,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "728",
@@ -10685,7 +11396,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "729",
@@ -10700,7 +11412,8 @@ const RTE_DATA = [
     "Filled By": "nan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "729",
@@ -10715,7 +11428,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપને પ્રથમ રાઉન્ડમાં પ્રવેશ મળેલ છે.કૃપા કરી પ્રવેશપત્રની પ્રિન્ટ મેળવી જે તે શાળામાં શાળા સમય દરમિયાન નિયત કરેલ તારીખ :- 12/05/2026 સુધીમાં જરૂરી ડોક્યુમેન્ટ સાથે રૂબરૂ જઈ પ્રવેશ મેળવી લેવો.અન્યથા પ્રવેશ રદ થશે.",
     "Result": "APPROVED",
-    "Admit_Card": "AVAILABLE"
+    "Admit_Card": "AVAILABLE",
+    "School": "LORD KRISHNA ENGLISH MEDIUM SCHOOL"
   },
   {
     "Token No": "731",
@@ -10730,7 +11444,8 @@ const RTE_DATA = [
     "Filled By": "MOHSIN KHAN ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "730",
@@ -10745,7 +11460,8 @@ const RTE_DATA = [
     "Filled By": "NAWAZ",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "732",
@@ -10760,7 +11476,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "733",
@@ -10775,7 +11492,8 @@ const RTE_DATA = [
     "Filled By": "Amaan",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   },
   {
     "Token No": "25",
@@ -10790,6 +11508,7 @@ const RTE_DATA = [
     "Filled By": "@",
     "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  પ્રથમ  રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED",
-    "Admit_Card": "NOT_AVAILABLE"
+    "Admit_Card": "NOT_AVAILABLE",
+    "School": "nan"
   }
 ];
