@@ -4,7 +4,7 @@ const RTE_SUMMARY = {
   "submitted": 0,
   "pending": 7,
   "error": 113,
-  "last_updated": "23-05-2026 18:51:57"
+  "last_updated": "24-05-2026 01:57:27"
 };
 const RTE_DATA = [
   {
@@ -158,7 +158,7 @@ const RTE_DATA = [
     "Pincode": "395002",
     "Gam": "SALABATPURA",
     "Filled By": "QURESHI",
-    "Status (Gujarati)": "આપે આ ફોર્મ કન્ફર્મ કરેલ નથી",
+    "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
     "Result": "PENDING"
   },
   {
@@ -8222,7 +8222,7 @@ const RTE_DATA = [
     "Pincode": "394210",
     "Gam": "Unn",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "આપે આ ફોર્મ કન્ફર્મ કરેલ નથી",
+    "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
     "Result": "PENDING"
   },
   {
@@ -8516,7 +8516,7 @@ const RTE_DATA = [
     "Pincode": "395002",
     "Gam": "SAGRAMPURA",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "આપે આ ફોર્મ કન્ફર્મ કરેલ નથી",
+    "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
     "Result": "PENDING"
   },
   {
@@ -8586,7 +8586,7 @@ const RTE_DATA = [
     "Pincode": "394107",
     "Gam": "KOSAD",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "આપે આ ફોર્મ કન્ફર્મ કરેલ નથી",
+    "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
     "Result": "PENDING"
   },
   {
@@ -9720,7 +9720,7 @@ const RTE_DATA = [
     "Pincode": "395002",
     "Gam": "SAGRAMPURA",
     "Filled By": "ARSHAD ALI",
-    "Status (Gujarati)": "આપે આ ફોર્મ કન્ફર્મ કરેલ નથી",
+    "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
     "Result": "PENDING"
   },
   {
@@ -9930,7 +9930,7 @@ const RTE_DATA = [
     "Pincode": "395003",
     "Gam": "SALABATPURA",
     "Filled By": "MADNI",
-    "Status (Gujarati)": "આપે આ ફોર્મ કન્ફર્મ કરેલ નથી",
+    "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
     "Result": "PENDING"
   },
   {
