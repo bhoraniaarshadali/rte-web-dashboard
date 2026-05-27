@@ -1,10 +1,10 @@
 const RTE_SUMMARY = {
   "total": 719,
-  "approved": 599,
+  "approved": 600,
   "submitted": 0,
-  "pending": 7,
+  "pending": 6,
   "error": 113,
-  "last_updated": "27-05-2026 02:04:06"
+  "last_updated": "27-05-2026 08:57:27"
 };
 const RTE_DATA = [
   {
@@ -9930,8 +9930,8 @@ const RTE_DATA = [
     "Pincode": "395003",
     "Gam": "SALABATPURA",
     "Filled By": "MADNI",
-    "Status (Gujarati)": "આપે શાળાઓ ની પુનઃ પસંદગી કરેલ નથી.",
-    "Result": "PENDING"
+    "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.",
+    "Result": "APPROVED"
   },
   {
     "Token No": "727",
