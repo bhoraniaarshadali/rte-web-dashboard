@@ -4,7 +4,7 @@ const RTE_SUMMARY = {
   "submitted": 0,
   "pending": 4,
   "error": 116,
-  "last_updated": "06-06-2026 08:43:08"
+  "last_updated": "06-06-2026 13:28:34"
 };
 const RTE_DATA = [
   {
@@ -102,7 +102,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -284,21 +284,21 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATHAN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
     "Token No": "33",
     "Application Id": " GJ/2026-27/SRC/2230445",
-    "Child Name": "N/A",
+    "Child Name": "MAHERA SALIM SHAIKH",
     "DOB": "27-05-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9033552557",
+    "Gender": "GIRL",
+    "Area": "SAGRAMPURA",
+    "Pincode": "395002",
+    "Gam": "SAGRAMPURA",
     "Filled By": "IMRAN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -332,15 +332,15 @@ const RTE_DATA = [
   {
     "Token No": "43",
     "Application Id": "GJ/2026-27/SRC/2288692",
-    "Child Name": "N/A",
+    "Child Name": "NOMAN MOHSIN PINJARI",
     "DOB": "15-07-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9879049881",
+    "Gender": "BOY",
+    "Area": "LIMBAYAT",
+    "Pincode": "394210",
+    "Gam": "LIMBAYAT",
     "Filled By": "nan",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -578,7 +578,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "Amaan",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -886,7 +886,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN ",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -1908,7 +1908,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -1950,7 +1950,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -1964,7 +1964,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATHAAN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -2874,7 +2874,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "nan",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -2958,21 +2958,21 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KAHN ",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
     "Token No": "273",
     "Application Id": "GJ/2026-27/SRC/2209125",
-    "Child Name": "INAYA IMRAN SHAIKH",
+    "Child Name": "N/A",
     "DOB": "18-05-2020",
-    "Mobile": "7990106539",
-    "Gender": "GIRL",
-    "Area": "SALABATPURA",
-    "Pincode": "395002",
-    "Gam": "SALABATPURA",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "IMRAN",
-    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -3084,7 +3084,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -3308,7 +3308,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATHAN",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -3342,15 +3342,15 @@ const RTE_DATA = [
   {
     "Token No": "307",
     "Application Id": "GJ/2026-27/SRC/2233189",
-    "Child Name": "MOHAMMED AAZAM MOHAMMED SIDDIK SHAIKH",
+    "Child Name": "N/A",
     "DOB": "08-08-2019",
-    "Mobile": "9601903640",
-    "Gender": "BOY",
-    "Area": "GOPIPURA MOMNAWAD",
-    "Pincode": "395001",
-    "Gam": "GOPIPURA",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "MADNI",
-    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -3412,15 +3412,15 @@ const RTE_DATA = [
   {
     "Token No": "312",
     "Application Id": "GJ/2026-27/SRC/2207547",
-    "Child Name": "MOHAMMED GULAHMED PANWALA",
+    "Child Name": "N/A",
     "DOB": "13-08-2019",
-    "Mobile": "7405251413",
-    "Gender": "BOY",
-    "Area": "JILANI TOWER ADAJAN PATIYA RANDER ROAD",
-    "Pincode": "395009",
-    "Gam": "ADAJAN",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "QURESHI",
-    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -3448,7 +3448,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -3510,15 +3510,15 @@ const RTE_DATA = [
   {
     "Token No": "322",
     "Application Id": "GJ/2026-27/SRC/2207154",
-    "Child Name": "NABILA BANU AHMED NOOR SHAIKH",
+    "Child Name": "N/A",
     "DOB": "23-06-2019",
-    "Mobile": "8141079302",
-    "Gender": "GIRL",
-    "Area": "GOPIPURA",
-    "Pincode": "395001",
-    "Gam": "GOPIPURA",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "SHAIKH NIZAMUDDIN",
-    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -3532,7 +3532,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -3622,15 +3622,15 @@ const RTE_DATA = [
   {
     "Token No": "333",
     "Application Id": "GJ/2026-27/SRC/2233145",
-    "Child Name": "MOHAMMAD ARSH MO. RIYAZ MALEK",
+    "Child Name": "N/A",
     "DOB": "04-10-2019",
-    "Mobile": "9727048923",
-    "Gender": "BOY",
-    "Area": "SACHIN",
-    "Pincode": "394230",
-    "Gam": "SURAT CITY",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -3742,7 +3742,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "Amaan",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -4224,15 +4224,15 @@ const RTE_DATA = [
   {
     "Token No": "390",
     "Application Id": "GJ/2026-27/SRC/2233117",
-    "Child Name": "BADRUDOJA MOHAMMAD SARTAJ RAEEN",
+    "Child Name": "N/A",
     "DOB": "16-07-2019",
-    "Mobile": "9265929679",
-    "Gender": "BOY",
-    "Area": "BAVASIDI TEKRA",
-    "Pincode": "395001",
-    "Gam": "GOPIPURA",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "M G LAKDAWALA",
-    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -4420,20 +4420,6 @@ const RTE_DATA = [
   {
     "Token No": "400",
     "Application Id": "GJ/2026-27/SRC/2233206",
-    "Child Name": "AAHIL ALMAS BHARUCHA",
-    "DOB": "14-02-2020",
-    "Mobile": "7405183050",
-    "Gender": "BOY",
-    "Area": "SODAGERWAD",
-    "Pincode": "395003",
-    "Gam": "SODAGARWAD",
-    "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
-    "Result": "ERROR"
-  },
-  {
-    "Token No": "400",
-    "Application Id": "GJ/2026-27/SRC/2290500",
     "Child Name": "N/A",
     "DOB": "14-02-2020",
     "Mobile": "N/A",
@@ -4441,8 +4427,22 @@ const RTE_DATA = [
     "Area": "N/A",
     "Pincode": "N/A",
     "Gam": "N/A",
+    "Filled By": "SOAIB JARIWALA",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Result": "ERROR"
+  },
+  {
+    "Token No": "400",
+    "Application Id": "GJ/2026-27/SRC/2290500",
+    "Child Name": "AAHIL MAHMAD ALMAS BHARUCHA",
+    "DOB": "14-02-2020",
+    "Mobile": "7405183050",
+    "Gender": "BOY",
+    "Area": "SODAGERWAD",
+    "Pincode": "395003",
+    "Gam": "SODAGARWAD",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -4526,7 +4526,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -4708,7 +4708,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -4750,7 +4750,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ADV S R PATAHN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -4876,7 +4876,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -4932,7 +4932,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -5534,7 +5534,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -5568,15 +5568,15 @@ const RTE_DATA = [
   {
     "Token No": "508",
     "Application Id": " GJ/2026-27/SRC/2201709",
-    "Child Name": "SHAIKH MAHIRA MOHAMMAD ZUBER ILYAS SHAIKH SHAIKH",
+    "Child Name": "N/A",
     "DOB": "27-03-2020",
-    "Mobile": "9624460325",
-    "Gender": "GIRL",
-    "Area": "UNN",
-    "Pincode": "394210",
-    "Gam": "Unn",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "MOHSIN KHAN ",
-    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -5590,7 +5590,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "M G LAKDAWAL",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -5604,7 +5604,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MUKHTAR",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -5674,7 +5674,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -5688,7 +5688,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "PARVEZ",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -5856,7 +5856,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -6052,35 +6052,35 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOSIN",
-    "Status (Gujarati)": "Status not found",
-    "Result": "ERROR"
-  },
-  {
-    "Token No": "549",
-    "Application Id": " GJ/2026-27/SRC/2314676",
-    "Child Name": "N/A",
-    "DOB": "07-09-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
-    "Filled By": "mosin",
-    "Status (Gujarati)": "Status not found",
-    "Result": "ERROR"
-  },
-  {
-    "Token No": "549",
-    "Application Id": " GJ/2026-27/SRC/2314676",
-    "Child Name": "N/A",
-    "DOB": "07-09-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
-    "Filled By": "mosin",
     "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Result": "ERROR"
+  },
+  {
+    "Token No": "549",
+    "Application Id": " GJ/2026-27/SRC/2314676",
+    "Child Name": "N/A",
+    "DOB": "07-09-2019",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
+    "Filled By": "mosin",
+    "Status (Gujarati)": "Status not found",
+    "Result": "ERROR"
+  },
+  {
+    "Token No": "549",
+    "Application Id": " GJ/2026-27/SRC/2314676",
+    "Child Name": "N/A",
+    "DOB": "07-09-2019",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
+    "Filled By": "mosin",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -6178,7 +6178,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MUSTAK",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -6276,7 +6276,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -6388,7 +6388,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ARSHAD ALI",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -6492,15 +6492,15 @@ const RTE_DATA = [
   {
     "Token No": "591",
     "Application Id": "GJ/2026-27/SRC/2311373",
-    "Child Name": "N/A",
+    "Child Name": "SHIFA IRFAN PATHAN",
     "DOB": "11-08-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9714226593",
+    "Gender": "GIRL",
+    "Area": "LIMBAYAT",
+    "Pincode": "394210",
+    "Gam": "LIMBAYAT",
     "Filled By": "ARSHAD ALI",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -6878,7 +6878,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -7060,7 +7060,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHAMAD JAVID KUMBHAR",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -7242,7 +7242,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "M G LAKDAWALA",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=20)",
     "Result": "ERROR"
   },
   {
@@ -7368,7 +7368,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MOHSIN KHAN",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -7416,15 +7416,15 @@ const RTE_DATA = [
   {
     "Token No": "68",
     "Application Id": "GJ/2026-27/SRC/2332226",
-    "Child Name": "NOMAN MOHSIN PINJARI",
+    "Child Name": "N/A",
     "DOB": "15-07-2019",
-    "Mobile": "9879049881",
-    "Gender": "BOY",
-    "Area": "LIMBAYAT",
-    "Pincode": "394210",
-    "Gam": "LIMBAYAT",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -7472,16 +7472,16 @@ const RTE_DATA = [
   {
     "Token No": "651",
     "Application Id": " GJ/2026-27/SRC/2333664",
-    "Child Name": "RABIYA JAFARKHAN PATHAN",
+    "Child Name": "N/A",
     "DOB": "16-10-2019",
-    "Mobile": "9979551351",
-    "Gender": "GIRL",
-    "Area": "UMARWADA",
-    "Pincode": "395002",
-    "Gam": "UMARWADA",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "anganwadi na 2 yers complete nathi",
-    "Result": "PENDING"
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Result": "ERROR"
   },
   {
     "Token No": "514",
@@ -7592,7 +7592,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MADNI",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -7724,15 +7724,15 @@ const RTE_DATA = [
   {
     "Token No": "614 - correction",
     "Application Id": "GJ/2026-27/SRC/2338427",
-    "Child Name": "AJIJA ZAHIR SHAIKH",
+    "Child Name": "N/A",
     "DOB": "19-09-2019",
-    "Mobile": "9825185512",
-    "Gender": "GIRL",
-    "Area": "CHIMANI TEKARO JUNA DEPO",
-    "Pincode": "395002",
-    "Gam": "UMARWADA",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "ARSHAD ALI",
-    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -7878,15 +7878,15 @@ const RTE_DATA = [
   {
     "Token No": "665",
     "Application Id": "GJ/2026-27/SRC/2339062",
-    "Child Name": "N/A",
+    "Child Name": "AAYAT MOHAMMAD ASHRAF KHARADI",
     "DOB": "21-06-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "8849059910",
+    "Gender": "GIRL",
+    "Area": "OPP. ALVI ROW HOUSE",
+    "Pincode": "395009",
+    "Gam": "RANDER",
     "Filled By": "MOHSIN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -7920,15 +7920,15 @@ const RTE_DATA = [
   {
     "Token No": "52",
     "Application Id": " GJ/2026-27/SRC/2339193",
-    "Child Name": "N/A",
+    "Child Name": "AISHA IMRAN MANSUR",
     "DOB": "02-03-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "7016269517",
+    "Gender": "GIRL",
+    "Area": "RANDER",
+    "Pincode": "395005",
+    "Gam": "RANDER",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -8096,7 +8096,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "ARSHAD ALI",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -8578,16 +8578,16 @@ const RTE_DATA = [
   {
     "Token No": "678",
     "Application Id": " GJ/2026-27/SRC/2377192",
-    "Child Name": "SAIIMA SAMIR PATEL",
+    "Child Name": "N/A",
     "DOB": "12-11-2019",
-    "Mobile": "8347012249",
-    "Gender": "GIRL",
-    "Area": "KOSAD",
-    "Pincode": "394107",
-    "Gam": "KOSAD",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "આપે આ ફોર્મ કન્ફર્મ કરેલ નથી",
-    "Result": "PENDING"
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Result": "ERROR"
   },
   {
     "Token No": "165",
@@ -9034,7 +9034,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -9124,15 +9124,15 @@ const RTE_DATA = [
   {
     "Token No": "695",
     "Application Id": "GJ/2026-27/SRC/2403676",
-    "Child Name": "RIDAZAHRA MOHAMMAD YUSUF PATHAN",
+    "Child Name": "N/A",
     "DOB": "20-05-2020",
-    "Mobile": "9712007037",
-    "Gender": "GIRL",
-    "Area": "UMARWADA",
-    "Pincode": "395002",
-    "Gam": "UMARWADA",
+    "Mobile": "N/A",
+    "Gender": "N/A",
+    "Area": "N/A",
+    "Pincode": "N/A",
+    "Gam": "N/A",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -9188,7 +9188,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "Amaan",
-    "Status (Gujarati)": "Status not found",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
@@ -9594,7 +9594,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
@@ -9614,15 +9614,15 @@ const RTE_DATA = [
   {
     "Token No": "662",
     "Application Id": "GJ/2026-27/SRC/2429570",
-    "Child Name": "N/A",
+    "Child Name": "MAHERABANU AMIN SHAIKH",
     "DOB": "08-01-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9974238362",
+    "Gender": "GIRL",
+    "Area": "SAHARADARVAJA",
+    "Pincode": "395010",
+    "Gam": "UMARWADA",
     "Filled By": "RIZWAN SHAIKH",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -9650,21 +9650,21 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "SOAIB JARIWALA",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
     "Token No": "712",
     "Application Id": "GJ/2026-27/SRC/2430231",
-    "Child Name": "N/A",
+    "Child Name": "AEMAN KAMIL SHEKH",
     "DOB": "17-02-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "7777993155",
+    "Gender": "GIRL",
+    "Area": "SAHARA DAEWAJA",
+    "Pincode": "395010",
+    "Gam": "UMARWADA",
     "Filled By": "NIZAMUDDIN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -9712,16 +9712,16 @@ const RTE_DATA = [
   {
     "Token No": "504",
     "Application Id": "GJ/2026-27/SRC/2431906",
-    "Child Name": "N/A",
+    "Child Name": "ARAV SURESH RATHOD",
     "DOB": "21-05-2020",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "9825274436",
+    "Gender": "BOY",
+    "Area": "MALBARI SAHEB NO TEKRO",
+    "Pincode": "395002",
+    "Gam": "SAGRAMPURA",
     "Filled By": "ARSHAD ALI",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
-    "Result": "ERROR"
+    "Status (Gujarati)": "આપે આ ફોર્મ કન્ફર્મ કરેલ નથી",
+    "Result": "PENDING"
   },
   {
     "Token No": "673",
@@ -9894,15 +9894,15 @@ const RTE_DATA = [
   {
     "Token No": "724",
     "Application Id": "GJ/2026-27/SRC/2448664",
-    "Child Name": "N/A",
+    "Child Name": "SUFIYANKHAN IRFAN KHAN",
     "DOB": "23-09-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "8799617761",
+    "Gender": "BOY",
+    "Area": "RUSTAMPURA",
+    "Pincode": "395002",
+    "Gam": "SAGRAMPURA",
     "Filled By": "HASNAIN",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "આપે આ ફોર્મ કેન્સલ કરેલ છે.",
     "Result": "ERROR"
   },
   {
@@ -9922,16 +9922,16 @@ const RTE_DATA = [
   {
     "Token No": "725",
     "Application Id": " GJ/2026-27/SRC/2452811",
-    "Child Name": "N/A",
+    "Child Name": "SHAHID HUSAIN MUJAFFARHUSEN SHAIKH",
     "DOB": "16-06-2019",
-    "Mobile": "N/A",
-    "Gender": "N/A",
-    "Area": "N/A",
-    "Pincode": "N/A",
-    "Gam": "N/A",
+    "Mobile": "6351802600",
+    "Gender": "BOY",
+    "Area": "Kamela Main Road,Salabatpura,Surat",
+    "Pincode": "395003",
+    "Gam": "SALABATPURA",
     "Filled By": "MADNI",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
-    "Result": "ERROR"
+    "Status (Gujarati)": "આપે આ ફોર્મ કન્ફર્મ કરેલ નથી",
+    "Result": "PENDING"
   },
   {
     "Token No": "727",
@@ -9944,7 +9944,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "MADNI",
-    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
+    "Status (Gujarati)": "Status not found",
     "Result": "ERROR"
   },
   {
