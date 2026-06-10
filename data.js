@@ -4,7 +4,7 @@ const RTE_SUMMARY = {
   "submitted": 0,
   "pending": 6,
   "error": 113,
-  "last_updated": "10-06-2026 09:37:02"
+  "last_updated": "10-06-2026 14:46:51"
 };
 const RTE_DATA = [
   {
@@ -9930,7 +9930,7 @@ const RTE_DATA = [
     "Pincode": "395003",
     "Gam": "SALABATPURA",
     "Filled By": "MADNI",
-    "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ બીજા રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
+    "Status (Gujarati)": "આપનું આ ફોર્મ જીલ્લા કક્ષાએ મંજુર (approve) કરેલ છે.આપનો RTE હેઠળ  ત્રીજા રાઉન્ડમાં પ્રવેશ શક્ય બનેલ નથી.",
     "Result": "APPROVED"
   },
   {
