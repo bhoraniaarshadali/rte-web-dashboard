@@ -4,7 +4,7 @@ const RTE_SUMMARY = {
   "submitted": 0,
   "pending": 0,
   "error": 120,
-  "last_updated": "07-08-2026 02:03:31"
+  "last_updated": "07-08-2026 07:02:34"
 };
 const RTE_DATA = [
   {
@@ -1642,7 +1642,7 @@ const RTE_DATA = [
     "Pincode": "N/A",
     "Gam": "N/A",
     "Filled By": "Amaan",
-    "Status (Gujarati)": "ERROR: 503 Server Error: Service Unavailable for url: https://rte.orpgujarat.com/ApplicationFormStatus",
+    "Status (Gujarati)": "ERROR: HTTPSConnectionPool(host='rte.orpgujarat.com', port=443): Read timed out. (read timeout=15)",
     "Result": "ERROR"
   },
   {
